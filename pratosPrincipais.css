@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+}
+
+body.pagina-pratos-principais {
+    min-width: 320px;
+    margin: 0;
+    background: #fff8f5;
+    color: #542818;
+}
+
+.pagina-pratos-principais .cliente-categorias button:first-child,
+.pagina-pratos-principais .cliente-categorias a:first-child {
+    background: #ffe9d9;
+    color: #542818;
+}
+
+
+
+.pagina-pratos-principais .cliente-categorias button.categoria-ativa,
+.pagina-pratos-principais .cliente-categorias a.categoria-ativa {
+    background: #ff6b00;
+    color: #fff;
+}
+
+.pratos-principais-pagina {
+    min-height: calc(100vh - 80px);
+    padding: 34px 20px 54px;
+}
+
+.pratos-principais-conteudo {
+    width: min(1200px, 100%);
+    margin: 0 auto;
+}
+
+.pratos-principais-cabecalho {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.pratos-principais-legenda {
+    margin: 0 0 4px;
+    color: #f26a21;
+    font-size: 18px;
+}
+
+.pratos-principais-cabecalho h1 {
+    margin: 0;
+    color: #7c380e;
+    font-family: Georgia, serif;
+    font-size: 42px;
+}
+
+.pratos-principais-cabecalho p:last-child {
+    margin: 8px 0 0;
+    color: #6d5548;
+    font-size: 18px;
+}
+
+.pratos-principais-grade {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.prato-principal-card {
+    position: relative;
+    display: flex;
+    min-height: 352px;
+    flex-direction: column;
+    padding: 12px;
+    border: 1px solid #ff8b4d;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(84, 40, 24, .1);
+}
+
+.prato-principal-card > img {
+    width: 100%;
+    height: 150px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.prato-principal-favorito {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .94);
+    color: #f26a21;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.prato-principal-favorito.marcado,
+.prato-principal-favorito:hover {
+    background: #f26a21;
+    color: #fff;
+}
+
+.prato-principal-separador {
+    height: 1px;
+    margin: 10px 0;
+    background: #d4cec9;
+}
+
+.prato-principal-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 58px;
+}
+
+.prato-principal-logo {
+    width: 52px;
+    height: 52px;
+    flex: 0 0 52px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background: #fff;
+    object-fit: contain;
+}
+
+.prato-principal-texto {
+    min-width: 0;
+}
+
+.prato-principal-texto h2 {
+    margin: 0;
+    color: #542818;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.prato-principal-texto p {
+    margin: 4px 0 0;
+    color: #876b5b;
+    font-size: 14px;
+}
+
+.prato-principal-descricao {
+    min-height: 42px;
+    margin: 10px 0 8px;
+    color: #6d5548;
+    font-size: 14px;
+    line-height: 1.35;
+}
+
+.prato-principal-rodape {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: auto;
+    color: #1a9a74;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.prato-principal-tempo {
+    color: #777;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: right;
+}
+
+
+.pratos-principais-mensagem {
+    margin: 24px 0 0;
+    color: #876b5b;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media (max-width: 980px) {
+    .pratos-principais-grade {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    .pratos-principais-pagina {
+        padding: 28px 14px 44px;
+    }
+
+    .pratos-principais-grade {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .prato-principal-card {
+        min-height: 330px;
+        padding: 10px;
+    }
+
+    .prato-principal-card > img {
+        height: 130px;
+    }
+}
+
+@media (max-width: 430px) {
+    .pratos-principais-cabecalho h1 {
+        font-size: 32px;
+    }
+
+    .pratos-principais-grade {
+        grid-template-columns: 1fr;
+    }
+}

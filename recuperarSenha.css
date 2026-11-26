@@ -1,0 +1,331 @@
+:root {
+  --header-bg: #fbe4ce;
+  --page-bg: #fdf2ec;
+  --brown: #4a2c18;
+  --brown-2: #3a2112;
+  --orange: #f1801e;
+  --orange-soft: #f6a85c;
+  --ink: #2b2118;
+  --ink-soft: #6b5b4b;
+  --card-border: #f3c79a;
+  --input-border: #f0b677;
+  --white: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--page-bg);
+  color: var(--ink);
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* ================= HEADER ================= */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #ffe9d9;
+  border-bottom: 2px solid #f57a03;
+  z-index: 1000;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  height: 80px;
+}
+.logo {
+  /* logo */ /* se repete em todas as paginas */
+  height: 100px;
+  width: 100%;
+  margin-right: 100px;
+  padding-bottom: 10px;
+}
+nav {
+  display: flex;
+  gap: 85px;
+}
+nav a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #693b27;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: #f26a21;
+  transition: 0.3s ease;
+}
+nav a.active {
+  color: #7c380e;
+}
+nav a.active::after {
+  content: "";
+  position: absolute;
+  left: 25px;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 70%;
+  height: 3px;
+  background: #7c380e;
+  border-radius: 10px;
+}
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+.btn-e {
+  border: 0;
+  border-radius: 20px;
+  padding: 11px 20px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid #7c380e;
+  color: #7c380e;
+}
+.btn-primary {
+  background: #7c380e;
+  color: white;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.97);
+}
+/* ---------- MAIN ---------- */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 40px 100px;
+  display: grid;
+  grid-template-columns: 1fr 460px;
+  align-items: center;
+  gap: 40px;
+}
+/* left visual */
+.visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 420px;
+}
+.visual-circle {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #fd6f02, #fe8a07);
+  left: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+.image-placeholder {
+  position: relative;
+  z-index: 1;
+  width: 430px;
+  max-width: 90%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: -90px;
+  margin-top: 150px;
+}
+.image-placeholder img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+/* right card */
+.card {
+  background: var(--white);
+  border: 1.5px solid var(--card-border);
+  border-radius: 18px;
+  padding: 44px 40px;
+  box-shadow: 0 24px 40px -20px rgba(74, 44, 24, 0.18);
+}
+.card h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--orange);
+  margin: 0 0 10px;
+  text-align: center;
+}
+.card > p.subtitle {
+  text-align: center;
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 30px;
+}
+.card p.helper {
+  text-align: center;
+  font-size: 13px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: -18px 0 26px;
+}
+.field {
+  margin-bottom: 24px;
+}
+.field label {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+.field input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 9px;
+  border: 1.5px solid var(--input-border);
+  background: #fffbf6;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: var(--ink);
+  outline: none;
+  transition:
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+.field input::placeholder {
+  color: #c9a47b;
+}
+.field input:focus {
+  border-color: var(--orange);
+  box-shadow: 0 0 0 4px rgba(241, 128, 30, 0.14);
+}
+.btn-enviar {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 24px;
+  background: var(--orange);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 6px 0 26px;
+  box-shadow: 0 10px 22px -8px rgba(241, 128, 30, 0.55);
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease;
+}
+.btn-enviar:hover {
+  background: #d96c0f;
+  transform: translateY(-1px);
+}
+.btn-enviar:active {
+  transform: translateY(0);
+}
+.back-line {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.back-line a {
+  color: var(--orange);
+  font-weight: 700;
+}
+.back-line a:hover {
+  text-decoration: underline;
+}
+.confirm-box {
+  display: none;
+  text-align: center;
+}
+.confirm-box .check {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #fdecdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+.confirm-box .check svg {
+  width: 26px;
+  height: 26px;
+  color: var(--orange);
+}
+.confirm-box p {
+  font-size: 14px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  margin: 0 0 28px;
+}
+@media (max-width: 900px) {
+  main {
+    grid-template-columns: 1fr;
+    padding-top: 100px;
+  }
+  .visual {
+    min-height: 280px;
+    order: 1;
+  }
+  .card {
+    order: 0;
+  }
+  header {
+    padding: 14px 20px;
+    height: auto;
+  }
+  .header-inner {
+    flex-wrap: wrap;
+    row-gap: 12px;
+    gap: 20px;
+    height: auto;
+  }
+  nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: 22px;
+  }
+}
+.container {
+  width: min(1300px, calc(100% - 40px));
+  margin: 0 auto;
+}
+header,
+header nav,
+header nav a,
+header .header-actions,
+header .btn-e {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .logo {
+  display: block;
+  max-width: 100%;
+}

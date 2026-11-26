@@ -1,0 +1,540 @@
+.entregador-publico main {
+    padding-top: 80px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: #ffe9d9;
+  border-bottom: 2px solid #f57a03;
+  z-index: 1000;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  height: 80px;
+}
+.logo {
+  /* logo */ /* se repete em todas as paginas */
+  height: 100px;
+  width: 100%;
+  margin-right: 100px;
+  padding-bottom: 10px;
+}
+nav {
+  display: flex;
+  gap: 85px;
+}
+nav a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #693b27;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: #f26a21;
+  transition: 0.3s ease;
+}
+nav a.active {
+  color: #7c380e;
+}
+nav a.active::after {
+  content: "";
+  position: absolute;
+  left: 48px;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 100px;
+  height: 3px;
+  background: #7c380e;
+  border-radius: 10px;
+}
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+.btn-e {
+  border: 0;
+  border-radius: 20px;
+  padding: 11px 20px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid #7c380e;
+  color: #7c380e;
+}
+.btn-primary {
+  background: #7c380e;
+  color: white;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  filter: brightness(0.97);
+}
+/* Identificadores da página pública */
+#inicio,
+#vantagens,
+#requisitos,
+#passos,
+#ganhos,
+#depoimentos,
+#estatisticas {
+    scroll-margin-top: 80px;
+}
+
+#formulario-cadastro {
+    width: 100%;
+}
+#modal-cadastro {
+    isolation: isolate;
+}
+#cadastro {
+    min-width: 92px;
+}
+.entregador-publico-hero {
+    position: relative;
+    width: 100%;
+    height: 290px;
+    min-height: 290px;
+    overflow: hidden;
+    border-bottom: 3px solid #f57a03;
+    box-shadow: 0 12px 30px #f57a03;
+}
+.entregador-publico-hero > img {
+    display: block;
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    object-position: center;
+}
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 36px clamp(24px, 10vw, 150px);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.03) 34%, rgba(0, 0, 0, 0.26));
+    color: #fff;
+    text-align: right;
+    box-shadow: 0 12px 30px #f57a03;
+}
+.hero-overlay h1 {
+    max-width: 500px;
+    margin: 6px 0 10px;
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: clamp(32px, 4vw, 58px);
+    line-height: 1.05;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.58);
+}
+.hero-overlay p {
+    max-width: 430px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.45;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.55);
+}
+.hero-overlay .hero-eyebrow {
+    color: #fff2e7;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.hero-cta {
+    margin-top: 22px;
+    border: 0;
+    border-radius: 22px;
+    padding: 12px 24px;
+    background: #f57a03;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(84, 40, 24, 0.3);
+}
+.hero-cta:hover,
+.cta-entregador button:hover {
+    background: #c9560d;
+    transform: translateY(-1px);
+}
+.entregador-publico-secao {
+    width: min(1180px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 48px 0 18px;
+    text-align: center;
+}
+.entregador-publico-secao h2,
+.ganhos-entregador h2,
+.cta-entregador h2 {
+    margin: 0 0 22px;
+    color: #7c380e;
+    font-family: Georgia, serif;
+    font-size: clamp(28px, 3vw, 40px);
+    line-height: 1.15;
+}
+.vantagens-grid,
+.requisitos-grid,
+.depoimentos-grid,
+.indicadores-entregador {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 26px;
+}
+.vantagem-card,
+.requisito-card {
+    min-height: 145px;
+    padding: 20px 16px;
+    border: 1px solid #ff8038;
+    border-radius: 10px;
+    background: #fff0e6;
+}
+.vantagem-icone,
+.requisito-icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 42px;
+    color: #f26a21;
+    line-height: 1;
+}
+.icone-imagem {
+    display: block;
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    object-position: center;
+}
+.requisito-icone {
+    height: 54px;
+}
+.requisito-icone .icone-imagem {
+    width: 58px;
+    height: 58px;
+}
+.vantagem-card h3,
+.requisito-card h3 {
+    margin: 12px 0 8px;
+    color: #23140d;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+.vantagem-card p,
+.requisito-card p {
+    margin: 0;
+    color: #55443a;
+    font-size: 15px;
+    line-height: 1.4;
+}
+.requisitos-grid {
+    width: min(900px, 100%);
+    margin: 0 auto;
+    padding: 24px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    border: 1px solid #ffab75;
+    border-radius: 12px;
+    background: #fff0e6;
+}
+.requisito-card {
+    min-height: 125px;
+    border: 0;
+    background: transparent;
+}
+.requisito-card h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.requisito-card p {
+    font-size: 14px;
+}
+.passos-grid {
+    display: grid;
+    grid-template-columns: minmax(120px, 1fr) 60px minmax(120px, 1fr) 60px minmax(120px, 1fr) 60px minmax(120px, 1fr);
+    align-items: start;
+    gap: 8px;
+}
+.passo-card h3 {
+    margin: 10px 0 7px;
+    color: #23140d;
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+.passo-card p {
+    margin: 0;
+    color: #55443a;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.passo-numero {
+    display: grid;
+    place-items: center;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #8f410e;
+    color: #fff;
+    font-size: 38px;
+}
+.passo-seta {
+    align-self: start;
+    padding-top: 24px;
+    color: #f26a21;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+}
+.ganhos-entregador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+    width: min(900px, calc(100% - 40px));
+    margin: 28px auto 0;
+    padding: 0;
+    border-radius: 12px;
+}
+.ganhos-conteudo {
+    flex: 0 1 430px;
+}
+.ganhos-entregador h2 {
+    width: max-content;
+    margin-bottom: 6px;
+    margin-right: 0;
+    white-space: nowrap;
+    font-size: 38px;
+}
+.ganhos-entregador p {
+    margin: 0 0 12px;
+    color: #55443a;
+    font-size: 16px;
+}
+.ganhos-entregador table {
+    width: 390px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #f57a03;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    font-size: 15px;
+}
+.ganhos-entregador th,
+.ganhos-entregador td {
+    padding: 9px 13px;
+    border-bottom: 1px solid #f3c7ac;
+    text-align: left;
+}
+.ganhos-entregador th {
+    background: #fff0e6;
+    color: #7c380e;
+}
+.ganhos-entregador small {
+    display: block;
+    margin-top: 8px;
+    color: #80685b;
+    font-size: 12px;
+}
+.ganhos-entregador  img {
+    width: 260px;
+    max-height: 290px;
+    object-fit: contain;
+}
+.depoimentos-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.depoimento-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-height: 115px;
+    padding: 16px;
+    border: 1px solid #f3c7ac;
+    border-radius: 8px;
+    background: #fff;
+    text-align: left;
+}
+.depoimento-card > img {
+    width: 62px;
+    height: 62px;
+    flex: 0 0 62px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.depoimento-card strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #3a2112;
+    font-size: 15px;
+}
+.depoimento-card p {
+    margin: 0 0 5px;
+    color: #55443a;
+    font-size: 13px;
+    line-height: 1.35;
+}
+.depoimento-card span {
+    color: #ff9417;
+    letter-spacing: 1px;
+}
+.indicadores-entregador {
+    width: min(1180px, calc(100% - 40px));
+    margin: 32px auto;
+    padding: 24px;
+    background: #ffe7d6;
+    border-radius: 8px;
+}
+.indicadores-entregador article {
+    text-align: center;
+}
+.indicadores-entregador strong,
+.indicadores-entregador span {
+    display: block;
+}
+.indicadores-entregador strong {
+    color: #f26a21;
+    font-size: 25px;
+}
+.indicadores-entregador span {
+    margin-top: 4px;
+    color: #55443a;
+    font-size: 14px;
+}
+.cta-entregador {
+    position: static;
+    right: auto;
+    bottom: auto;
+    height: auto;
+    z-index: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: min(760px, calc(100% - 40px));
+    margin: 46px auto 70px;
+    padding: 22px 28px;
+    border-radius: 12px;
+    background: #ff8736;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(84, 40, 24, 0.12);
+}
+.cta-entregador h2 {
+    margin-bottom: 6px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.cta-entregador p {
+    margin: 0;
+    font-size: 15px;
+}
+.cta-entregador button {
+    flex: 0 0 auto;
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 22px;
+    background: #8f410e;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+@media (max-width: 900px) {
+    .vantagens-grid,
+    .requisitos-grid,
+    .indicadores-entregador {
+        gap: 14px;
+    }
+    .passos-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+    .passo-seta {
+        display: none;
+    }
+}
+@media (max-width: 700px) {
+    .entregador-publico main {
+        padding-top: 72px;
+    }
+    .entregador-publico-hero,
+    .entregador-publico-hero > img {
+        min-height: 290px;
+        height: 290px;
+    }
+    .hero-overlay {
+        align-items: center;
+        padding: 28px 20px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.22);
+    }
+    .vantagens-grid,
+    .requisitos-grid,
+    .passos-grid,
+    .depoimentos-grid,
+    .indicadores-entregador {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .ganhos-entregador {
+        flex-direction: column;
+        gap: 18px;
+        text-align: center;
+    }
+    .ganhos-entregador h2 {
+        margin-right: 0;
+        font-size: 24px;
+    }
+    .ganhos-entregador table {
+        margin: 0 auto;
+    }
+    .cta-entregador {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+}
+@media (max-width: 520px) {
+    .entregador-publico-hero,
+    .entregador-publico-hero > img {
+        min-height: 290px;
+        height: 290px;
+    }
+    .entregador-publico-secao,
+    .ganhos-entregador {
+        width: min(100% - 28px, 1180px);
+        padding-top: 34px;
+    }
+    .vantagens-grid,
+    .requisitos-grid,
+    .passos-grid,
+    .depoimentos-grid,
+    .indicadores-entregador {
+        grid-template-columns: 1fr;
+    }
+    .requisitos-grid {
+        padding: 12px;
+    }
+    .ganhos-entregador > img {
+        width: 180px;
+    }
+}

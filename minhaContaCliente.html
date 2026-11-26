@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha conta — Garfoo</title>
+  <link rel="stylesheet" href="clienteMenu.css?v=20261115-11">
+  <link rel="stylesheet" href="minhaContaCliente.css?v=20261118-4">
+</head>
+<body class="conta-cliente">
+  <header class="cliente-header">
+    <a class="cliente-logo" href="cliente.html"><img src="./Fotos/11.png" alt="Garfoo"></a>
+    <nav class="cliente-nav" aria-label="Navegação principal">
+      <a href="cliente.html">Início</a><a href="sobrenosSemLogin.html?menu=cliente">Sobre nós</a><a href="restaurantesCliente.html">Restaurantes</a><a href="meusPedidosCliente.html">Meus pedidos</a><a href="carrinhoCliente.html">Carrinho</a>
+    </nav>
+    <a class="cliente-usuario" href="minhaContaCliente.html" aria-label="Minha conta">
+      <span class="cliente-avatar" aria-hidden="true"></span><strong data-saudacao-usuario>Olá!</strong>
+    </a>
+  </header>
+  <main class="conta-layout">
+    <aside class="conta-sidebar">
+      <div class="conta-identidade"><img src="./Fotos/usuario.png" alt="Foto do perfil" data-foto-perfil><strong data-nome-perfil>Olá!</strong>
+        <label class="conta-foto-controle">Adicionar foto de perfil<input type="file" accept="image/*" data-selecionar-foto-perfil></label>
+        <button class="conta-foto-remover" type="button" data-remover-foto-perfil hidden>Remover foto</button>
+        <output class="conta-foto-status" data-status-foto-perfil aria-live="polite"></output>
+      </div>
+      <nav aria-label="Menu da conta">
+        <strong class="conta-secao-titulo">Minha conta</strong>
+        <a class="selecionado" href="#dados-conta" aria-current="page">Dados da conta <span aria-hidden="true">›</span></a>
+        <a href="#login-conta">Informações do Login <span aria-hidden="true">›</span></a>
+        <a href="#pagamentos">Pagamentos <span>›</span></a>
+        <a href="#enderecos">Endereços salvos <span>›</span></a>
+        <a href="#favoritos">Favoritos <span>›</span></a>
+        <a href="#avaliacoes">Avaliações <span>›</span></a>
+        <strong>Uso e privacidade</strong>
+        <a href="#privacidade">Termos de uso e políticas</a>
+        <button class="conta-sair" type="button" data-sair-conta>Sair</button>
+      </nav>
+    </aside>
+    <section class="conta-painel" id="dados-conta">
+      <form class="conta-formulario" data-form-conta>
+        <h1>Dados da conta</h1>
+        <div class="conta-form-colunas">
+          <section class="conta-form-bloco">
+            <h2>Informações Pessoais</h2>
+            <label>Nome Completo<input name="nomeUsuario" autocomplete="name"></label>
+            <label>Data de Nascimento<input name="dataNascimento" type="date"></label>
+            <label>Sexo<select name="sexo"><option value="">Selecione</option><option value="F">Feminino</option><option value="M">Masculino</option><option value="Outro">Outro</option><option value="N">Prefiro não informar</option></select></label>
+            <button type="submit">Salvar</button>
+            <output data-status-conta aria-live="polite"></output>
+          </section>
+          <section class="conta-form-bloco">
+            <h2>Dados de Contato</h2>
+            <label>E-mail<input name="emailUsuario" type="email" autocomplete="email"></label>
+            <label>Celular<input name="telefone" type="tel" autocomplete="tel"></label>
+            <button type="submit">Salvar</button>
+            <output data-status-conta aria-live="polite"></output>
+          </section>
+        </div>
+      </form>
+    </section>
+    <section class="conta-favoritos-painel" id="favoritos" aria-labelledby="titulo-favoritos" hidden>
+      <h1 id="titulo-favoritos">Meus favoritos</h1>
+      <p class="conta-favoritos-vazio">Seus pratos favoritos aparecerão aqui.</p>
+      <div class="conta-lista-favoritos" data-lista-favoritos></div>
+    </section>
+    <section class="conta-avaliacoes" id="avaliacoes" aria-labelledby="titulo-avaliacoes" hidden>
+      <h1 id="titulo-avaliacoes">Avaliações</h1>
+      <p class="conta-avaliacoes-vazio" data-avaliacoes-vazio hidden>Você ainda não tem avaliações. Quando houver avaliações feitas ou pendentes, elas aparecerão aqui.</p>
+      <section class="conta-avaliacoes-grupo" aria-labelledby="titulo-avaliacoes-feitas">
+        <h2 id="titulo-avaliacoes-feitas">Avaliações feitas</h2>
+        <div data-avaliacoes-feitas></div>
+      </section>
+      <section class="conta-avaliacoes-grupo" aria-labelledby="titulo-avaliacoes-pendentes">
+        <h2 id="titulo-avaliacoes-pendentes">Avaliações pendentes</h2>
+        <div data-avaliacoes-pendentes></div>
+      </section>
+    </section>
+    <section class="conta-privacidade" id="privacidade" aria-labelledby="titulo-privacidade" hidden>
+      <h1 id="titulo-privacidade">Termos de uso e políticas</h1>
+      <article class="termo-uso-artigo"><pre data-termos-texto>Carregando termos e políticas...</pre></article>
+    </section>
+    <section class="conta-login" id="login-conta" aria-labelledby="titulo-login-conta" hidden>
+      <h1 id="titulo-login-conta">Informações do Login</h1>
+      <form data-form-email-login>
+        <h2>Alterar e-mail</h2>
+        <label>E-mail atual<input name="emailAtual" type="email" autocomplete="email" readonly></label>
+        <label>Novo e-mail<input name="emailNovo" type="email" autocomplete="email" required></label>
+        <button type="submit">Salvar novo e-mail</button>
+        <output data-status-email-login aria-live="polite"></output>
+      </form>
+      <form data-form-senha-login>
+        <h2>Alterar senha</h2>
+        <label>Senha atual<input name="senhaAtual" type="password" autocomplete="current-password" required></label>
+        <label>Senha nova<input name="senhaNova" type="password" autocomplete="new-password" required></label>
+        <label>Confirmação da senha nova<input name="confirmacaoSenhaNova" type="password" autocomplete="new-password" required></label>
+        <button type="submit">Redefinir senha</button>
+        <output data-status-senha-login aria-live="polite"></output>
+      </form>
+    </section>
+    <section class="conta-pagamentos" id="pagamentos" aria-labelledby="titulo-pagamentos" hidden>
+      <div class="conta-pagamento-vazio">
+        <h1 id="titulo-pagamentos">Formas de pagamento</h1>
+        <h2>Adicione um cartão no Garfoo</h2>
+        <p>É prático, seguro e você não perde nenhum minuto a mais quando seu pedido chegar.</p>
+        <button type="button" data-abrir-cartao>Adicionar novo cartão</button>
+      </div>
+      <div class="conta-cartoes-cadastrados" data-cartoes-cadastrados hidden>
+        <h1>Cartões cadastrados</h1>
+        <div class="conta-lista-cartoes" data-lista-cartoes></div>
+        <button type="button" data-abrir-cartao>Adicionar novo cartão</button>
+      </div>
+      <form class="simulacao-cartao-formulario" data-form-pagamento hidden>
+        <div class="cartao-form-coluna">
+          <a class="cartao-voltar" href="#pagamentos" data-voltar-cartao><span aria-hidden="true">‹</span> Pagamentos</a>
+          <label>Tipo de cartão<select name="tipo" required><option value="credito">Crédito</option><option value="debito">Débito</option><option value="vale_refeicao">Vale-refeição</option><option value="vale_alimentacao">Vale-alimentação</option></select></label>
+          <label>Número do cartão<input name="numeroCartao" type="text" inputmode="numeric" autocomplete="cc-number" maxlength="19" placeholder="0000 0000 0000 0000" required></label>
+          <label>Nome do titular<input name="nomeTitular" type="text" autocomplete="cc-name" placeholder="Nome impresso no cartão" required></label>
+          <div class="cartao-validade-cvv">
+            <label>Validade<input name="validade" type="text" inputmode="numeric" autocomplete="cc-exp" maxlength="5" placeholder="MM/AA" required></label>
+            <label data-campo-cvv>CVV<input name="cvv" type="password" inputmode="numeric" autocomplete="cc-csc" maxlength="4" required></label>
+          </div>
+          <label>Apelido do cartão<input name="apelido" type="text" placeholder="Ex.: Cartão pessoal" required></label>
+          <label>CPF do titular<input name="cpf" type="text" inputmode="numeric" maxlength="14" placeholder="000.000.000-00" required></label>
+          <button type="submit">Cadastrar cartão</button>
+        </div>
+        <div class="cartao-preview-coluna">
+          <div class="cartao-preview" aria-label="Prévia do cartão">
+            <strong data-preview-tipo>Crédito</strong>
+            <span class="cartao-preview-numero" data-preview-numero>0000 0000 0000 0000</span>
+            <span class="cartao-preview-titular" data-preview-titular>Nome do titular</span>
+            <span class="cartao-preview-validade" data-preview-validade>MM/AA</span>
+          </div>
+          <p>Esta demonstração não realiza cobranças reais nem guarda o número ou o código de segurança.</p>
+        </div>
+      </form>
+      <output class="pagamento-status" data-status-pagamento aria-live="polite"></output>
+    </section>
+    <section class="conta-enderecos" id="enderecos" aria-labelledby="titulo-enderecos" hidden>
+      <div class="enderecos-vazio" data-enderecos-vazio>
+        <h1 id="titulo-enderecos">Cadastre um endereço no Garfoo</h1>
+        <p>Salve seu endereço para deixar seus próximos pedidos mais rápidos.</p>
+        <button type="button" data-abrir-endereco>Cadastrar endereço</button>
+      </div>
+      <div class="enderecos-salvos" data-enderecos-salvos hidden>
+        <h1>Endereços salvos</h1>
+        <div data-lista-enderecos></div>
+        <button type="button" data-abrir-endereco>Adicionar endereço</button>
+      </div>
+      <form class="endereco-formulario" data-form-endereco hidden>
+        <h1>Novo endereço</h1>
+        <label>Identificação<input name="identificacao" placeholder="Casa, trabalho..." required></label>
+        <label>CEP<input name="cep" id="cep-endereco" inputmode="numeric" autocomplete="postal-code" maxlength="9" placeholder="00000-000" required><small data-status-cep aria-live="polite"></small></label>
+        <label>Rua<input name="rua" id="rua-endereco" autocomplete="address-line1" required></label>
+        <label>Número<input name="numero" inputmode="numeric" required></label>
+        <label>Complemento<input name="complemento" autocomplete="address-line2"></label>
+        <label>Bairro<input name="bairro" id="bairro-endereco" autocomplete="address-level3" required></label>
+        <label>Cidade<input name="cidade" id="cidade-endereco" autocomplete="address-level2" required></label>
+        <label>UF<input name="uf" id="uf-endereco" maxlength="2" autocomplete="address-level1" required></label>
+        <button type="submit">Salvar endereço</button>
+        <button type="button" class="endereco-cancelar" data-cancelar-endereco>Cancelar</button>
+        <output aria-live="polite"></output>
+      </form>
+    </section>
+  </main>
+  <script src="clienteDadosStore.js?v=20261118-4"></script>
+  <script src="contaCliente.js?v=20261116-3"></script>
+  <script src="minhaContaCliente.js?v=20261118-10"></script>
+    <script src="mascaras.js?v=20261116-1"></script>
+</body>
+</html>
+

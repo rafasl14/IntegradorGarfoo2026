@@ -1,0 +1,141 @@
+/* Menu usado pela área do cliente também nas páginas internas. */
+.cliente-header {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    width: 100%;
+    height: 80px;
+    min-height: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    background: #ffe9d9;
+    border-bottom: 1px solid #f5a477;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cliente-header[hidden] {
+    display: none !important;
+}
+.cliente-logo {
+    width: 140px !important;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 140px;
+}
+.logo {
+  /* logo */ /* se repete em todas as paginas */
+  height: 100px;
+  width: 100%;
+  margin-right: 100px;
+  padding-bottom: 10px;
+}
+.cliente-header .cliente-logo img {
+    display: block;
+    width: 140px !important;
+    height: 100px !important;
+    object-fit: contain;
+    margin-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cliente-nav {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+.cliente-nav a {
+    position: relative;
+    width: auto !important;
+    right: auto !important;
+    padding: 0 0 8px;
+    color: #693b27;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+.cliente-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #f26a21;
+    transform: scaleX(0);
+    transition: transform .2s ease;
+}
+.cliente-nav a:hover::after,
+.cliente-nav a.ativo::after {
+    transform: scaleX(1);
+}
+.cliente-nav a:hover,
+.cliente-nav a.ativo {
+    color: #f26a21;
+}
+.cliente-usuario {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    color: #542818;
+    font-size: 14px;
+}
+.cliente-avatar {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
+    background-image: url("./Fotos/usuario.png");
+    background-position: center;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+@media (max-width: 980px) {
+    .cliente-header {
+        gap: 28px;
+    }
+    .cliente-nav {
+        gap: 24px;
+    }
+    .cliente-nav a {
+        font-size: 15px;
+    }
+}
+@media (max-width: 720px) {
+    .cliente-header {
+        height: auto;
+        min-height: 80px;
+        padding: 8px 14px;
+        flex-wrap: wrap;
+        gap: 10px 18px;
+    }
+    .cliente-logo {
+        width: 78px !important;
+        height: 60px;
+        flex-basis: 78px;
+    }
+    .cliente-header .cliente-logo img {
+        width: 78px !important;
+        height: 78px !important;
+    }
+    .cliente-nav {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 14px;
+        overflow-x: auto;
+    }
+    .cliente-nav a {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+}

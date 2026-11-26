@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body.pagina-restaurantes-cliente {
+    min-width: 320px;
+    margin: 0;
+    background: #fff8f5;
+    color: #542818;
+}
+
+.restaurantes-cliente-pagina {
+    min-height: calc(100vh - 80px);
+    padding: 28px 20px 54px;
+}
+
+.restaurantes-cliente-conteudo {
+    width: min(1180px, 100%);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.restaurantes-cliente-legenda {
+    margin: 0 0 4px;
+    color: #f26a21;
+    font-size: 18px;
+}
+
+.restaurantes-cliente-conteudo h1 {
+    margin: 0;
+    color: #7c380e;
+    font-family: Georgia, serif;
+    font-size: 42px;
+}
+
+.restaurantes-cliente-introducao {
+    margin: 8px 0 30px;
+    color: #6d5548;
+    font-size: 18px;
+}
+
+.restaurantes-cliente-grade {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 22px;
+    text-align: left;
+}
+
+.restaurante-cliente-card {
+    display: flex;
+    min-height: 310px;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    border: 1px solid #ff8038;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(84, 40, 24, 0.1);
+    text-align: center;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.restaurante-cliente-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(242, 106, 33, 0.2);
+}
+
+.restaurante-cliente-logo {
+    display: grid;
+    width: 150px;
+    height: 120px;
+    place-items: center;
+    margin-bottom: 14px;
+    border-radius: 10px;
+    background: #fff4ec;
+}
+
+.restaurante-cliente-logo img {
+    width: 128px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.restaurante-cliente-card h2 {
+    margin: 0 0 5px;
+    color: #542818;
+    font-family: Georgia, serif;
+    font-size: 23px;
+}
+
+.restaurante-cliente-categoria {
+    min-height: 24px;
+    margin: 0 0 12px;
+    color: #876b5b;
+    font-size: 15px;
+}
+
+.restaurante-cliente-detalhes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+    color: #f26a21;
+    font-size: 14px;
+}
+
+.restaurante-cliente-detalhes span + span {
+    color: #6d5548;
+}
+
+.restaurante-cliente-botao {
+    width: 100%;
+    margin-top: auto;
+    padding: 10px 12px;
+    border-radius: 20px;
+    background: #7c380e;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.restaurante-cliente-botao:hover {
+    background: #f26a21;
+}
+
+.restaurantes-cliente-mensagem {
+    margin: 24px 0 0;
+    color: #876b5b;
+    font-size: 16px;
+}
+
+@media (max-width: 900px) {
+    .restaurantes-cliente-grade {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 680px) {
+    .restaurantes-cliente-pagina {
+        padding: 28px 14px 44px;
+    }
+
+    .restaurantes-cliente-grade {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .restaurante-cliente-card {
+        padding: 14px 10px;
+    }
+
+    .restaurante-cliente-logo {
+        width: 125px;
+        height: 100px;
+    }
+
+    .restaurante-cliente-logo img {
+        width: 108px;
+        height: 82px;
+    }
+}
+
+@media (max-width: 420px) {
+    .restaurantes-cliente-conteudo h1 {
+        font-size: 32px;
+    }
+
+    .restaurantes-cliente-grade {
+        grid-template-columns: 1fr;
+    }
+}

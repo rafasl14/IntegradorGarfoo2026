@@ -1,0 +1,654 @@
+:root {
+    --laranja: #ff6b00;
+    --laranja-claro: #fff0e5;
+    --creme: #fffaf8;
+    --marrom: #542818;
+    --borda: #ff8b4d;
+}
+* { 
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: var(--creme);
+    color: var(--marrom);
+    font-family: Arial, Helvetica, sans-serif;
+}
+button, 
+input, 
+select { 
+    font: inherit;
+}
+.cliente-header {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    height: 80px;
+    min-height: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    background: #ffe9d9;
+    border-bottom: 1px solid #f5a477;
+}
+.logo {
+  /* logo */ /* se repete em todas as paginas */
+  height: 100px;
+  width: 100%;
+  margin-right: 100px;
+  padding-bottom: 10px;
+}
+.cliente-header .cliente-logo img {
+  display: block;
+  height: 100px;
+  width: 140px;
+  object-fit: contain;
+  margin-right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cliente-nav { 
+    display: flex;
+     align-items: center;
+     gap: 85px;
+    }
+.cliente-nav a { 
+    color: var(--marrom);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.cliente-nav a:hover, 
+.cliente-nav .ativo { 
+    color: var(--laranja);
+}
+.cliente-usuario { 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.cliente-avatar { 
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
+    background-image: url("./Fotos/usuario.png");
+    background-position: center;
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+.cliente-alternar-perfil { 
+    width: 34px;
+    height: 34px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--laranja);
+    border-radius: 50%;
+    background: #fff;
+    color: var(--laranja);
+    cursor: pointer;
+}
+.cliente-alternar-perfil:hover { background: var(--laranja);
+color: #fff;
+}
+.cliente-alternar-perfil svg { width: 20px;
+height: 20px;
+fill: none;
+stroke: currentColor;
+stroke-width: 1.8;
+stroke-linecap: round;
+stroke-linejoin: round;
+}
+.cliente-hero {
+    height: 290px;
+    min-height: 290px;
+    display: flex;
+    align-items: end;
+    padding: 28px max(24px, calc((100% - 1160px) / 2));
+    background: linear-gradient(90deg, rgba(70, 28, 12, .82), rgba(242, 106, 33, .4)), url("./Fotos/bannerCliente.png") center/cover;
+    color: #fff;
+}
+.cliente-hero h1 { 
+    margin: 0 0 25px;
+    font-family: Georgia, serif;
+    font-size: 60px;
+    line-height: .95;
+}
+.cliente-hero p { 
+    margin: 0 0 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.cliente-hero span { 
+    font-size: 20px;
+}
+.busca-cliente { 
+    margin-top: 18px;
+    display: flex;
+    width: 500px;
+    height: 40px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.busca-cliente input, 
+.busca-cliente select { 
+    min-width: 0;
+    border: 0;
+    outline: 0;
+    padding: 9px 12px;
+    color: #765548;
+    font-size: 15px;
+}
+.busca-cliente input { 
+    flex: 1;
+}
+.busca-cliente select { 
+    border-left: 1px solid #ead4c7;
+}
+.busca-cliente button { 
+    border: 0;
+    padding: 0 14px;
+    background: var(--laranja);
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+}
+.cliente-categorias { 
+    padding: 8px max(20px, calc((100% - 1160px) / 2));
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow-x: auto;
+    background: #FFE9D9;
+    border-bottom: 1px solid var(--borda);
+}
+.cliente-categorias button { 
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 16px;
+    border: 1px solid #ff6b00;
+    border-radius: 20px;
+    background: #fff0e5;
+    color: #542818;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+}
+.cliente-categorias a {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 16px;
+    border: 1px solid #ff6b00;
+    border-radius: 20px;
+    background: #fff0e5;
+    color: #542818;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+}
+.cliente-categorias [data-categoria-filtro="Todos"] {
+    padding: 4px 16px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.cliente-categorias button:first-child, 
+.cliente-categorias button.categoria-ativa, 
+.cliente-categorias button:hover,
+.cliente-categorias a.categoria-ativa,
+.cliente-categorias a:hover { 
+    background: var(--laranja);
+    color: #fff;
+}
+.cliente-busca-resultados {
+    width: min(1160px, calc(100% - 36px));
+    margin: 22px auto 34px;
+}
+.cliente-busca-resultados h2 {
+    margin: 0 0 6px;
+    color: var(--marrom);
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+.cliente-busca-status {
+    margin: 0 0 16px;
+    color: #765548;
+}
+.cliente-busca-grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
+    gap: 16px;
+}
+.cliente-busca-grade .produto-cliente {
+    display: flex;
+    width: auto;
+    min-width: 0;
+    height: 270px;
+    flex-direction: column;
+    cursor: pointer;
+}
+.cliente-busca-grade .produto-cliente > img:not(.produto-restaurante-logo) {
+    width: 100%;
+    height: 125px;
+    flex: 0 0 125px;
+    object-fit: cover;
+}
+.cliente-busca-grade .produto-info { min-width: 0; }
+.cliente-busca-grade .produto-detalhes { min-width: 0; }
+.cliente-busca-grade .produto-detalhes strong { overflow-wrap: anywhere; }
+.cliente-busca-grade .produto-cliente small { margin-top: auto; }
+.cliente-busca-grade .produto-cliente:hover { box-shadow: 0 6px 18px rgba(84, 40, 24, .14); }
+.cliente-main { 
+    width: min(1160px, calc(100% - 36px));
+    margin: 0 auto;
+}
+.cliente-secao { 
+    padding: 18px 0 8px;
+}
+.cliente-legenda { 
+    margin: 0;
+    color: var(--laranja);
+    font-size: 19px;
+}
+.cliente-titulo-linha { 
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.cliente-secao h2 { 
+    margin: 0 0 10px;
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+.cliente-titulo-linha a { 
+    color: var(--laranja);
+    font-size: 15px;
+    text-decoration: none;
+}
+.ver-todos-restaurantes {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--laranja);
+    font: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+.ver-todos-restaurantes:hover {
+    color: var(--marrom);
+    text-decoration: underline;
+}
+.lista-restaurantes-suspensa {
+    position: relative;
+    margin-top: 18px;
+    padding: 18px;
+    border: 1px solid var(--laranja);
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 8px 22px rgba(84, 40, 24, .14);
+    text-align: left;
+}
+.lista-restaurantes-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+.lista-restaurantes-cabecalho h3 {
+    margin: 0;
+    color: var(--marrom);
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+.fechar-lista-restaurantes {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: var(--marrom);
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+.fechar-lista-restaurantes:hover {
+    background: #fff0e7;
+    color: var(--laranja);
+}
+.lista-restaurantes-itens {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+.lista-restaurante-item {
+    display: flex;
+    min-height: 88px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ffd0b5;
+    border-radius: 10px;
+    background: #fff8f3;
+    color: var(--marrom);
+    text-decoration: none;
+    transition: transform .2s ease, border-color .2s ease;
+}
+.lista-restaurante-item:hover {
+    border-color: var(--laranja);
+    transform: translateY(-2px);
+}
+.lista-restaurante-item img {
+    width: 52px;
+    height: 52px;
+    flex: 0 0 52px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #fff;
+}
+.lista-restaurante-item strong {
+    display: block;
+    font-size: 16px;
+}
+.lista-restaurante-item small {
+    display: block;
+    margin-top: 4px;
+    color: #876b5b;
+    font-size: 12px;
+}
+.lista-restaurantes-mensagem {
+    margin: 14px 0 0;
+    color: #876b5b;
+    font-size: 14px;
+}
+.cliente-carrossel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.carrossel-seta {
+    flex: 0 0 26px;
+    width: 26px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--laranja);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+.carrossel-seta:hover {
+    background: transparent;
+    color: var(--marrom);
+    transform: scale(1.06);
+}
+.restaurantes-cliente {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    gap: 28px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.restaurantes-cliente::-webkit-scrollbar,
+.produtos-cliente::-webkit-scrollbar {
+    display: none;
+}
+.restaurante-redondo { 
+    width: 145px;
+    height: 125px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--borda);
+    border-radius: 50%;
+    background: #fff;
+}
+.restaurante-redondo img { 
+    width: 82%;
+    height: 82%;
+    object-fit: contain;
+    border-radius: 25%;
+}
+.produtos-cliente {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.cliente-carrossel-pratos {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+.carrossel-fileira-pratos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    min-width: 0;
+}
+.carrossel-fileira-pratos .produtos-cliente {
+    flex: 1;
+}
+.cliente-carrossel-pratos .carrossel-seta {
+    position: static;
+    flex: 0 0 26px;
+    width: 26px;
+    height: 32px;
+    transform: none;
+}
+.cliente-carrossel-pratos .carrossel-seta:hover {
+    transform: scale(1.06);
+}
+.produtos-cliente .produto-cliente {
+    flex: 0 0 210px;
+}
+.produto-cliente { 
+    position: relative;
+    width: 210px;
+    height: 270px;
+    padding: 12px;
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+    background: #fff;
+    text-align: center;
+}
+.produto-cliente > img { 
+    width: 184px;
+    height: 125px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.favorito-produto { 
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .92);
+    color: var(--laranja);
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1;
+}
+.favorito-produto:hover, 
+.favorito-produto.marcado { 
+    background: var(--laranja);
+    color: #fff;
+}
+.produto-separador { 
+    height: 1px;
+    margin: 10px 8px 9px;
+    background: #d4cec9;
+}
+.produto-info { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 58px;
+    margin: 0 5px;
+    text-align: left;
+}
+.produto-restaurante-logo { 
+    width: 58px;
+    height: 58px;
+    flex: 0 0 58px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.produto-detalhes { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+margin: 0 !important;
+    font-size: 16px !important;
+}
+.produto-detalhes strong { 
+    font-size: 18px;
+    font-weight: 400;
+}
+.produto-detalhes span { 
+    color: #1a9a74;
+}
+.produto-cliente small { 
+    display: block;
+    margin-top: 9px;
+    color: #777;
+    font-size: 14px;
+}
+.produtos-menores { 
+    padding-bottom: 48px;
+}
+@media (max-width: 800px) {
+    .cliente-header { 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cliente-nav { 
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 16px;
+        overflow-x: auto;
+    }
+    .cliente-hero { 
+        padding: 28px 18px;
+    }
+    .produto-cliente { 
+        width: 100%;
+    }
+    .produto-cliente > img { 
+        width: 100%;
+    }
+    .restaurante-redondo { 
+        width: 120px;
+    }
+}
+@media (max-width: 760px) {
+    .lista-restaurantes-itens {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width: 420px) {
+    .lista-restaurantes-itens {
+        grid-template-columns: 1fr;
+    }
+}
+
+.pagina-restaurante-cliente[hidden], .cliente-hero[hidden], .cliente-categorias[hidden], .cliente-main[hidden], .cliente-busca-resultados[hidden] { display: none !important; }
+.restaurante-voltar-wrap { width: min(1160px,100%); min-height: 36px; margin: 0 auto; }
+.restaurante-voltar { display: inline-flex; width: auto; align-items: center; color: #542818; text-decoration: none; }
+.restaurante-voltar span:first-child { display: grid; width: 36px; height: 36px; place-items: center; border-radius: 50%; background: #542818; color: #fff; font-size: 24px; line-height: 1; transition: background .2s ease, transform .2s ease; }
+.restaurante-voltar:hover span:first-child { background: #ff6b00; transform: translateX(-2px); }
+.restaurante-voltar:focus-visible { outline: 3px solid #ff6b00; outline-offset: 3px; border-radius: 20px; }
+.restaurante-cliente-hero { position: relative; width: 100%; max-width: none; height: 350px; min-height: 350px; margin: 0; overflow: hidden; background: #f5e8d6; border: 0; }
+.restaurante-banner-imagem { position: absolute; top: 50%; left: 50%; display: block; width: var(--banner-largura,100%); height: var(--banner-altura,100%); max-width: none; object-fit: cover; object-position: center; transform: translate(-50%,calc(-50% + var(--banner-top,0px))) scale(var(--banner-zoom,1)); }
+.restaurante-cliente-hero-texto { max-width: 760px; }
+.restaurante-cliente-hero-texto > p:first-child { margin: 0 0 12px; color: var(--laranja,#ff6900); font-size: 20px; }
+.restaurante-cliente-hero h1 { margin: 0 0 18px; font: 700 60px/.95 Georgia,serif; }
+.restaurante-cliente-hero .restaurante-cliente-avaliacao { margin: 0; font: 700 20px Georgia,serif; }
+.restaurante-categorias-nav { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 8px; padding: 8px max(20px,calc((100% - 1160px) / 2)); background: #ffeadb; border-top: 1px solid var(--laranja,#ff6900); border-bottom: 1px solid var(--laranja,#ff6900); }
+.restaurante-categorias-nav a { min-width: 0; padding: 4px 16px; border: 1px solid var(--laranja,#ff6b00); border-radius: 20px; background: #fff0e5; color: #542818; font: 400 14px/18px Arial,Helvetica,sans-serif; text-align: center; text-decoration: none; }
+.restaurante-categorias-nav a:hover { color: #ff6b00; }
+.restaurante-cardapio-conteudo { width: min(1500px,calc(100% - 36px)); margin: 0 auto; padding: 14px 0 42px; }
+.restaurante-cardapio-secao { margin: 12px 0 30px; padding: 16px 18px 24px max(2px,calc((100% - 1160px) / 2)); border: 0; border-radius: 16px; scroll-margin-top: 20px; }
+.restaurante-cardapio-secao h2 { margin: 0 0 14px; color: var(--laranja,#ff6900); font: 700 30px Georgia,serif; }
+.restaurante-cardapio-grade { display: grid; grid-template-columns: repeat(5,210px); gap: 20px; }
+.restaurante-produto-card { width: 210px; height: 270px; min-height: 0; overflow: hidden; border: 1px solid var(--borda); border-radius: 12px; background: #fff; box-shadow: none; cursor: pointer; text-align: center; }
+.restaurante-produto-card.sem-foto { height: auto; min-height: 0; }
+.restaurante-produto-foto { display: block; width: 184px; height: 125px; margin: 0 auto; border-radius: 20px; object-fit: cover; }
+.restaurante-produto-conteudo { display: flex; height: 134px; min-height: 0; flex-direction: column; padding: 8px 8px 10px; text-align: left; }
+.restaurante-produto-card.sem-foto .restaurante-produto-conteudo { height: auto; min-height: 0; padding: 12px; }
+.restaurante-produto-card.sem-foto .restaurante-produto-rodape { margin-top: 12px; }
+.restaurante-produto-conteudo .produto-detalhes { margin: 0 !important; font-size: 16px !important; }
+.restaurante-produto-conteudo .produto-detalhes strong { color: var(--marrom); font: 400 18px Arial,Helvetica,sans-serif; }
+.restaurante-produto-conteudo .restaurante-preco-modal { display: none; }
+.restaurante-produto-descricao { margin: 5px 0 7px; color: #543b2d; font: 12px/1.25 Arial,Helvetica,sans-serif; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.restaurante-produto-rodape { display: flex; flex-direction: column; flex-wrap: nowrap; align-items: center; justify-content: flex-end; gap: 4px; margin-top: auto; }
+.restaurante-produto-rodape > strong { flex: 0 0 auto; align-self: center; color: #1a9a74; font: 400 15px Arial,Helvetica,sans-serif; white-space: nowrap; }
+.restaurante-produto-rodape small { display: block; flex: 0 0 auto; margin: 0; color: #777; font-size: 12px; line-height: 1.1; text-align: center; white-space: nowrap; }
+.pagina-restaurante-status { min-height: 220px; padding: 60px 24px; text-align: center; color: #542818; font-size: 18px; }
+.restaurante-avaliacoes { margin: 52px 0 30px; padding-left: max(2px,calc((100% - 1160px) / 2)); }
+.restaurante-avaliacoes > h2 { margin: 0 0 22px; color: var(--laranja); font: 700 30px Georgia,serif; }
+.restaurante-avaliacoes-grade { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,320px),min(100%,360px))); justify-content: start; gap: 22px; }
+.restaurante-avaliacao-card { min-height: 150px; display: flex; flex-direction: column; justify-content: space-between; gap: 14px; padding: 18px; border: 1px solid var(--marrom); border-radius: 12px; background: #fff; color: #251c18; }
+.restaurante-avaliacao-card > p { margin: 0; font: 16px/1.4 Georgia,serif; }
+.restaurante-avaliacao-autor { display: flex; align-items: center; gap: 10px; }
+.restaurante-avaliacao-avatar { width: 36px; height: 36px; display: grid; place-items: center; flex: 0 0 36px; border-radius: 50%; background: var(--marrom); color: #fff; font: 700 17px Arial,sans-serif; }
+.restaurante-avaliacao-autor > span:last-child { display: flex; flex-direction: column; gap: 4px; }
+.restaurante-avaliacao-autor strong { font: 600 15px Arial,sans-serif; }
+.restaurante-avaliacao-autor small { color: #82654f; font-size: 13px; }
+@media (max-width: 1250px) {
+    .restaurante-cardapio-grade { grid-template-columns: repeat(4,210px); }
+}
+@media (max-width: 1050px) {
+    .restaurante-cardapio-grade { grid-template-columns: repeat(3,210px); }
+}
+@media (max-width: 700px) {
+    .restaurante-cliente-hero { height: auto; min-height: 230px; padding: 24px 18px; }
+    .restaurante-cliente-hero h1 { font-size: 38px; }
+    .restaurante-categorias-nav { gap: 10px; }
+    .restaurante-categorias-nav a { min-width: 0; padding: 7px 12px; font-size: 14px; }
+    .restaurante-cardapio-secao { padding: 15px 12px 20px max(2px,calc((100% - 1160px) / 2)); }
+    .restaurante-cardapio-grade { grid-template-columns: repeat(2,minmax(0,210px)); gap: 14px; }
+    .restaurante-produto-card { width: 100%; }
+    .restaurante-produto-foto { width: calc(100% - 24px); height: 125px; }
+}
+@media (max-width: 480px) {
+    .restaurante-cardapio-grade { grid-template-columns: minmax(0,210px); }
+}
+.restaurante-produto-card[data-categoria-produto="Bebidas"] .restaurante-produto-foto { width: 120px; height: 90px; object-fit: contain; }
+.restaurante-produto-card[data-categoria-produto="Bebidas"] { height: 245px; }
+.restaurante-produto-card[data-categoria-produto="Bebidas"] .restaurante-produto-conteudo { height: 145px; }
+

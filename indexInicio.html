@@ -1,0 +1,645 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>
+        Garfoo — A maneira mais prática de pedir refeições
+    </title>
+    <link rel="stylesheet" href="indexSemLogin.css?v=20261017-2">
+    <link rel="stylesheet" href="modalCadastro.css?v=20261115-3">
+    <link rel="stylesheet" href="modalLogin.css">
+    <link rel="stylesheet" href="modalRecuperarSenha.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container header-inner">
+            <img class="logo" src="./Fotos/11.png" alt="Logo Garfoo" />
+            <nav>
+                <a href="indexInicio.html" class="active">
+                    Início
+                </a>
+                <a href="sobrenosSemLogin.html">
+                    Sobre nós
+                </a>
+                <a href="entregadorSemLogin.html">
+                    Entregador
+                </a>
+                <a href="restauranteSemLogin.html">
+                    Restaurantes
+                </a>
+            </nav>
+            <div class="header-actions">
+                <button class="btn-e btn-outline" type="button" data-abrir-login>
+                    <b>
+                        Entrar
+                    </b>
+                </button>
+                <button id="cadastro" class="btn-e btn-primary" data-abrir-cadastro>
+                    <b>
+                        Cadastrar
+                    </b>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <h1>
+                    Sabor que
+                    <br>
+                    chega até você
+                </h1>
+                <p>
+                    Os melhores sabores do mundo, entregues na sua porta
+                </p>
+                <form id="form-pesquisa" class="barra-pesquisa">
+                    <input
+                    id="pesquisa"
+                    type="search"
+                    placeholder="Busque por restaurante ou pratos"
+                    aria-label="Buscar restaurante ou prato"
+                />
+                    <button
+                    id="botao-pesquisa"
+                    type="submit"
+                    aria-label="Pesquisar"
+                >
+                        🔍
+                    </button>
+                </form>
+            </div>
+            <div class="hero-image">
+                <img src="./Fotos/saborQueChega.png" alt="Comida preparada"/>
+            </div>
+        </div>
+    </section>
+    <section id="area-resultados-pesquisa" aria-live="polite">
+        <button id="voltar-inicio" type="button" aria-label="Voltar para o início">
+            ←
+        </button>
+        <div id="resultados">
+        </div>
+    </section>
+    <!-- INTRO -->
+    <section class="intro">
+        <div class="container">
+            <h2>
+                <img src="./Fotos/Garfoo.png" class="imgGarfoo">
+                é a maneira mais prática de pedir refeições deliciosas sem sair de casa.
+            </h2>
+            <div class="intro-images">
+                <img src="./Fotos/entregadorIndex.png" class="img1">
+                <img src="./Fotos/entregaPizzaIndex.png" class="img2">
+                <img src="./Fotos/entregaPacotePizza.png" class="img3">
+            </div>
+        </div>
+    </section>
+    <!-- CATEGORIAS -->
+    <div class="categorias">
+        <h2 class="categoria-titulo">
+            Explore nossas culinárias
+        </h2>
+        <div class="categoria-junto">
+            <article class="categoria categoriaJapo">
+                <div class="categoria-imagem">
+                    <img src="./Fotos/japonesa.png" alt="Japonesa">
+                </div>
+                <div class="categoria-descricao">
+                    <h3>
+                        Japonesa
+                    </h3>
+                    <p>
+                        Conhecida pela leveza e frescor dos ingredientes. Destaque para sushi, sashimi, ramen e temaki.
+                    </p>
+                </div>
+            </article>
+            <article class="categoria categoriaMex">
+                <div class="categoria-imagem">
+                    <img src="./Fotos/mexicana.png" alt="Mexicana">
+                </div>
+                <div class="categoria-descricao">
+                    <h3>
+                        Mexicana
+                    </h3>
+                    <p>
+                        Sabores marcantes com pimentas, milho e feijão. Destaque para tacos, burritos e nachos.
+                    </p>
+                </div>
+            </article>
+            <article class="categoria categoriaIta">
+                <div class="categoria-imagem">
+                    <img src="./Fotos/italiana.png" alt="Italiana">
+                </div>
+                <div class="categoria-descricao">
+                    <h3>
+                        Italiana
+                    </h3>
+                    <p>
+                        Famosa por massas, pizzas e molhos tradicionais. Combina ingredientes simples e muito sabor.
+                    </p>
+                </div>
+            </article>
+            <article class="categoria categoriaFran">
+                <div class="categoria-imagem">
+                    <img src="./Fotos/francesa.png" alt="Francesa">
+                </div>
+                <div class="categoria-descricao">
+                    <h3>
+                        Francesa
+                    </h3>
+                    <p>
+                        Conhecida pela sofisticação e técnicas refinadas. Destaque para pratos elegantes e sobremesas clássicas.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </div>
+    <!-- COMO FUNCIONA -->
+    <section class="how" id="como-funciona">
+        <div class="container">
+            <h2 class="section-title">
+                Como funciona
+            </h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-top">
+                        <span class="step-number">
+                            1
+                        </span>
+                        <img src="./Fotos/lupa.png" alt="Escolha">
+                    </div>
+                    <h3>
+                        Escolha
+                    </h3>
+                    <p>
+                        Encontre seu prato favorito entre diversos restaurantes.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-top">
+                        <span class="step-number">
+                            2
+                        </span>
+                        <img src="./Fotos/sacola.png" alt="Peça">
+                    </div>
+                    <h3>
+                        Peça
+                    </h3>
+                    <p>
+                        Monte seu pedido em poucos cliques de forma segura.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-top">
+                        <span class="step-number">
+                            3
+                        </span>
+                        <img src="./Fotos/moto.png" alt="Acompanhe">
+                    </div>
+                    <h3>
+                        Acompanhe
+                    </h3>
+                    <p>
+                        Acompanhe seu pedido em tempo real.
+                    </p>
+                </div>
+                <div class="step">
+                    <div class="step-top">
+                        <span class="step-number">
+                            4
+                        </span>
+                        <img src="./Fotos/caixa.png" alt="Receba">
+                    </div>
+                    <h3>
+                        Receba
+                    </h3>
+                    <p>
+                        Receba na sua porta com rapidez e segurança.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PRATOS -->
+    <section class="dishes">
+        <div class="container">
+            <h2 class="section-title">
+                Pratos em destaque
+            </h2>
+            <div class="dish-grid">
+                <!-- CARD 1 -->
+                <article class="dish">
+                    <div class="dish-image">
+                        <img src="./Fotos/hotrollSuba.png" alt="Hot Roll">
+                    </div>
+                    <div class="dish-bottom">
+                        <img src="./Fotos/subaSushi.png" class="dish-logo" alt="Suba Sushi">
+                        <div class="dish-info">
+                            <h3>
+                                Hot Roll
+                            </h3>
+                            <span>
+                                R$ 49,90
+                            </span>
+                        </div>
+                    </div>
+                </article>
+                <!-- CARD 2 -->
+                <article class="dish">
+                    <div class="dish-image">
+                        <img src="./Fotos/temakiDeSalmaoPapaSushi.png" alt="Temaki do Papa Sushi">
+                    </div>
+                    <div class="dish-bottom">
+                        <img src="./Fotos/papaSushi.png" class="dish-logo" alt="Papa Sushi">
+                        <div class="dish-info">
+                            <h3>
+                                Temaki
+                            </h3>
+                            <span>
+                                R$ 22,90
+                            </span>
+                        </div>
+                    </div>
+                </article>
+                <!-- CARD 3 -->
+                <article class="dish">
+                    <div class="dish-image">
+                        <img src="./Fotos/ratatouillePepinRestaurant.png" alt="Ratatouille">
+                    </div>
+                    <div class="dish-bottom">
+                        <img src="./Fotos/pepinRestaurant.png" class="dish-logo" alt="Pepin">
+                        <div class="dish-info">
+                            <h3>
+                                Ratatouille
+                            </h3>
+                            <span>
+                                R$ 24,99
+                            </span>
+                        </div>
+                    </div>
+                </article>
+                <!-- CARD 4 -->
+                <article class="dish">
+                    <div class="dish-image">
+                        <img src="./Fotos/guacamoleElRancho.png" alt="Guacamole">
+                    </div>
+                    <div class="dish-bottom">
+                        <img src="./Fotos/elRancho.png" class="dish-logo" alt="El Rancho">
+                        <div class="dish-info">
+                            <h3>
+                                Guacamole
+                            </h3>
+                            <span>
+                                R$ 20,99
+                            </span>
+                        </div>
+                    </div>
+                </article>
+                <!-- CARD 5 -->
+                <article class="dish">
+                    <div class="dish-image">
+                        <img src="./Fotos/coqAuVinLeVerre.png" alt="Coq au Vin">
+                    </div>
+                    <div class="dish-bottom">
+                        <img src="./Fotos/leVerre.png" class="dish-logo" alt="Le Verre">
+                        <div class="dish-info">
+                            <h3>
+                                Coq au Vin
+                            </h3>
+                            <span>
+                                R$ 94,90
+                            </span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- BENEFÍCIOS -->
+    <section class="why" id="beneficios">
+        <div class="container">
+            <h2 class="section-title">
+                Por que escolher Garfoo?
+            </h2>
+            <div class="benefits">
+                <div class="benefit">
+                    <img src="./Fotos/entregaRapidaIndex.png" class="benefit-icon" alt="">
+                    <h3>
+                        Entrega rápida
+                    </h3>
+                    <p>
+                        em até 30 min
+                    </p>
+                </div>
+                <div class="benefit">
+                    <img src="./Fotos/restauranteVerificadoIndex.png" class="benefit-icon" alt="">
+                    <h3>
+                        Restaurantes
+                    </h3>
+                    <p>
+                        verificados
+                    </p>
+                </div>
+                <div class="benefit">
+                    <img src="./Fotos/pagamentoSeguroIndex.png" class="benefit-icon" alt="">
+                    <h3>
+                        Pagamento
+                    </h3>
+                    <p>
+                        seguro
+                    </p>
+                </div>
+                <div class="benefit">
+                    <img src="./Fotos/acompanhamentoIndex.png" class="benefit-icon" alt="">
+                    <h3>
+                        Acompanhamento
+                    </h3>
+                    <p>
+                        em tempo real
+                    </p>
+                </div>
+                <div class="benefit">
+                    <img src="./Fotos/atendimentoIndex.png" class="benefit-icon" alt="">
+                    <h3>
+                        Atendimento
+                    </h3>
+                    <p>
+                        24h
+                    </p>
+                </div>
+                <div class="benefit">
+                    <img src="./Fotos/avaliacoesIndex.png" class="benefit-icon" alt="">
+                    <h3>
+                        Avaliações
+                    </h3>
+                    <p>
+                        reais
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTAs -->
+    <section>
+        <div class="container cta-grid">
+            <!-- Restaurante -->
+            <article class="cta-card">
+                <div class="cta-content">
+                    <h2>
+                        Tem um restaurante?
+                    </h2>
+                    <p>
+                        Cadastre seu estabelecimento na Garfoo e aumente suas vendas!
+                    </p>
+                    <ul>
+                        <li>
+                            Mais visibilidade
+                        </li>
+                        <li>
+                            Mais pedidos
+                        </li>
+                        <li>
+                            Painel completo de gestão
+                        </li>
+                    </ul>
+                    <button class="cta-card-btn" data-abrir-cadastro>
+                        Cadastrar restaurante
+                    </button>
+                </div>
+                <img src="./Fotos/garconeteIndex.png" alt="Garçonete" class="cta-garconete"/>
+            </article>
+            <!-- Entregador -->
+            <article class="cta-card">
+                <div class="cta-content">
+                    <h2>
+                        Seja entregador!
+                    </h2>
+                    <p>
+                        Ganhe dinheiro fazendo entregas com horários flexíveis.
+                    </p>
+                    <ul>
+                        <li>
+                            Ganhos semanais
+                        </li>
+                        <li>
+                            Horário flexível
+                        </li>
+                        <li>
+                            Suporte completo
+                        </li>
+                    </ul>
+                    <button class="cta-card-btn">
+                        Quero ser entregador
+                    </button>
+                </div>
+                <img src="./Fotos/entregadorSelfeIndex.png" alt="Entregador Garfoo" class="cta-entregador"/>
+            </article>
+        </div>
+    </section>
+    <!-- DEPOIMENTOS -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">
+                O que nossos clientes dizem
+            </h2>
+            <div class="testimonial-grid">
+                <article class="testimonial">
+                    <div class="person">
+                        <div class="avatar">
+                            <img src="./Fotos/julianaAvatar.png" alt="">
+                        </div>
+                        <div>
+                            <strong>
+                                Juliana S.
+                            </strong>
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        "Muito fácil de usar! Encontro tudo o que quero e meu pedido chega rapidinho."
+                    </p>
+                </article>
+                <article class="testimonial">
+                    <div class="person">
+                        <div class="avatar">
+                            <img src="./Fotos/carlosAvatar.png" alt="">
+                        </div>
+                        <div>
+                            <strong>
+                                Carlos A.
+                            </strong>
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        "A variedade de restaurantes é excelente. Já virou meu aplicativo favorito."
+                    </p>
+                </article>
+                <article class="testimonial">
+                    <div class="person">
+                        <div class="avatar">
+                            <img src="./Fotos/marianaAvatar.png" alt="">
+                        </div>
+                        <div>
+                            <strong>
+                                Mariana T.
+                            </strong>
+                            <div class="stars">
+                                ★★★★★
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        "O acompanhamento do pedido funciona muito bem. Recomendo demais!"
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo -->
+            <div class="footer-col">
+                <img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo">
+                <p>
+                    A maneira mais prática de pedir refeições deliciosas sem sair de casa.
+                </p>
+            </div>
+            <!-- Navegação -->
+            <div class="footer-col">
+                <h3>
+                    Navegação
+                </h3>
+                <ul>
+                    <li>
+                        <a href="indexInicio.html" data-footer-link="inicio">
+                            Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="sobrenosSemLogin.html" data-footer-link="sobre">
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li>
+                        <a href="restauranteSemLogin.html" data-footer-link="restaurantes">
+                            Restaurantes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="entregadorSemLogin.html" data-footer-link="entregador">
+                            Entregador
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Culinárias -->
+            <div class="footer-col">
+                <h3>
+                    Culinárias
+                </h3>
+                <ul>
+                    <li>
+                        Japonesa
+                    </li>
+                    <li>
+                        Mexicana
+                    </li>
+                    <li>
+                        Italiana
+                    </li>
+                    <li>
+                        Francesa
+                    </li>
+                </ul>
+            </div>
+            <!-- Contato -->
+            <div class="footer-col">
+                <h3>
+                    Contato
+                </h3>
+                <ul>
+                    <li>
+                        📧 contato@garfoo.com
+                    </li>
+                    <li>
+                        📞 (34) 99999-9999
+                    </li>
+                    <li>
+                        📍 Uberlândia - MG
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Garfoo - Todos os direitos reservados.
+        </div>
+    </footer>
+    <div id="modal-cadastro" class="modal-cadastro" hidden aria-hidden="true">
+        <div class="modal-cadastro-fundo" data-fechar-cadastro>
+        </div>
+        <section class="modal-cadastro-caixa" role="dialog" aria-modal="true" aria-labelledby="titulo-modal-cadastro">
+            <button class="modal-cadastro-fechar" type="button" aria-label="Fechar" data-fechar-cadastro>
+                ×
+            </button>
+            <h2 id="titulo-modal-cadastro">
+                Como você deseja se cadastrar?
+            </h2>
+            <p>
+                Escolha uma opção para continuar:
+            </p>
+            <div class="opcoes-cadastro">
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="entregador">
+                    Entregador
+                </button>
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="proprietario">
+                    Proprietário
+                </button>
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="cliente">
+                    Cliente
+                </button>
+            </div>
+            <div id="formulario-cadastro">
+            </div>
+        </section>
+    </div>
+        <script src="indexBusca.js">
+        </script>
+        <script src="contasUsuarioStore.js?v=20261118-8"></script><script src="modalCadastro.js?v=20261118-4">
+        </script>
+        <script src="modalLogin.js?v=20261118-6"></script>
+        <script src="modalRecuperarSenha.js"></script>
+        <script src="mascaras.js?v=20261115-3"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

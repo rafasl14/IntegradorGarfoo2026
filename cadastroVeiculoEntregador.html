@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Garfoo — Cadastro de entregador</title>
+    <link rel="stylesheet" href="cadastroVeiculoEntregador.css">
+</head>
+<body>
+    <main class="cadastro-entregador-pagina">
+        <a class="cadastro-entregador-logo" href="cliente.html">Garfoo</a>
+        <section class="cadastro-entregador-card">
+            <p class="cadastro-entregador-etapa">Seu perfil de entregador</p>
+            <h1>Cadastre seu veículo</h1>
+            <p class="cadastro-entregador-intro">Preencha os dados do veículo que você usará nas entregas. Depois, você poderá acessar o painel completo do entregador.</p>
+            <form data-form-veiculo-entregador>
+                <label>Tipo de veículo
+                    <select name="tipoVeiculo" required>
+                        <option value="">Selecione</option>
+                        <option value="moto">Moto</option>
+                        <option value="bicicleta">Bicicleta</option>
+                    </select>
+                </label>
+                <div class="cadastro-entregador-grade">
+                    <label>Ano
+                        <input name="anoVeiculo" inputmode="numeric" maxlength="4" pattern="[0-9]{4}" placeholder="2024" required>
+                    </label>
+                    <label>Modelo
+                        <input name="modeloVeiculo" maxlength="80" placeholder="Ex.: CG 160 ou bicicleta urbana" required>
+                    </label>
+                </div>
+                <div class="cadastro-entregador-grade" data-campos-moto>
+                    <label>Placa
+                        <input name="placaVeiculo" maxlength="7" pattern="[A-Za-z0-9]{7}" placeholder="ABC1D23" title="Informe os 7 caracteres da placa" required>
+                    </label>
+                    <label>CNH
+                        <input name="numeroCnhEntregador" inputmode="numeric" maxlength="11" pattern="[0-9]{11}" placeholder="11 dígitos" title="A CNH deve conter 11 dígitos" required>
+                    </label>
+                </div>
+                <p class="cadastro-entregador-aviso" data-aviso-veiculo hidden>Para bicicleta, não é necessário informar placa ou CNH.</p>
+                <p class="cadastro-entregador-erro" data-erro-veiculo role="alert"></p>
+                <button type="submit">Salvar e entrar no painel</button>
+                <a class="cadastro-entregador-voltar" href="cliente.html">Voltar ao perfil de cliente</a>
+            </form>
+        </section>
+    </main>
+    <script src="contasUsuarioStore.js?v=20261118-8"></script>
+    <script src="cadastroVeiculoEntregador.js?v=20261118-2"></script>
+</body>
+</html>
+

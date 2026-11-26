@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garfoo — Carrinho</title>
+    <link rel="stylesheet" href="cliente.css?v=20261115-66">
+    <link rel="stylesheet" href="carrinhoCliente.css?v=20261116-7">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="perfilAlternancia.css">
+</head>
+<body class="footer-login pagina-carrinho">
+    <header class="cliente-header">
+        <a class="cliente-logo" href="cliente.html"><img src="./Fotos/11.png" alt="Garfoo"></a>
+        <nav class="cliente-nav" aria-label="Navegação principal">
+<a href="cliente.html">Início</a>
+<a href="sobrenosSemLogin.html?menu=cliente">Sobre nós</a>
+<a href="restaurantesCliente.html">Restaurantes</a>
+<a href="meusPedidosCliente.html">Meus pedidos</a>
+<a class="ativo" href="carrinhoCliente.html" aria-current="page">Carrinho</a>
+</nav>
+        <div class="cliente-usuario"><span class="cliente-avatar"></span><strong data-saudacao-usuario>Olá!</strong></div>
+    </header>
+    <main class="carrinho-pagina">
+        <p class="carrinho-pedido-confirmado" data-pedido-confirmado role="status" hidden>Compra confirmada. Consulte o resumo em <a href="meusPedidosCliente.html">Meus pedidos</a>.</p>
+        <div class="carrinho-cabecalho">
+            <div><p class="carrinho-etiqueta">GARFOO · SEU CARRINHO</p><h1>Revise seu pedido</h1></div>
+            <a href="cliente.html">＋ Adicionar mais itens</a>
+        </div>
+        <div class="carrinho-layout">
+            <section class="carrinho-lista" aria-label="Produtos adicionados ao carrinho">
+                <div data-itens-carrinho></div>
+                <div class="carrinho-vazio" data-carrinho-vazio hidden>
+                    <span class="carrinho-vazio-icone">🛒</span>
+                    <h2>Seu carrinho está vazio</h2>
+                    <p>Escolha um prato gostoso para começar seu pedido.</p>
+                    <a href="pratosPrincipais.html">Ver pratos principais</a>
+                </div>
+            </section>
+            <aside class="carrinho-resumo" data-carrinho-resumo hidden aria-label="Resumo do pedido">
+                <h2>Resumo do pedido</h2>
+                <div class="carrinho-resumo-linha"><span>Itens (<b data-quantidade-carrinho>0</b>)</span><span data-subtotal-carrinho>R$ 0,00</span></div>
+                <div class="carrinho-resumo-linha"><span>Taxa de entrega</span><strong class="carrinho-entrega-info" data-total-entrega>R$ 0,00</strong></div>
+                <div class="carrinho-resumo-total"><span>Total com entrega</span><strong data-total-carrinho>R$ 0,00</strong></div>
+                <button class="carrinho-continuar" type="button" data-abrir-confirmacao>Confirmar compra</button>
+                <p class="carrinho-resumo-nota">A taxa é somada ao subtotal dos itens e pode variar por restaurante.</p>
+            </aside>
+        </div>
+    </main>
+    <section class="carrinho-modal" data-modal-observacao hidden aria-hidden="true">
+        <button class="carrinho-modal-fundo" type="button" data-fechar-confirmacao aria-label="Fechar janela"></button>
+        <div class="carrinho-modal-caixa" role="dialog" aria-modal="true" aria-labelledby="titulo-confirmacao" aria-describedby="texto-confirmacao">
+            <button class="carrinho-modal-fechar" type="button" data-fechar-confirmacao aria-label="Fechar">×</button>
+            <p class="carrinho-etiqueta">QUASE LÁ</p>
+            <h2 id="titulo-confirmacao">Confirmar sua compra</h2>
+            <p id="texto-confirmacao">Informe onde deseja receber seu pedido.</p>
+            <h3 class="carrinho-checkout-titulo">Endereço de entrega</h3>
+            <p class="carrinho-aviso-sem-endereco" data-aviso-sem-endereco hidden>Você ainda não tem endereço cadastrado. Preencha os campos abaixo para cadastrar o endereço de entrega.</p>
+            <label class="carrinho-endereco-label" data-seletor-endereco-wrap hidden for="endereco-pedido">Endereço salvo</label>
+            <select class="carrinho-endereco-seletor" id="endereco-pedido" data-selecionar-endereco hidden></select>
+            <button class="carrinho-endereco-novo" type="button" data-cadastrar-outro-endereco hidden>Cadastrar outro endereço</button>
+            <div class="carrinho-endereco-form" data-form-endereco-checkout>
+                <label>Identificação<input name="identificacao" autocomplete="address-type" placeholder="Casa, trabalho..." required></label>
+                <label>CEP<input name="cep" data-cep-endereco-checkout inputmode="numeric" autocomplete="postal-code" maxlength="9" placeholder="00000-000" required><small data-status-cep-checkout aria-live="polite"></small></label>
+                <label>Rua<input name="rua" autocomplete="address-line1" required></label>
+                <label>Número<input name="numero" inputmode="numeric" required></label>
+                <label>Complemento<input name="complemento" autocomplete="address-line2"></label>
+                <label>Bairro<input name="bairro" autocomplete="address-level3" required></label>
+                <label>Cidade<input name="cidade" autocomplete="address-level2" required></label>
+                <label>UF<input name="uf" maxlength="2" autocomplete="address-level1" required></label>
+            </div>
+            <section class="carrinho-checkout-cartao" aria-labelledby="titulo-cartao-checkout">
+                <h3 class="carrinho-checkout-titulo" id="titulo-cartao-checkout">Pagamento</h3>
+                <p class="carrinho-aviso-sem-cartao" data-aviso-sem-cartao hidden>Você ainda não tem um cartão cadastrado. Preencha os campos abaixo para cadastrar.</p>
+                <label class="carrinho-cartao-salvo-label" data-cartao-salvo-label hidden>Cartão salvo
+                    <select data-selecionar-cartao></select>
+                </label>
+                <button class="carrinho-endereco-novo" type="button" data-cadastrar-outro-cartao hidden>Cadastrar outro cartão</button>
+                <div class="carrinho-cartao-form" data-form-cartao-checkout>
+                    <label>Tipo de cartão<select name="tipoCartao" required><option value="credito">Crédito</option><option value="debito">Débito</option><option value="vale_refeicao">Vale-refeição</option><option value="vale_alimentacao">Vale-alimentação</option></select></label>
+                    <label>Número do cartão<input name="numeroCartao" data-numero-cartao type="text" inputmode="numeric" autocomplete="cc-number" maxlength="19" placeholder="0000 0000 0000 0000" required></label>
+                    <label>Nome do titular<input name="nomeTitular" autocomplete="cc-name" required></label>
+                    <label>Validade<input name="validade" data-validade-cartao inputmode="numeric" autocomplete="cc-exp" maxlength="5" placeholder="MM/AA" required></label>
+                    <label>CVV<input name="cvv" type="password" inputmode="numeric" autocomplete="cc-csc" maxlength="4" required></label>
+                    <label>Apelido do cartão<input name="apelido" placeholder="Ex.: Cartão pessoal" required></label>
+                    <label>CPF do titular<input name="cpf" inputmode="numeric" autocomplete="off" maxlength="14" placeholder="000.000.000-00" required></label>
+                </div>
+            </section>
+            <div class="carrinho-modal-acoes">
+                <button class="carrinho-modal-voltar" type="button" data-fechar-confirmacao>Voltar ao carrinho</button>
+                <button class="carrinho-modal-confirmar" type="button" data-salvar-endereco-pedido>Confirmar pedido</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col"><img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo"><p>A maneira mais prática de pedir refeições deliciosas sem sair de casa.</p></div>
+            <div class="footer-col">
+    <h3>Navegação</h3>
+    <ul>
+<li><a href="cliente.html" data-footer-link="inicio">Início</a></li>
+<li><a href="sobrenosSemLogin.html?menu=cliente" data-footer-link="sobre">Sobre nós</a></li>
+<li><a href="restaurantesCliente.html" data-footer-link="restaurantes">Restaurantes</a></li>
+<li><a href="meusPedidosCliente.html" data-footer-link="pedidos">Meus pedidos</a></li>
+<li><a href="carrinhoCliente.html" data-footer-link="carrinho">Carrinho</a></li>
+</ul>
+</div>
+            <div class="footer-col"><h3>Culinárias</h3><ul><li>Japonesa</li><li>Mexicana</li><li>Italiana</li><li>Francesa</li></ul></div>
+            <div class="footer-col"><h3>Contato</h3><ul><li>📞 (34) 99999-9999</li><li>📍 Uberlândia - MG</li><li>⏰ Consulte o restaurante</li></ul></div>
+        </div>
+        <div class="footer-bottom">© 2026 Garfoo - Todos os direitos reservados.</div>
+    </footer>
+    <script src="clienteDadosStore.js?v=20261118-4"></script>
+    <script src="carrinhoCliente.js?v=20261118-2"></script>
+    <script src="contasUsuarioStore.js?v=20261118-8"></script>
+        <script src="perfilAlternancia.js?v=20261118-8"></script>
+    <script src="contaCliente.js?v=20261116-3"></script>
+    <script src="mascaras.js?v=20261116-1"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+body.meus-pedidos-pagina { min-width:320px; margin:0; background:#fff8f5; color:#542818; font-family:Arial,Helvetica,sans-serif; }
+.meus-pedidos-main { width:min(1080px,calc(100% - 36px)); min-height:calc(100vh - 80px); margin:0 auto; padding:30px 0 50px; }
+.meus-pedidos-legenda { margin:0; color:#f26a21; font-size:18px; }
+.meus-pedidos-main h1 { margin:0 0 16px; color:#542818; font:700 30px Georgia,'Times New Roman',serif; }
+.meus-pedidos-lista { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+.meus-pedidos-vazio { margin:0; padding:18px; border:1px dashed #e7b99e; border-radius:10px; color:#876b5b; font-size:15px; }
+.cliente-pedido-card { padding:16px; border:1px solid #f0d7c4; border-radius:12px; background:#fff; box-shadow:0 4px 12px rgba(84,40,24,.08); color:#542818; }
+.cliente-pedido-cabecalho { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; padding-bottom:12px; border-bottom:1px solid #f0d7c4; }
+.cliente-pedido-cabecalho > div { display:flex; flex-direction:column; gap:4px; }
+.cliente-pedido-cabecalho time { color:#876b5b; font-size:13px; }
+.cliente-pedido-cabecalho > span { padding:4px 8px; border-radius:20px; background:#e9f5eb; color:#28764c; font-size:12px; font-weight:700; }
+.cliente-pedido-cabecalho > span.cliente-pedido-status-cancelado { background:#fde8e7; color:#b42318; }
+.cliente-pedido-card ul { display:grid; gap:7px; margin:12px 0; padding:0; list-style:none; }
+.cliente-pedido-card li { display:flex; justify-content:space-between; gap:12px; font-size:14px; }
+.cliente-pedido-detalhes { display:grid; gap:5px; padding-top:10px; border-top:1px solid #f0d7c4; color:#72594c; font-size:12px; }
+.cliente-pedido-horario { color:#28764c; font-weight:700; }
+.cliente-pedido-status { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:6px; margin:10px 0 0; padding:8px 10px; border-radius:7px; background:#fff3e8; color:#a14b14; font-size:13px; font-weight:700; }
+.cliente-pedido-status small { color:#876b5b; font-size:11px; font-weight:400; }
+.cliente-pedido-total { display:block; margin-top:12px; color:#7c380e; font-size:16px; text-align:right; }
+.cliente-pedido-cancelar { margin-top:10px; padding:8px 12px; border:1px solid #c84a3d; border-radius:7px; background:#fff; color:#a83329; cursor:pointer; font:700 13px Arial,sans-serif; }
+.cliente-avaliacoes { display:grid; gap:10px; margin-top:16px; padding-top:12px; border-top:1px solid #f0d7c4; }
+.cliente-avaliacoes h3 { margin:0; font-size:15px; }
+.cliente-avaliacoes > small { color:#876b5b; line-height:1.4; }
+.cliente-avaliacao-caixa { position:relative; display:grid; gap:8px; padding:10px; border:1px solid #f0d7c4; border-radius:8px; }
+.cliente-avaliacao-concluida { display:flex; align-items:center; gap:8px; min-height:40px; padding:6px 38px 6px 9px; color:#28764c; font-size:12px; }
+.cliente-avaliacao-concluida .cliente-avaliacao-pedido { display:none; }
+.cliente-avaliacao-concluida .cliente-avaliacao-fechar { top:50%; transform:translateY(-50%); }
+.cliente-avaliacao-pedido { display:grid; gap:3px; padding:0 28px 7px 0; border-bottom:1px solid #f0d7c4; font-size:12px; }
+.cliente-avaliacao-pedido span { color:#876b5b; }
+.cliente-avaliacao-fechar { position:absolute; top:7px; right:7px; display:grid; width:25px; height:25px; place-items:center; padding:0; border:0; border-radius:50%; background:#fff0e7; color:#a14b14; cursor:pointer; font:700 19px/1 Arial,sans-serif; }
+.cliente-avaliacao-form { display:grid; gap:8px; }
+.cliente-avaliacao-form label { display:grid; gap:5px; color:#72594c; font-size:12px; font-weight:700; }
+.cliente-avaliacao-form select, .cliente-avaliacao-form textarea { width:100%; padding:8px; border:1px solid #dfc8b8; border-radius:6px; color:#542818; font:14px Arial,sans-serif; }
+.cliente-avaliacao-form textarea { height:72px; min-height:72px; max-height:72px; resize:none; overflow-y:auto; }
+.cliente-avaliacao-form button { justify-self:start; padding:8px 12px; border:0; border-radius:6px; background:#f26a21; color:#fff; cursor:pointer; font-weight:700; }
+.cliente-avaliacao-salva { display:grid; gap:4px; padding:9px; border-radius:7px; background:#fff8f5; font-size:13px; }
+.cliente-avaliacao-salva span { color:#72594c; overflow-wrap:anywhere; }
+.cliente-pedido-repetir { display:block; margin:14px 0 0 auto; padding:9px 14px; border:0; border-radius:7px; background:#f26a21; color:#fff; cursor:pointer; font:700 14px Arial,sans-serif; }
+.cliente-pedido-repetir:hover { background:#d95716; }
+@media (max-width:900px) { .meus-pedidos-lista { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:620px) { .meus-pedidos-main { padding-top:22px; } .meus-pedidos-lista { grid-template-columns:1fr; } .cliente-pedido-card { padding:13px; } }

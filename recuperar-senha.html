@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Recuperar senha — Garfoo
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="recuperarSenha.css">
+        <link rel="stylesheet" href="modalLogin.css">
+        <link rel="stylesheet" href="modalRecuperarSenha.css">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header id="header">
+            <div class="container header-inner">
+                <img class="logo" src="./Fotos/11.png" alt="Logo Garfoo" />
+                <nav>
+                    <a href="indexInicio.html" class="active">
+                        Início
+                    </a>
+                    <a href="sobrenosSemLogin.html">
+                        Sobre nós
+                    </a>
+                    <a href="entregadorSemLogin.html">
+                        Entregador
+                    </a>
+                    <a href="restauranteSemLogin.html">
+                        Restaurantes
+                    </a>
+                </nav>
+                <div class="header-actions">
+                    <button class="btn-e btn-outline" type="button" data-abrir-login>
+                        <b>
+                            Entrar
+                        </b>
+                    </button>
+                    <button class="btn-e btn-primary" type="button" onclick="window.location.href='indexInicio.html#cadastro'">
+                        <b>
+                            Cadastrar
+                        </b>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- ESQUERDA: ilustração -->
+            <div class="visual">
+                <div class="visual-circle">
+                </div>
+                <div class="image-placeholder">
+                    <img src="Garfoologin.png" alt="Ilustração de recuperação de senha">
+                </div>
+            </div>
+            <!-- DIREITA: formulário -->
+            <div class="card">
+                <!-- Estado 1: pedir e-mail -->
+                <div id="requestState">
+                    <h1>
+                        Esqueceu sua senha?
+                    </h1>
+                    <p class="subtitle" align="center">
+                        Sem problemas, vamos te ajudar.
+                    </p>
+                    <p class="helper">
+                        Informe o e-mail cadastrado na sua conta e enviaremos um link para você criar uma nova senha.
+                    </p>
+                    <form id="recoverForm">
+                        <div class="field">
+                            <label for="email">
+                                E-mail
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu e-mail cadastrado" required />
+                        </div>
+                        <button type="submit" class="btn-enviar">
+                            Enviar link de recuperação
+                        </button>
+                        <p class="back-line">
+                            Lembrou a senha?
+                            <a href="login.html">
+                                Voltar para o login
+                            </a>
+                        </p>
+                    </form>
+                </div>
+                <!-- Estado 2: confirmação (aparece após enviar) -->
+                <div id="confirmState" class="confirm-box">
+                    <div class="check">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M3 8.5 12 15l9-6.5M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h1 style="font-size:22px;">
+                        E-mail enviado!
+                    </h1>
+                    <p>
+                        Enviamos um link de recuperação para o seu e-mail. Verifique também a caixa de spam.
+                    </p>
+                    <p class="back-line">
+                        Não recebeu?
+                        <a href="#" id="resendLink">
+                            Reenviar e-mail
+                        </a>
+                    </p>
+                    <p class="back-line" style="margin-top:10px;">
+                        <a href="login.html">
+                            Voltar para o login
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo">
+                    <p>
+                        A maneira mais prática de pedir refeições deliciosas sem sair de casa.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>
+                        Navegação
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="indexInicio.html" data-footer-link="inicio">
+                                Início
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sobrenosSemLogin.html" data-footer-link="sobre">
+                                Sobre nós
+                            </a>
+                        </li>
+                        <li>
+                            <a href="entregadorSemLogin.html" data-footer-link="entregador">
+                                Entregador
+                            </a>
+                        </li>
+                        <li>
+                            <a href="restauranteSemLogin.html" data-footer-link="restaurantes">
+                                Restaurantes
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>
+                        Culinárias
+                    </h3>
+                    <ul>
+                        <li>
+                            Japonesa
+                        </li>
+                        <li>
+                            Mexicana
+                        </li>
+                        <li>
+                            Italiana
+                        </li>
+                        <li>
+                            Francesa
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>
+                        Contato
+                    </h3>
+                    <ul>
+                        <li>
+                            📧 contato@garfoo.com
+                        </li>
+                        <li>
+                            📞 (34) 99999-9999
+                        </li>
+                        <li>
+                            📍 Uberlândia - MG
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2026 Garfoo - Todos os direitos reservados.
+            </div>
+        </footer>
+        <script src="contasUsuarioStore.js?v=20261118-8"></script><script src="modalLogin.js?v=20261118-6"></script>
+        <script src="modalRecuperarSenha.js"></script>
+        <script>
+            document.getElementById('recoverForm').addEventListener('submit', function(e){ e.preventDefault(); document.getElementById('requestState').style.display = 'none'; document.getElementById('confirmState').style.display = 'block'; }); document.getElementById('resendLink').addEventListener('click', function(e){ e.preventDefault(); this.textContent = 'Enviado novamente!'; });
+        </script>
+        <script src="mascaras.js?v=20261115-3"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

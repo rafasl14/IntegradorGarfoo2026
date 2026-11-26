@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus pedidos — Garfoo</title>
+    <link rel="stylesheet" href="clienteMenu.css?v=20261115-10">
+    <link rel="stylesheet" href="meusPedidos.css?v=20261117-1">
+</head>
+<body class="meus-pedidos-pagina">
+    <header class="cliente-header">
+        <a class="cliente-logo" href="cliente.html"><img src="./Fotos/11.png" alt="Garfoo"></a>
+        <nav class="cliente-nav" aria-label="Navegação principal">
+            <a href="cliente.html">Início</a>
+            <a href="sobrenosSemLogin.html?menu=cliente">Sobre nós</a>
+            <a href="restaurantesCliente.html">Restaurantes</a>
+            <a class="ativo" href="meusPedidosCliente.html" aria-current="page">Meus pedidos</a>
+            <a href="carrinhoCliente.html">Carrinho</a>
+        </nav>
+        <div class="cliente-usuario">
+            <span class="cliente-avatar"></span>
+            <strong data-saudacao-usuario>Olá!</strong>
+            <div class="perfil-alternador" data-perfil-alternador hidden>
+                <button class="perfil-botao" type="button" data-abrir-perfis aria-expanded="false" aria-label="Trocar perfil" title="Trocar perfil">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10l-3-3M17 17H7l3 3M17 7l3 3-3 3M7 17l-3-3 3-3"/></svg>
+                </button>
+                <nav class="perfil-menu" data-menu-perfis hidden aria-label="Modos disponíveis">
+                    <a href="cliente.html" data-perfil-link="cliente">Modo Cliente</a>
+                    <a href="proprietario.html" data-perfil-link="proprietario">Modo Proprietário</a>
+                    <a href="entregadorComLogin.html" data-perfil-link="entregador">Modo Entregador</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="meus-pedidos-main">
+        <p class="meus-pedidos-legenda">Seu histórico</p>
+        <h1>Meus pedidos</h1>
+        <div class="meus-pedidos-lista" data-lista-pedidos>
+            <p class="meus-pedidos-vazio">Você ainda não fez pedidos.</p>
+        </div>
+    </main>
+    <script src="clienteDadosStore.js?v=20261118-4"></script>
+    <script src="meusPedidosCliente.js?v=20261118-2"></script>
+    <script src="contasUsuarioStore.js?v=20261118-8"></script>
+        <script src="perfilAlternancia.js?v=20261118-8"></script>
+    <script src="contaCliente.js?v=20261116-3"></script>
+</body>
+</html>
+

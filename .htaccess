@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^entregador\.html$ entregadorSemLogin.html [L]

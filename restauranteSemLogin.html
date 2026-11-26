@@ -1,0 +1,500 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Garfoo — A maneira mais prática de pedir refeições
+    </title>
+    <link rel="stylesheet" href="restaurante.css?v=20261115-1">
+    <link rel="stylesheet" href="modalCadastro.css?v=20261115-3">
+    <link rel="stylesheet" href="modalLogin.css">
+    <link rel="stylesheet" href="modalRecuperarSenha.css">
+    <link rel="stylesheet" href="clienteMenu.css?v=20261115-10">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container header-inner">
+            <img class="logo" src="./Fotos/11.png" alt="Logo Garfoo" />
+            <nav>
+                <a href="indexInicio.html" >
+                    Início
+                </a>
+                <a href="sobrenosSemLogin.html" >
+                    Sobre nós
+                </a>
+                <a href="entregadorSemLogin.html">
+                    Entregador
+                </a>
+                <a href="restauranteSemLogin.html" class="active">
+                    Restaurantes
+                </a>
+            </nav>
+            <div class="header-actions">
+                <button class="btn-e btn-outline" type="button" data-abrir-login>
+                    <b>
+                        Entrar
+                    </b>
+                </button>
+                <button class="btn-e btn-primary" data-abrir-cadastro>
+                    <b>
+                        Cadastrar
+                    </b>
+                </button>
+            </div>
+        </div>
+    </header>
+    <header class="cliente-header" data-menu-cliente hidden>
+        <a class="cliente-logo" href="cliente.html">
+            <img src="./Fotos/11.png" alt="Garfoo" />
+        </a>
+        <nav class="cliente-nav" aria-label="Navegação principal">
+<a href="cliente.html">
+                Início
+            </a>
+<a href="sobrenosSemLogin.html?menu=cliente">
+                Sobre nós
+            </a>
+<a class="ativo" href="restaurantesCliente.html">
+                Restaurantes
+            </a>
+<a href="meusPedidosCliente.html">
+                Meus pedidos
+            </a>
+<a href="carrinhoCliente.html">
+                Carrinho
+            </a>
+</nav>
+        <div class="cliente-usuario">
+            <span class="cliente-avatar">
+                
+            </span>
+            <strong data-saudacao-usuario>
+                Olá!
+            </strong>
+        </div>
+    </header>
+    <!-- BANNER -->
+    <section class="banner-sobre">
+        <div class="banner-overlay">
+            <div class="banner-text">
+                <h1>
+                    Leve seu restaurante<br>para mais clientes
+                </h1>
+                <p>
+                    Cadastre seu negócio no Garfoo e aumente suas vendas com praticidade e tecnologia.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- BENEFÍCIOS DO RESTAURANTE -->
+    <section class="beneficios restaurante-beneficios" aria-labelledby="beneficios-restaurante-titulo">
+        <div class="container">
+            <h2 id="beneficios-restaurante-titulo">
+                Vantagens para o seu restaurante
+            </h2>
+            <div class="beneficios-grid">
+                <article class="beneficio">
+                    <img src="./Fotos/visibilidade.png" alt="" />
+                    <h3>
+                        Mais
+                        <br />
+                        visibilidade
+                    </h3>
+                    <p>
+                        Apareça para milhares de clientes todos os dias.
+                    </p>
+                </article>
+                <article class="beneficio">
+                    <img src="./Fotos/maiorVenda.png" alt="" />
+                    <h3>
+                        Aumente nas
+                        <br />
+                        vendas
+                    </h3>
+                    <p>
+                        Venda mais com nossa plataforma.
+                    </p>
+                </article>
+                <article class="beneficio">
+                    <img src="./Fotos/gestao.png" alt="" />
+                    <h3>
+                        Gestão
+                        <br />
+                        simplificada
+                    </h3>
+                    <p>
+                        Gerencie pedidos, cardápio e entregas facilmente.
+                    </p>
+                </article>
+                <article class="beneficio">
+                    <img src="./Fotos/avaliacaoReal.png" alt="" />
+                    <h3>
+                        Avaliações
+                        <br />
+                        reais
+                    </h3>
+                    <p>
+                        Receba avaliações e construa sua reputação.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- COMO SE TORNAR PARCEIRO -->
+    <section class="como-funciona restaurante-como-funciona" aria-labelledby="parceiro-titulo">
+        <div class="container">
+            <h2 id="parceiro-titulo">
+                Como se tornar parceiro
+            </h2>
+            <div class="funciona-grid parceiro-etapas">
+                <article class="funciona-card etapa-parceiro">
+                    <span class="etapa-numero">
+                        1
+                    </span>
+                    <h3>
+                        Faça seu cadastro
+                    </h3>
+                    <p>
+                        Preencha os dados do seu restaurante.
+                    </p>
+                </article>
+                <span class="etapa-seta" aria-hidden="true">
+                    →
+                </span>
+                <article class="funciona-card etapa-parceiro">
+                    <span class="etapa-numero">
+                        2
+                    </span>
+                    <h3>
+                        Aguarde aprovação
+                    </h3>
+                    <p>
+                        Nossa equipe irá analisar seu cadastro.
+                    </p>
+                </article>
+                <span class="etapa-seta" aria-hidden="true">
+                    →
+                </span>
+                <article class="funciona-card etapa-parceiro">
+                    <span class="etapa-numero">
+                        3
+                    </span>
+                    <h3>
+                        Cadastre seu cardápio
+                    </h3>
+                    <p>
+                        Adicione seus pratos e fotos.
+                    </p>
+                </article>
+                <span class="etapa-seta" aria-hidden="true">
+                    →
+                </span>
+                <article class="funciona-card etapa-parceiro">
+                    <span class="etapa-numero">
+                        4
+                    </span>
+                    <h3>
+                        Comece a receber pedidos
+                    </h3>
+                    <p>
+                        Seu restaurante no Garfoo.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- CULINÁRIAS -->
+    <section class="beneficios restaurante-culinarias" aria-labelledby="culinarias-titulo">
+        <div class="container">
+            <h2 id="culinarias-titulo">
+                Trabalhamos com diferentes culinárias
+            </h2>
+            <div class="beneficios-grid culinarias-grid">
+                <article class="beneficio culinaria">
+                    <img class="bandeira" src="./Fotos/mexico.webp" alt="Bandeira do México" />
+                    <h3>
+                        Mexicana
+                    </h3>
+                </article>
+                <article class="beneficio culinaria">
+                    <img class="bandeira" src="./Fotos/franca.webp" alt="Bandeira da França" />
+                    <h3>
+                        Francesa
+                    </h3>
+                </article>
+                <article class="beneficio culinaria">
+                    <img class="bandeira" src="./Fotos/japao.webp" alt="Bandeira do Japão" />
+                    <h3>
+                        Japonesa
+                    </h3>
+                </article>
+                <article class="beneficio culinaria">
+                    <img class="bandeira" src="./Fotos/italiana.webp" alt="Bandeira da Itália" />
+                    <h3>
+                        Italiana
+                    </h3>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- RESTAURANTES PARCEIROS -->
+    <section class="estatisticas restaurantes-parceiros" aria-labelledby="parceiros-titulo">
+        <div class="container">
+            <h2 id="parceiros-titulo">
+                Alguns restaurantes parceiros
+            </h2>
+            <div class="stats-grid parceiros-grid">
+                <article class="stat parceiro-card">
+                    <div class="parceiro-logo">
+                        <img src="./Fotos/laMorena.png" alt="Logo La Morena" />
+                    </div>
+                    <h3>
+                        La Morena
+                    </h3>
+                    <p>
+                        Mexicana
+                    </p>
+                    <div class="parceiro-avaliacao">
+                        <span>
+                            5,0
+                        </span>
+                        <span>
+                            ★★★★★
+                        </span>
+                        <span>
+                            5,0
+                        </span>
+                    </div>
+                </article>
+                <article class="stat parceiro-card">
+                    <div class="parceiro-logo">
+                        <img src="./Fotos/papaSushi.png" alt="Logo Papa Sushi" />
+                    </div>
+                    <h3>
+                        Papa Sushi
+                    </h3>
+                    <p>
+                        Japonesa
+                    </p>
+                    <div class="parceiro-avaliacao">
+                        <span>
+                            5,0
+                        </span>
+                        <span>
+                            ★★★★☆
+                        </span>
+                        <span>
+                            4,8
+                        </span>
+                    </div>
+                </article>
+                <article class="stat parceiro-card">
+                    <div class="parceiro-logo">
+                        <img src="./Fotos/diNapoli.png" alt="Logo Di Napoli" />
+                    </div>
+                    <h3>
+                        Di Napoli
+                    </h3>
+                    <p>
+                        Italiana
+                    </p>
+                    <div class="parceiro-avaliacao">
+                        <span>
+                            5,0
+                        </span>
+                        <span>
+                            ★★★★☆
+                        </span>
+                        <span>
+                            4,8
+                        </span>
+                    </div>
+                </article>
+                <article class="stat parceiro-card">
+                    <div class="parceiro-logo">
+                        <img src="./Fotos/LeVerre.png" alt="Logo Le Verre" />
+                    </div>
+                    <h3>
+                        Le Verre
+                    </h3>
+                    <p>
+                        Francesa
+                    </p>
+                    <div class="parceiro-avaliacao">
+                        <span>
+                            5,0
+                        </span>
+                        <span>
+                            ★★★★☆
+                        </span>
+                        <span>
+                            4,0
+                        </span>
+                    </div>
+                </article>
+                <article class="stat parceiro-card">
+                    <div class="parceiro-logo">
+                        <img src="./Fotos/vinoESapori.png" alt="Logo Vino & Sapori" />
+                    </div>
+                    <h3>
+                        Vino &amp; Sapori
+                    </h3>
+                    <p>
+                        Italiana
+                    </p>
+                    <div class="parceiro-avaliacao">
+                        <span>
+                            5,0
+                        </span>
+                        <span>
+                            ★★★★☆
+                        </span>
+                        <span>
+                            4,0
+                        </span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- CTA DE CADASTRO -->
+    <section class="restaurante-cta" aria-labelledby="cta-restaurante-titulo">
+        <div class="cta-restaurante-conteudo">
+            <h2 id="cta-restaurante-titulo">
+                Deseja começar o seu negócio e compartilhar seus sabores?
+            </h2>
+            <p>
+                Seja parceiro do Garfoo
+            </p>
+        </div>
+        <a class="cta-restaurante-botao" href="#" data-abrir-cadastro data-cadastro-restaurante>
+            Cadastre seu restaurante
+        </a>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo -->
+            <div class="footer-col">
+                <img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo">
+                <p>
+                    A maneira mais prática de pedir refeições deliciosas sem sair de casa.
+                </p>
+            </div>
+            <!-- Navegação -->
+            <div class="footer-col">
+    <h3>Navegação</h3>
+    <ul>
+<li><a href="indexInicio.html" data-footer-link="inicio">Início</a></li>
+<li><a href="sobrenosSemLogin.html?menu=cliente" data-footer-link="sobre">Sobre nós</a></li>
+<li><a href="restauranteSemLogin.html" data-footer-link="restaurantes">Restaurantes</a></li>
+<li><a href="entregadorSemLogin.html" data-footer-link="entregador">Entregador</a></li>
+</ul>
+</div>
+            <!-- Culinárias -->
+            <div class="footer-col">
+                <h3>
+                    Culinárias
+                </h3>
+                <ul>
+                    <li>
+                        Japonesa
+                    </li>
+                    <li>
+                        Mexicana
+                    </li>
+                    <li>
+                        Italiana
+                    </li>
+                    <li>
+                        Francesa
+                    </li>
+                </ul>
+            </div>
+            <!-- Contato -->
+            <div class="footer-col">
+                <h3>
+                    Contato
+                </h3>
+                <ul>
+                    <li>
+                        📧 contato@garfoo.com
+                    </li>
+                    <li>
+                        📞 (34) 99999-9999
+                    </li>
+                    <li>
+                        📍 Uberlândia - MG
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Garfoo - Todos os direitos reservados.
+        </div>
+    </footer>
+    <div id="modal-cadastro" class="modal-cadastro" hidden aria-hidden="true">
+        <div class="modal-cadastro-fundo" data-fechar-cadastro>
+        </div>
+        <section class="modal-cadastro-caixa" role="dialog" aria-modal="true" aria-labelledby="titulo-modal-cadastro">
+            <button class="modal-cadastro-fechar" type="button" aria-label="Fechar" data-fechar-cadastro>
+                ×
+            </button>
+            <h2 id="titulo-modal-cadastro">
+                Como você deseja se cadastrar?
+            </h2>
+            <p>
+                Escolha uma opção para continuar:
+            </p>
+            <div class="opcoes-cadastro">
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="entregador">
+                    Entregador
+                </button>
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="proprietario">
+                    Proprietário
+                </button>
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="cliente">
+                    Cliente
+                </button>
+            </div>
+            <div id="formulario-cadastro">
+            </div>
+        </section>
+    </div>
+    <script src="contasUsuarioStore.js?v=20261118-8"></script><script src="modalCadastro.js?v=20261118-3">
+    </script>
+    <script src="modalLogin.js?v=20261118-6"></script>
+    <script src="modalRecuperarSenha.js"></script>
+    <script src="clienteMenu.js?v=20261116-2">
+    </script>
+    <script src="contaCliente.js?v=20261116-3"></script>
+    <script src="mascaras.js?v=20261115-3"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

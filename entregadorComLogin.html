@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <script src="entregadorAcesso.js?v=20261118-1"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garfoo — Painel do entregador</title>
+    <link rel="stylesheet" href="entregadorComLogin.css?v=20261118-3">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="perfilAlternancia.css">
+</head>
+<body class="footer-login">
+    <div class="entregador-layout">
+        <aside class="entregador-sidebar">
+            <a href="entregadorComLogin.html" class="entregador-logo" aria-label="Garfoo"><img src="./Fotos/logoFooter.png" alt="Garfoo"></a>
+            <span class="entregador-sidebar-label">Painel do entregador</span><nav class="entregador-nav" aria-label="Menu do entregador">
+                <a class="ativo" href="#inicio" data-entregador-nav="inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="entregadorIcones.svg#home"></use></svg><span>Início</span></a>
+                <a href="entregadorCorrida.html" data-entregador-nav="corridas"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="entregadorIcones.svg#bike"></use></svg><span>Corridas</span></a>
+                <a href="entregadorAvaliacao.html" data-entregador-nav="avaliacoes"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="entregadorIcones.svg#star"></use></svg><span>Avaliações</span></a>
+                <a href="entregadorDesempenho.html" data-entregador-nav="desempenho"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="entregadorIcones.svg#chart"></use></svg><span>Desempenho</span></a>
+                <a href="entregadorGanho.html" data-entregador-nav="ganho"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="entregadorIcones.svg#wallet"></use></svg><span>Ganhos</span></a>
+                <a href="entregadorAjuda.html" data-entregador-nav="ajuda"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="entregadorIcones.svg#help"></use></svg><span>Ajuda</span></a>
+                <a href="entregadorConfiguracao.html" data-entregador-nav="configuracoes"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="entregadorIcones.svg#settings"></use></svg><span>Configurações</span></a>
+            </nav>
+            <section class="entregador-perfil">
+                <span class="entregador-avatar-vazio" aria-hidden="true"></span>
+                <strong data-driver-name>Entregador</strong>
+                <span>Entregador parceiro</span>
+                <div class="entregador-online"><i></i><span data-driver-status>Online</span></div>
+                <button type="button" class="entregador-offline" data-toggle-online>Ficar offline</button>
+            </section>
+        </aside>
+        <main class="entregador-conteudo">
+            <header class="entregador-topbar">
+                <div class="entregador-saudacao"><h1>Olá, <span data-driver-name>Entregador</span>!</h1><p>Pronto para receber novas corridas?</p></div>
+                <div class="entregador-topo-acoes">
+                    <button type="button" class="entregador-icone" aria-label="Notificações"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17h12l-1.5-2V10a4.5 4.5 0 0 0-9 0v5zM10 20h4"/></svg><b>3</b></button>
+                    <div class="entregador-usuario"><span class="entregador-avatar-vazio" aria-hidden="true"></span><div><strong data-driver-name>Entregador</strong><span>Entregador parceiro</span></div><span>⌄</span></div>
+                    <div class="perfil-alternador" data-perfil-alternador hidden>
+                        <button class="perfil-botao" type="button" data-abrir-perfis aria-expanded="false" aria-label="Trocar perfil" title="Trocar perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10l-3-3M17 17H7l3 3M17 7l3 3-3 3M7 17l-3-3 3-3"/></svg></button>
+                        <nav class="perfil-menu" data-menu-perfis hidden aria-label="Modos disponíveis"><a href="cliente.html" data-perfil-link="cliente">Modo Cliente</a><a href="proprietario.html" data-perfil-link="proprietario">Modo Proprietário</a><a href="entregadorComLogin.html" data-perfil-link="entregador">Modo Entregador</a></nav>
+                    </div>
+                </div>
+            </header>
+            <div class="entregador-area" id="inicio">
+                <section class="entregador-indicadores" aria-label="Resumo do entregador">
+                    <article><span>Online agora</span><strong data-tempo-online>0 min</strong><small>Tempo conectado</small></article>
+                    <article><span>Entregas hoje</span><strong data-entregas-hoje>0</strong><small>Entregas finalizadas hoje</small></article>
+                    <article><span>Taxa de aceitação</span><strong data-taxa-aceitacao>0%</strong><small class="positivo" data-aceitacao-legenda>Sem corridas avaliadas</small></article>
+                    <article><span>Avaliação</span><strong data-avaliacao-media>0,0 <em>★</em></strong><small data-avaliacoes-total>0 avaliações</small></article>
+                    <article><span>Ganho hoje</span><strong data-ganho-hoje>R$ 0,00</strong><small>Atualizado a cada entrega finalizada</small></article>
+                </section>
+                <section class="entregador-grid-principal" id="corridas">
+                    <article class="entregador-painel entregador-proxima-corrida">
+                        <div class="entregador-painel-titulo"><h2>Próxima corrida</h2><span class="entregador-status-chip">Disponível</span></div>
+                        <div class="entregador-identificador-pedido">Pedido <strong></strong></div><div class="entregador-corrida-restaurante"><img src="./Fotos/subaSushi.png" alt="" hidden><div><strong></strong><span></span></div><b hidden></b></div>
+                        <div class="entregador-corrida-cliente"><span>Cliente</span><strong></strong><p></p></div>
+                        <div class="entregador-corrida-total"><div><span>Pagamento</span><strong>Online</strong></div><b>R$ 24,50</b></div>
+                        <div class="entregador-acoes-corrida"><button type="button" class="recusar" data-acao-corrida="recusar">Recusar</button><button type="button" class="aceitar" data-acao-corrida="aceitar">Aceitar corrida (11s)</button></div>
+                    </article>
+                    <article class="entregador-painel entregador-rota">
+                        <div class="entregador-painel-titulo"><h2>Rota até o cliente</h2><span data-resumo-rota>3,2 km · 12 min ◷</span></div>
+                        <div class="entregador-mapa" data-mapa-rota><div id="mapa-rota-mapbox" class="mapa-rota-mapbox" aria-label="Mapa com rota até o cliente"></div><div class="entregador-mapa-fallback" data-mapa-fallback hidden>Carregando mapa...</div></div>
+                        <a class="entregador-ver-mapa" data-link-mapa target="_blank" rel="noopener noreferrer">Abrir rota no Google Maps</a>
+                        <small class="entregador-elevacao" data-elevacao-rota>Consultando elevação da rota...</small>
+                        <div class="entregador-etapas"><span><i class="feito">✓</i>Aceito<small>12:30</small></span><span><i>•</i>Restaurante<small>12:36</small></span><span><i>•</i>Saída<small>12:45</small></span><span><i>•</i>Entrega<small>12:55</small></span></div>
+                    </article>
+                </section>
+                <section class="entregador-painel entregador-disponiveis" id="desempenho">
+                    <div class="entregador-painel-titulo"><h2>Pedidos disponíveis próximos a você</h2><a href="#corridas">Ver todos</a></div>
+                    <div class="entregador-pedidos-grid">
+                        <article><div><img src="./Fotos/laMorena.png" alt="La Morena"><strong>La Morena</strong><span>1,2 km</span></div><p>Rua das Acácias, 799<br>Centro, Uberlândia - MG</p><footer><b>R$ 12,50</b><button type="button" data-acao-corrida="aceitar">Aceitar</button></footer></article>
+                        <article><div><img src="./Fotos/logoPapa.png" alt="Papa Sushi"><strong>Papa Sushi</strong><span>2,4 km</span></div><p>Av. Rondon Pacheco, 100<br>Santa Mônica, Uberlândia - MG</p><footer><b>R$ 15,80</b><button type="button" data-acao-corrida="aceitar">Aceitar</button></footer></article>
+                        <article><div><img src="./Fotos/elRancho.png" alt="El Rancho"><strong>El Rancho</strong><span>1,6 km</span></div><p>Rua João Felipe, 445<br>Centro, Uberlândia - MG</p><footer><b>R$ 10,30</b><button type="button" data-acao-corrida="aceitar">Aceitar</button></footer></article>
+                    </div>
+                </section>
+                <section class="entregador-painel entregador-resumo-inferior" id="ganho">
+                    <div><span>Ganho da semana</span><strong data-ganho-semana>R$ 0,00</strong><small>Entregas finalizadas nesta semana</small></div>
+                    <div><span>Distância percorrida</span><strong data-distancia-total>0 km</strong><small data-distancia-entregas>Em 0 corridas realizadas</small></div>
+                    <div><span>Tempo médio por entrega</span><strong data-tempo-medio>0 min</strong><small class="positivo">Atualizado após cada entrega</small></div>
+                </section>
+            </div>
+            <footer class="footer"><div class="footer-container"><div class="footer-col"><img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo"><p>A maneira mais prática de pedir refeições deliciosas sem sair de casa.</p></div><div class="footer-col"><h3>Navegação</h3><ul><li><a href="entregadorComLogin.html">Início</a></li><li><a href="sobrenosSemLogin.html">Sobre nós</a></li><li><a href="entregadorComLogin.html">Entregador</a></li><li><a href="restauranteSemLogin.html">Restaurantes</a></li></ul></div><div class="footer-col"><h3>Culinárias</h3><ul><li>Japonesa</li><li>Mexicana</li><li>Italiana</li><li>Francesa</li></ul></div><div class="footer-col"><h3>Contato</h3><ul><li>📧 contato@garfoo.com</li><li>📞 (34) 99999-9999</li><li>📍 Uberlândia - MG</li></ul></div></div><div class="footer-bottom">© 2026 Garfoo - Todos os direitos reservados.</div></footer>
+        </main>
+    </div>
+    <script src="mapaConfig.js"></script>
+    <script src="entregadorDadosStore.js?v=20261118-9"></script><script src="entregadorEstado.js?v=20261118-5"></script><script src="entregadorCorridasStore.js?v=20261118-3"></script><script src="entregadorAvaliacao.js?v=20261118-5"></script>
+    <script src="entregadorComLogin.js"></script>
+    <script src="contasUsuarioStore.js?v=20261118-8"></script>
+        <script src="perfilAlternancia.js?v=20261118-8"></script>
+</body>
+</html>
+

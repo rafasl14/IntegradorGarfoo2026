@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Garfoo — Página do cliente
+        </title>
+        <link rel="stylesheet" href="cliente.css?v=20261116-71">
+        <link rel="stylesheet" href="detalheProduto.css?v=20261102-2">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="perfilAlternancia.css">
+    </head>
+    <body class="footer-login">
+        <header class="cliente-header">
+            <a class="cliente-logo" href="cliente.html">
+                <img class="logo" src="./Fotos/11.png" alt="Garfoo">
+            </a>
+            <nav class="cliente-nav" aria-label="Navegação principal">
+                    <a class="ativo" href="cliente.html">Início</a>
+                    <a href="sobrenosSemLogin.html?menu=cliente">Sobre nós</a>
+                    <a href="restaurantesCliente.html">Restaurantes</a>
+                    <a href="meusPedidosCliente.html">Meus pedidos</a>
+                    <a href="carrinhoCliente.html">Carrinho</a>
+            </nav>
+            <div class="cliente-usuario">
+                <span class="cliente-avatar">
+                    
+                </span>
+                <strong data-saudacao-usuario>
+                    Olá!
+                </strong>
+                <div class="perfil-alternador" data-perfil-alternador hidden>
+                    <button class="perfil-botao" type="button" data-abrir-perfis aria-expanded="false" aria-label="Trocar perfil" title="Trocar perfil">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M7 7h10l-3-3M17 17H7l3 3M17 7l3 3-3 3M7 17l-3-3 3-3"/>
+                        </svg>
+                    </button>
+                    <nav class="perfil-menu" data-menu-perfis hidden aria-label="Modos disponíveis">
+                        <a href="cliente.html" data-perfil-link="cliente">
+                            Modo Cliente
+                        </a>
+                        <a href="proprietario.html" data-perfil-link="proprietario">
+                            Modo Proprietário
+                        </a>
+                        <a href="entregadorComLogin.html" data-perfil-link="entregador">Modo Entregador
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="cliente-hero">
+            <div class="cliente-hero-conteudo">
+                <h1>
+                    A melhor refeição
+                </h1>
+                <p>
+                    começa com um clique
+                </p>
+                <span>
+                    Italiana · Mexicana · Japonesa · Francesa | até 50 min
+                </span>
+                <form class="busca-cliente">
+                    <input type="search" placeholder="Buscar pratos ou restaurantes..." aria-label="Buscar pratos ou restaurantes">
+                    <select aria-label="Filtrar por restaurante">
+<option>Todos os restaurantes</option>
+<option>Ay Jalisco</option>
+<option>Costiera</option>
+<option>Di Napoli</option>
+<option>El Rancho</option>
+<option>Ichiran Ramen</option>
+<option>La Morena</option>
+<option>La Petit Etoile</option>
+<option>Le Verre</option>
+<option>Papa Sushi</option>
+<option>Pasta &amp; Passione</option>
+<option>Pépin Restaurant</option>
+<option>Suba Sushi</option>
+<option>Sushi Yoji Bar</option>
+<option>Vino &amp; Sapori</option>
+<option>Zócalo</option>
+</select>
+                    <button type="submit">
+                        Buscar
+                    </button>
+                </form>
+            </div>
+        </section>
+        <div class="cliente-categorias" aria-label="Categorias dos produtos">
+            <button class="categoria-ativa" data-categoria-filtro="Todos">
+                Todos
+            </button>
+            <a href="pratosPrincipais.html" data-categoria-filtro="Pratos Principais">
+                Pratos principais
+            </a>
+            <a href="sobremesasCliente.html" data-categoria-filtro="Sobremesas">
+                Sobremesas
+            </a>
+            <a href="bebidasCliente.html" data-categoria-filtro="Bebidas">
+                Bebidas
+            </a>
+            <a href="combosCliente.html" data-categoria-filtro="Combos">
+                Combos
+            </a>
+        </div>
+        <section class="cliente-busca-resultados" data-resultados-busca hidden aria-live="polite"></section>
+        <main class="cliente-main">
+            <section class="cliente-secao">
+                <p class="cliente-legenda">
+                    Restaurantes
+                </p>
+                <div class="cliente-titulo-linha">
+                    <h2>
+                        Escolha onde pedir
+                    </h2>
+                    <button class="ver-todos-restaurantes" type="button" data-abrir-lista-restaurantes aria-expanded="false" aria-controls="lista-restaurantes-suspensa">
+                        Ver todos
+                    </button>
+                </div>
+                <div class="cliente-carrossel"> 
+                    <div id="carrossel-restaurantes" class="restaurantes-cliente">
+                        <a class="restaurante-redondo" href="cliente.html?restaurante=Suba%20Sushi">
+                            <img src="./Fotos/subaSushi.png" alt="Suba Sushi">
+                        </a>
+                        <a class="restaurante-redondo" href="cliente.html?restaurante=Le%20Verre">
+                            <img src="./Fotos/leVerre.png" alt="Le Verre">
+                        </a>
+                        <a class="restaurante-redondo" href="cliente.html?restaurante=Papa%20Sushi">
+                            <img src="./Fotos/papaSushi.png" alt="Papa Sushi">
+                        </a>
+                        <a class="restaurante-redondo" href="cliente.html?restaurante=El%20Rancho">
+                            <img src="./Fotos/elRancho.png" alt="El Rancho">
+                        </a>
+                        <a class="restaurante-redondo" href="cliente.html?restaurante=Di%20Napoli">
+                            <img src="./Fotos/diNapoli.png" alt="Di Napoli">
+                        </a>
+                        <a class="restaurante-redondo" href="cliente.html?restaurante=Ay%20Jalisco">
+                            <img src="./Fotos/ayJalisco.png" alt="Ay Jalisco">
+                        </a>
+                        <a class="restaurante-redondo" href="cliente.html?restaurante=Ichiran%20Ramen">
+                            <img src="./Fotos/ichiranRamen.png" alt="Ichiran Ramen">
+                        </a>
+                    </div>
+                </div>
+                <div id="lista-restaurantes-suspensa" class="lista-restaurantes-suspensa" data-lista-restaurantes-suspensa hidden>
+                    <div class="lista-restaurantes-cabecalho">
+                        <h3>
+                            Todos os restaurantes
+                        </h3>
+                        <button class="fechar-lista-restaurantes" type="button" data-fechar-lista-restaurantes aria-label="Fechar lista">
+                            ×
+                        </button>
+                    </div>
+                    <div class="lista-restaurantes-itens" data-itens-lista-restaurantes></div>
+                    <p class="lista-restaurantes-mensagem" data-mensagem-lista-restaurantes role="status"></p>
+                </div>
+            </section>
+            <section id="pratos-principais" class="cliente-secao" data-secao-produtos>
+                <p class="cliente-legenda">
+                    Alguns pratos
+                </p>
+                <div class="cliente-titulo-linha">
+                    <h2>
+                        Escolha seu prato principal
+                    </h2>
+                    <a href="pratosPrincipais.html">
+                        Ver todos
+                    </a>
+                </div>
+                <div class="cliente-carrossel cliente-carrossel-pratos">
+                    <div class="carrossel-fileira-pratos">
+                        <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-pratos-fileira-1" data-carrossel-direcao="-1" aria-label="Pratos anteriores da primeira fileira">
+                            ←
+                        </button>
+                        <div id="carrossel-pratos-fileira-1" class="produtos-cliente">
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="pepin-ratatouille">
+                            <button class="favorito-produto" type="button" data-favoritar="pepin-ratatouille" aria-label="Adicionar Ratatouille aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/ratatouillePepinRestaurant.png" alt="Ratatouille">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/pepinRestaurant.png" alt="Pepin Restaurant">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Ratatouille
+                                    </strong>
+                                    <span>
+                                        R$ 24,99
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                25–40 min · R$ 7,90
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="suba-sushi-hot-roll">
+                            <button class="favorito-produto" type="button" data-favoritar="suba-sushi-hot-roll" aria-label="Adicionar Hot Roll aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/hotrollSuba.png" alt="Hot Roll">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/subaSushi.png" alt="Suba Sushi">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Hot Roll
+                                    </strong>
+                                    <span>
+                                        R$ 49,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                20–30 min · R$ 8,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Entradas" data-favorito-id="el-rancho-guacamole">
+                            <button class="favorito-produto" type="button" data-favoritar="el-rancho-guacamole" aria-label="Adicionar Guacamole aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/guacamoleElRancho.png" alt="Guacamole">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/elRancho.png" alt="El Rancho">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Guacamole
+                                    </strong>
+                                    <span>
+                                        R$ 20,99
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                15–30 min · R$ 11,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="le-verre-coq-au-vin">
+                            <button class="favorito-produto" type="button" data-favoritar="le-verre-coq-au-vin" aria-label="Adicionar Coq au Vin aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/coqAuVinLeVerre.png" alt="Coq au Vin">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/leVerre.png" alt="Le Verre">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Coq au Vin
+                                    </strong>
+                                    <span>
+                                        R$ 89,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                30–40 min · R$ 8,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="le-verre-french-onion-soup">
+                            <button class="favorito-produto" type="button" data-favoritar="le-verre-french-onion-soup" aria-label="Adicionar French Onion Soup aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/soupeALOignonALaParisienneLaPetitEtoile.png" alt="French Onion Soup">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/leVerre.png" alt="Le Verre">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        French Onion Soup
+                                    </strong>
+                                    <span>
+                                        R$ 38,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                25–40 min · R$ 8,99
+                            </small>
+                        </article>
+                        </div>
+                        <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-pratos-fileira-1" data-carrossel-direcao="1" aria-label="Próximos pratos da primeira fileira">
+                            →
+                        </button>
+                    </div>
+                    <div class="carrossel-fileira-pratos">
+                        <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-pratos-fileira-2" data-carrossel-direcao="-1" aria-label="Pratos anteriores da segunda fileira">
+                            ←
+                        </button>
+                        <div id="carrossel-pratos-fileira-2" class="produtos-cliente">
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="le-verre-coq-au-riesling">
+                            <button class="favorito-produto" type="button" data-favoritar="le-verre-coq-au-riesling" aria-label="Adicionar Coq au Riesling aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/coqAuRieslingLeVerre.png" alt="Coq au Riesling">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/leVerre.png" alt="Le Verre">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Coq au Riesling
+                                    </strong>
+                                    <span>
+                                        R$ 79,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                30–40 min · R$ 8,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="le-verre-moules-marinieres">
+                            <button class="favorito-produto" type="button" data-favoritar="le-verre-moules-marinieres" aria-label="Adicionar Moules Marinières aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/moulesMarinieresLeVerre.png" alt="Moules Marinières">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/leVerre.png" alt="Le Verre">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Moules Marinières
+                                    </strong>
+                                    <span>
+                                        R$ 79,99
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                30–40 min · R$ 8,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="pepin-cuisse-de-canard">
+                            <button class="favorito-produto" type="button" data-favoritar="pepin-cuisse-de-canard" aria-label="Adicionar Cuisse de Canard aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/cuisseDeCanardPepinRestaurant.png" alt="Cuisse de Canard">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/pepinRestaurant.png" alt="Pepin Restaurant">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Cuisse de Canard
+                                    </strong>
+                                    <span>
+                                        R$ 84,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                25–40 min · R$ 7,90
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="pepin-steak-tartare">
+                            <button class="favorito-produto" type="button" data-favoritar="pepin-steak-tartare" aria-label="Adicionar Steak Tartare aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/steakTartarePepinRestaurant.png" alt="Steak Tartare">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/pepinRestaurant.png" alt="Pepin Restaurant">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Steak Tartare
+                                    </strong>
+                                    <span>
+                                        R$ 64,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                25–40 min · R$ 7,90
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="ichiran-sapporo-ramen">
+                            <button class="favorito-produto" type="button" data-favoritar="ichiran-sapporo-ramen" aria-label="Adicionar Sapporo Ramen aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/sapporoRamenIchiranRamen.png" alt="Sapporo Ramen">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/ichiranRamen.png" alt="Ichiran Ramen">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Sapporo Ramen
+                                    </strong>
+                                    <span>
+                                        R$ 64,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                30–45 min · R$ 9,99
+                            </small>
+                        </article>
+                        </div>
+                        <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-pratos-fileira-2" data-carrossel-direcao="1" aria-label="Próximos pratos da segunda fileira">
+                            →
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="sobremesas" class="cliente-secao" data-secao-produtos>
+                <p class="cliente-legenda">Sobremesas</p>
+                <div class="cliente-titulo-linha">
+                    <h2>Um doce para fechar</h2>
+                    <a href="sobremesasCliente.html">Ver todas</a>
+                </div>
+                <div class="cliente-carrossel">
+                    <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-sobremesas" data-carrossel-direcao="-1" aria-label="Sobremesas anteriores">←</button>
+                    <div id="carrossel-sobremesas" class="produtos-cliente" data-lista-sobremesas>
+                        <p class="cliente-legenda">Carregando sobremesas...</p>
+                    </div>
+                    <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-sobremesas" data-carrossel-direcao="1" aria-label="Próximas sobremesas">→</button>
+                </div>
+            </section>
+            <section class="cliente-secao" data-secao-produtos>
+                <p class="cliente-legenda">
+                    Sugestões
+                </p>
+                <h2>
+                    Peça seus favoritos
+                </h2>
+                <div class="cliente-carrossel">
+                    <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-sugestoes" data-carrossel-direcao="-1" aria-label="Sugestões anteriores">
+                        ←
+                    </button>
+                    <div id="carrossel-sugestoes" class="produtos-cliente produtos-menores">
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="papa-sushi-temaki">
+                            <button class="favorito-produto" type="button" data-favoritar="papa-sushi-temaki" aria-label="Adicionar Temaki aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/temakiDeSalmaoPapaSushi.png" alt="Temaki">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/papaSushi.png" alt="Papa Sushi">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Temaki com Salmão
+                                    </strong>
+                                    <span>
+                                        R$ 22,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                15–30 min · R$ 11,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Entradas" data-favorito-id="el-rancho-guacamole">
+                            <button class="favorito-produto" type="button" data-favoritar="el-rancho-guacamole" aria-label="Adicionar Guacamole aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/guacamoleElRancho.png" alt="Guacamole">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/elRancho.png" alt="El Rancho">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Guacamole
+                                    </strong>
+                                    <span>
+                                        R$ 20,99
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                15–30 min · R$ 11,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="pepin-ratatouille">
+                            <button class="favorito-produto" type="button" data-favoritar="pepin-ratatouille" aria-label="Adicionar Ratatouille aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/ratatouillePepinRestaurant.png" alt="Ratatouille">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/pepinRestaurant.png" alt="Pepin Restaurant">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Ratatouille
+                                    </strong>
+                                    <span>
+                                        R$ 24,99
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                25–40 min · R$ 7,90
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="suba-sushi-hot-roll">
+                            <button class="favorito-produto" type="button" data-favoritar="suba-sushi-hot-roll" aria-label="Adicionar Hot Roll aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/hotrollSuba.png" alt="Hot Roll">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/subaSushi.png" alt="Suba Sushi">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Hot Roll
+                                    </strong>
+                                    <span>
+                                        R$ 49,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                20–30 min · R$ 8,99
+                            </small>
+                        </article>
+                        <article class="produto-cliente" data-categoria-produto="Pratos Principais" data-favorito-id="le-verre-coq-au-vin">
+                            <button class="favorito-produto" type="button" data-favoritar="le-verre-coq-au-vin" aria-label="Adicionar Coq au Vin aos favoritos" aria-pressed="false">
+                                ♡
+                            </button>
+                            <img src="./Fotos/coqAuVinLeVerre.png" alt="Coq au Vin">
+                            <div class="produto-separador">
+                            </div>
+                            <div class="produto-info">
+                                <img class="produto-restaurante-logo" src="./Fotos/leVerre.png" alt="Le Verre">
+                                <div class="produto-detalhes">
+                                    <strong>
+                                        Coq au Vin
+                                    </strong>
+                                    <span>
+                                        R$ 89,90
+                                    </span>
+                                </div>
+                            </div>
+                            <small>
+                                30–40 min · R$ 8,99
+                            </small>
+                        </article>
+                    </div>
+                    <button class="carrossel-seta" type="button" data-carrossel-alvo="carrossel-sugestoes" data-carrossel-direcao="1" aria-label="Próximas sugestões">
+                        →
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo">
+                    <p>
+                        A maneira mais prática de pedir refeições deliciosas sem sair de casa.
+                    </p>
+                </div>
+                <div class="footer-col">
+    <h3>Navegação</h3>
+    <ul>
+<li><a href="cliente.html" data-footer-link="inicio">Início</a></li>
+<li><a href="sobrenosSemLogin.html?menu=cliente" data-footer-link="sobre">Sobre nós</a></li>
+<li><a href="restaurantesCliente.html" data-footer-link="restaurantes">Restaurantes</a></li>
+<li><a href="meusPedidosCliente.html" data-footer-link="pedidos">Meus pedidos</a></li>
+<li><a href="carrinhoCliente.html" data-footer-link="carrinho">Carrinho</a></li>
+</ul>
+</div>
+                <div class="footer-col">
+                    <h3>
+                        Culinárias
+                    </h3>
+                    <ul>
+                        <li>
+                            Japonesa
+                        </li>
+                        <li>
+                            Mexicana
+                        </li>
+                        <li>
+                            Italiana
+                        </li>
+                        <li>
+                            Francesa
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>
+                        Contato
+                    </h3>
+                    <ul>
+                        <li>
+                            📞 <span data-telefone-restaurante>(34) 99999-9999</span>
+                        </li>
+                        <li>
+                            📍 <span data-endereco-restaurante>Uberlândia - MG</span>
+                        </li>
+                        <li>
+                            ⏰ <span data-horario-restaurante>Consulte o restaurante</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2026 Garfoo - Todos os direitos reservados.
+            </div>
+        </footer>
+        <script src="clienteDadosStore.js?v=20261118-4"></script>
+        <script src="cliente.js?v=20261118-3">
+        </script>
+        <script src="detalheProduto.js?v=20261118-2">
+        </script>
+        <script src="listaRestaurantesCliente.js">
+        </script>
+        <script src="contasUsuarioStore.js?v=20261118-8"></script>
+        <script src="perfilAlternancia.js?v=20261118-8">
+        </script>
+        <script src="restaurantesFiltro.js?v=20261114-1"></script>
+    <script src="contaCliente.js?v=20261116-3"></script>
+    <script src="mascaras.js?v=20261115-3"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

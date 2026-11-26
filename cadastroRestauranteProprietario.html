@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Garfoo — Cadastro de restaurante</title>
+    <link rel="stylesheet" href="cadastroRestauranteProprietario.css">
+</head>
+<body>
+    <main class="cadastro-restaurante-pagina">
+        <a class="cadastro-restaurante-logo" href="cliente.html">Garfoo</a>
+        <section class="cadastro-restaurante-card">
+            <p class="cadastro-restaurante-etapa">Novo modo da conta</p>
+            <h1>Cadastre seu restaurante</h1>
+            <p class="cadastro-restaurante-intro">Informe apenas os dados do restaurante. As informações da sua conta de cliente serão mantidas.</p>
+            <form data-form-restaurante-proprietario>
+                <div class="cadastro-restaurante-grade">
+                    <label>CNPJ
+                        <input name="cnpj" inputmode="numeric" maxlength="18" placeholder="00.000.000/0000-00" required>
+                    </label>
+                    <label>Nome do restaurante
+                        <input name="nomeRes" maxlength="100" required>
+                    </label>
+                </div>
+                <label>Endereço do restaurante
+                    <input name="enderecoRes" maxlength="180" required>
+                </label>
+                <div class="cadastro-restaurante-grade">
+                    <label>Telefone do restaurante
+                        <input name="telefoneRes" type="tel" inputmode="numeric" maxlength="15" placeholder="(00) 00000-0000" required>
+                    </label>
+                    <label>Horário de funcionamento
+                        <input name="horarioRes" maxlength="11" placeholder="08:00-22:00" required>
+                    </label>
+                </div>
+                <p class="cadastro-restaurante-erro" data-erro-restaurante role="alert"></p>
+                <button type="submit">Salvar e entrar no modo proprietário</button>
+                <a class="cadastro-restaurante-voltar" href="cliente.html">Voltar ao modo cliente</a>
+            </form>
+        </section>
+    </main>
+    <script src="contasUsuarioStore.js?v=20261118-8"></script>
+    <script src="cadastroRestauranteProprietario.js?v=20261118-1"></script>
+</body>
+</html>
+

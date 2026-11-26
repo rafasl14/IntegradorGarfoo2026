@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Garfoo — Bebidas
+        </title>
+        <link rel="stylesheet" href="cliente.css?v=20261115-66">
+        <link rel="stylesheet" href="categoriasProdutos.css?v=20261102-4">
+        <link rel="stylesheet" href="detalheProduto.css?v=20261102-2">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="perfilAlternancia.css">
+    </head>
+    <body class="footer-login pagina-categoria-produto" data-categoria-produto="Bebidas">
+        <header class="cliente-header">
+            <a class="cliente-logo" href="cliente.html"><img src="./Fotos/11.png" alt="Garfoo"></a>
+            <nav class="cliente-nav" aria-label="Navegação principal">
+<a href="cliente.html">Início</a>
+<a href="sobrenosSemLogin.html?menu=cliente">Sobre nós</a>
+<a href="restaurantesCliente.html">Restaurantes</a>
+<a href="meusPedidosCliente.html">Meus pedidos</a>
+<a href="carrinhoCliente.html">Carrinho</a>
+</nav>
+            <div class="cliente-usuario">
+                <span class="cliente-avatar"></span>
+                <strong data-saudacao-usuario>Olá!</strong>
+                <div class="perfil-alternador" data-perfil-alternador hidden>
+                    <button class="perfil-botao" type="button" data-abrir-perfis aria-expanded="false" aria-label="Trocar perfil" title="Trocar perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10l-3-3M17 17H7l3 3M17 7l3 3-3 3M7 17l-3-3 3-3"/></svg></button>
+                    <nav class="perfil-menu" data-menu-perfis hidden aria-label="Modos disponíveis"><a href="cliente.html" data-perfil-link="cliente">Modo Cliente</a><a href="proprietario.html" data-perfil-link="proprietario">Modo Proprietário</a><a href="entregadorComLogin.html" data-perfil-link="entregador">Modo Entregador</a></nav>
+                </div>
+            </div>
+        </header>
+        <section class="cliente-hero">
+            <div class="cliente-hero-conteudo">
+                <h1>A melhor refeição</h1>
+                <p>começa com um clique</p>
+                <span>Italiana · Mexicana · Japonesa · Francesa | até 50 min</span>
+                <form class="busca-cliente"><input type="search" placeholder="Buscar pratos ou restaurantes..." aria-label="Buscar pratos ou restaurantes"><select aria-label="Filtrar por restaurante">
+<option>Todos os restaurantes</option>
+<option>Ay Jalisco</option>
+<option>Costiera</option>
+<option>Di Napoli</option>
+<option>El Rancho</option>
+<option>Ichiran Ramen</option>
+<option>La Morena</option>
+<option>La Petit Etoile</option>
+<option>Le Verre</option>
+<option>Papa Sushi</option>
+<option>Pasta &amp; Passione</option>
+<option>Pépin Restaurant</option>
+<option>Suba Sushi</option>
+<option>Sushi Yoji Bar</option>
+<option>Vino &amp; Sapori</option>
+<option>Zócalo</option>
+</select><button type="submit">Buscar</button></form>
+            </div>
+        </section>
+        <div class="cliente-categorias" aria-label="Categorias dos produtos">
+            <a href="cliente.html" data-categoria-filtro="Todos">Todos</a>
+            <a href="pratosPrincipais.html" data-categoria-filtro="Pratos Principais">Pratos principais</a>
+            <a href="sobremesasCliente.html" data-categoria-filtro="Sobremesas">Sobremesas</a>
+            <a class="categoria-ativa" href="bebidasCliente.html" data-categoria-filtro="Bebidas" aria-current="page">Bebidas</a>
+            <a href="combosCliente.html" data-categoria-filtro="Combos">Combos</a>
+        </div>
+        <main class="categoria-produto-pagina" data-categoria-produto="Bebidas">
+            <section class="categoria-produto-conteudo" aria-labelledby="titulo-bebidas">
+                <header class="categoria-produto-cabecalho"><p class="categoria-produto-legenda">Cardápio</p><h1 id="titulo-bebidas">Todas as bebidas</h1><p>Escolha sua bebida favorita entre todas as opções do Garfoo.</p></header>
+                <div class="categoria-produto-grade" data-grade-categoria></div>
+                <p class="categoria-produto-mensagem" data-mensagem-categoria role="status">Carregando bebidas...</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-col"><img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo"><p>A maneira mais prática de pedir refeições deliciosas sem sair de casa.</p></div>
+                <div class="footer-col">
+    <h3>Navegação</h3>
+    <ul>
+<li><a href="cliente.html" data-footer-link="inicio">Início</a></li>
+<li><a href="sobrenosSemLogin.html?menu=cliente" data-footer-link="sobre">Sobre nós</a></li>
+<li><a href="restaurantesCliente.html" data-footer-link="restaurantes">Restaurantes</a></li>
+<li><a href="meusPedidosCliente.html" data-footer-link="pedidos">Meus pedidos</a></li>
+<li><a href="carrinhoCliente.html" data-footer-link="carrinho">Carrinho</a></li>
+</ul>
+</div>
+                <div class="footer-col"><h3>Culinárias</h3><ul><li>Japonesa</li><li>Mexicana</li><li>Italiana</li><li>Francesa</li></ul></div>
+                <div class="footer-col"><h3>Contato</h3><ul><li>📞 (34) 99999-9999</li><li>📍 Uberlândia - MG</li><li>⏰ Consulte o restaurante</li></ul></div>
+            </div>
+            <div class="footer-bottom">© 2026 Garfoo - Todos os direitos reservados.</div>
+        </footer>
+        <script src="clienteDadosStore.js?v=20261118-4"></script>
+        <script src="categoriaProduto.js?v=20261118-2"></script>
+        <script src="detalheProduto.js?v=20261118-2"></script>
+        <script src="contasUsuarioStore.js?v=20261118-8"></script>
+        <script src="perfilAlternancia.js?v=20261118-8"></script>
+        <script src="restaurantesFiltro.js?v=20261114-1"></script>
+    <script src="contaCliente.js?v=20261116-3"></script>
+    <script src="mascaras.js?v=20261115-3"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

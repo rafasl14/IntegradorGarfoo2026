@@ -1,0 +1,12 @@
+.botao-voltar { padding: 9px 13px; border: 1px solid var(--driver-border); border-radius: 6px; background: #fff; color: var(--driver-orange); font-size: 13px; font-weight: 700; }
+.aviso-demonstracao { margin: 0 0 12px; color: var(--driver-muted); font-size: 13px; }
+.card-pagina { padding: 16px; border: 1px solid var(--driver-border); border-radius: 9px; background: #fff; box-shadow: var(--driver-shadow); }
+.filtros-periodo { display: flex; justify-content: flex-end; gap: 6px; margin: 0 0 11px; }.filtros-periodo button { min-width: 76px; padding: 8px 12px; border: 1px solid var(--driver-border); border-radius: 6px; background: #fff; color: var(--driver-muted); font-size: 13px; font-weight: 700; }.filtros-periodo button.ativo { border-color: var(--driver-orange); background: var(--driver-orange); color: #fff; }
+.metricas-desempenho { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 11px; }
+.metricas-desempenho article { display: grid; gap: 9px; }.metricas-desempenho span,.metricas-desempenho small { color: var(--driver-muted); font-size: 13px; }.metricas-desempenho strong { font-size: 27px; }
+.barra { height: 8px; overflow: hidden; border-radius: 8px; background: #f0f1f2; }.barra i { display: block; height: 100%; border-radius: inherit; background: var(--driver-orange); }
+.comparacao-periodos { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin-top: 12px; }
+.comparacao-periodos span,.comparacao-periodos small { color: var(--driver-muted); font-size: 13px; }
+.comparacao-periodos strong { color: var(--driver-green); font-size: 15px; }
+@media(max-width:1000px) { .metricas-desempenho { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media(max-width:720px) { .metricas-desempenho { grid-template-columns: 1fr; }.botao-voltar { white-space: nowrap; }.comparacao-periodos { align-items: flex-start; flex-direction: column; } }

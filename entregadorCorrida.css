@@ -1,0 +1,20 @@
+.botao-voltar { padding: 9px 13px; border: 1px solid var(--driver-border); border-radius: 6px; background: #fff; color: var(--driver-orange); font-size: 13px; font-weight: 700; }
+.pagina-cabecalho { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 14px; min-width: 0; flex-wrap: wrap; }
+.pagina-cabecalho h2 { margin: 0 0 5px; font-size: 20px; }
+.pagina-cabecalho p { margin: 0; color: var(--driver-muted); font-size: 13px; }
+.filtros-corridas { display: flex; gap: 6px; flex-wrap: wrap; }
+.filtros-corridas button { padding: 8px 11px; border: 1px solid var(--driver-border); border-radius: 6px; background: #fff; color: var(--driver-muted); font-size: 13px; font-weight: 700; }
+.filtros-corridas button.ativo { border-color: var(--driver-orange); background: var(--driver-orange); color: #fff; }
+.lista-corridas { display: grid; gap: 10px; }
+.card-pagina { padding: 15px; border: 1px solid var(--driver-border); border-radius: 9px; background: #fff; box-shadow: var(--driver-shadow); }
+.corrida-topo, .corrida-card footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.corrida-card { min-width: 0; overflow-wrap: anywhere; }
+.corrida-card p { margin: 12px 0 0; color: var(--driver-muted); font-size: 13px; line-height: 1.5; }
+.corrida-card p b { display: inline-block; min-width: 74px; color: var(--driver-ink); }
+.corrida-card footer { margin-top: 14px; padding-top: 11px; border-top: 1px solid var(--driver-border); color: var(--driver-muted); font-size: 13px; }
+.corrida-card footer strong { color: var(--driver-ink); font-size: 13px; }
+.corrida-card footer a { color: var(--driver-orange); font-weight: 700; }
+.status { padding: 5px 8px; border-radius: 12px; font-size: 13px; font-weight: 700; }
+.status.entregue { background: #e6f7e9; color: var(--driver-green); }
+.status.andamento { background: #fff2e8; color: var(--driver-orange); }
+@media(max-width:720px) { .pagina-cabecalho { align-items: stretch; flex-direction: column; }.corrida-card footer { display: grid; grid-template-columns: minmax(0,1fr) auto; justify-content: stretch; gap: 9px; }.corrida-card footer > :first-child { grid-column: 1 / -1; }.corrida-card p b { display: block; margin-bottom: 3px; }.filtros-corridas button { flex: 1 1 auto; min-height: 40px; }.botao-voltar { white-space: nowrap; } }

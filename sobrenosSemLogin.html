@@ -1,0 +1,406 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Garfoo — A maneira mais prática de pedir refeições
+    </title>
+    <link rel="stylesheet" href="sobrenosSemLogin.html.css?v=20261116-1">
+    <link rel="stylesheet" href="modalCadastro.css?v=20261115-3">
+    <link rel="stylesheet" href="modalLogin.css">
+    <link rel="stylesheet" href="modalRecuperarSenha.css">
+    <link rel="stylesheet" href="clienteMenu.css?v=20261115-10">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container header-inner">
+            <img class="logo" src="./Fotos/11.png" alt="Logo Garfoo" />
+            <nav>
+                <a href="indexInicio.html" >
+                    Início
+                </a>
+                <a href="sobrenosSemLogin.html" class="active">
+                    Sobre nós
+                </a>
+                <a href="entregadorSemLogin.html">
+                    Entregador
+                </a>
+                <a href="restauranteSemLogin.html">
+                    Restaurantes
+                </a>
+            </nav>
+            <div class="header-actions">
+                <button class="btn-e btn-outline" type="button" data-abrir-login>
+                    <b>
+                        Entrar
+                    </b>
+                </button>
+                <button class="btn-e btn-primary" data-abrir-cadastro>
+                    <b>
+                        Cadastrar
+                    </b>
+                </button>
+            </div>
+        </div>
+    </header>
+    <header class="cliente-header" data-menu-cliente hidden>
+        <a class="cliente-logo" href="cliente.html">
+            <img class="logo" src="./Fotos/11.png" alt="Garfoo" />
+        </a>
+        <nav class="cliente-nav" aria-label="Navegação principal">
+<a href="cliente.html">
+                Início
+            </a>
+<a class="ativo" href="sobrenosSemLogin.html?menu=cliente">
+                Sobre nós
+            </a>
+<a href="restaurantesCliente.html">
+                Restaurantes
+            </a>
+<a href="meusPedidosCliente.html">
+                Meus pedidos
+            </a>
+<a href="carrinhoCliente.html">
+                Carrinho
+            </a>
+</nav>
+        <div class="cliente-usuario">
+            <span class="cliente-avatar">
+                
+            </span>
+            <strong data-saudacao-usuario>
+                Olá!
+            </strong>
+        </div>
+    </header>
+    <!-- BANNER -->
+    <section class="banner-sobre">
+        <div class="banner-overlay">
+            <div class="banner-text">
+                <h1>
+                    Sobre nós
+                </h1>
+                <p>
+                    Nossa missão é facilitar o seu dia a dia, otimizando cada etapa para que você tenha mais praticidade, segurança e uma experiência de qualidade.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- INTRODUÇÃO -->
+    <section class="sobre-intro">
+        <div class="container">
+            <div class="intro-box">
+                Este sistema para administração de encomendas e entregas de alimentos visa unificar, em uma única plataforma, a administração de usuários, restaurantes, pedidos, pagamentos e entregas. O propósito é simplificar as solicitações, aprimorar o processo de entrega e melhorar a comunicação entre todos os participantes.
+            </div>
+        </div>
+    </section>
+    <!-- COMO FUNCIONA -->
+    <section class="como-funciona">
+        <div class="container">
+            <div class="titulo-com-linhas">
+                <h2>
+                    Como o sistema funciona
+                </h2>
+            </div>
+            <div class="funciona-grid">
+                <div class="funciona-card">
+                    <img src="./Fotos/cliente.png">
+                    <h3>
+                        Usuários realizam pedidos
+                    </h3>
+                    <p>
+                        O cliente escolhe o restaurante, seleciona os produtos, faz o pedido e acompanha o status da entrega em tempo real.
+                    </p>
+                </div>
+                <div class="funciona-card">
+                    <img src="./Fotos/restaurante.png">
+                    <h3>
+                        Restaurantes recebem pedidos
+                    </h3>
+                    <p>
+                        O pedido é enviado automaticamente ao restaurante, que prepara a refeição com qualidade e dentro do prazo estimado.
+                    </p>
+                </div>
+                <div class="funciona-card">
+                    <img src="./Fotos/entregador.png">
+                    <h3>
+                        Entregadores realizam entregas
+                    </h3>
+                    <p>
+                        Após o preparo, o pedido é coletado pelo entregador e transportado com segurança até o endereço do cliente.
+                    </p>
+                </div>
+                <div class="funciona-card">
+                    <img src="./Fotos/pagamento.png">
+                    <h3>
+                        Pagamentos seguros
+                    </h3>
+                    <p>
+                        O pagamento é processado pela plataforma, garantindo praticidade e segurança para clientes e restaurantes.
+                    </p>
+                </div>
+                <div class="funciona-card">
+                    <img src="./Fotos/avaliacao.png">
+                    <h3>
+                        Avaliações
+                    </h3>
+                    <p>
+                        O pagamento é processado pela plataforma, garantindo praticidade e segurança para clientes e restaurantes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BENEFÍCIOS -->
+    <section class="beneficios">
+        <div class="container">
+            <h2>
+                Por que escolher Garfoo?
+            </h2>
+            <div class="beneficios-grid">
+                <div class="beneficio">
+                    <img src="./Fotos/variedade.png">
+                    <h3>
+                        Variedade
+                    </h3>
+                    <p>
+                        Diversos restaurantes e pratos para todos os gostos.
+                    </p>
+                </div>
+                <div class="beneficio">
+                    <img src="./Fotos/praticidade.png">
+                    <h3>
+                        Praticidade
+                    </h3>
+                    <p>
+                        Peça de onde estiver, a qualquer hora, de forma simples e rápida.
+                    </p>
+                </div>
+                <div class="beneficio">
+                    <img src="./Fotos/avaliacoes.png">
+                    <h3>
+                        Qualidade
+                    </h3>
+                    <p>
+                        Trabalhamos com parceiros selecionados e avaliados.
+                    </p>
+                </div>
+                <div class="beneficio">
+                    <img src="./Fotos/confianca.png">
+                    <h3>
+                        Confiança
+                    </h3>
+                    <p>
+                        Plataforma segura, transparente e feita para você.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COMPROMISSO + EQUIPE -->
+    <section class="sobre-extra">
+        <div class="container extra-grid">
+            <div class="compromisso">
+                <h2>
+                    Nosso compromisso
+                </h2>
+                <p>
+                    Trabalhamos todos os dias para oferecer uma experiência simples, rápida e segura na realização de pedidos e entregas de comida. Nosso compromisso é conectar clientes, restaurantes e entregadores em uma única plataforma, promovendo praticidade, qualidade e confiança em cada etapa do processo. Garfoo conecta, você aproveita! 🍕🚀
+                </p>
+            </div>
+            <div class="equipe">
+                <h2>
+                    Quem faz o Garfoo acontecer
+                </h2>
+                <div class="membros">
+                    <div class="membro">
+                        <img src="./Fotos/anna.png">
+                        <span>
+                            Anna Laura
+                        </span>
+                    </div>
+                    <div class="membro">
+                        <img src="./Fotos/julia.png">
+                        <span>
+                            Júlia
+                        </span>
+                    </div>
+                    <div class="membro">
+                        <img src="./Fotos/rafaella.png">
+                        <span>
+                            Rafaella
+                        </span>
+                    </div>
+                    <div class="membro">
+                        <img src="./Fotos/rebeca.png">
+                        <span>
+                            Rebeca
+                        </span>
+                    </div>
+                </div>
+                <span>
+                    Uma equipe apaixonada por tecnologia, comida e pessoas, trabalhando para facilitar o seu dia a dia.
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- ESTATÍSTICAS -->
+    <section class="estatisticas">
+        <div class="container stats-grid">
+            <div class="stat">
+                <h3>
+                    +50
+                </h3>
+                <p>
+                    Restaurantes parceiros
+                </p>
+            </div>
+            <div class="stat">
+                <h3>
+                    +8.500
+                </h3>
+                <p>
+                    Pedidos entregues
+                </p>
+            </div>
+            <div class="stat">
+                <h3>
+                    30 min
+                </h3>
+                <p>
+                    Tempo médio
+                </p>
+            </div>
+            <div class="stat">
+                <h3>
+                    4,8
+                </h3>
+                <p>
+                    Avaliação média
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo -->
+            <div class="footer-col">
+                <img src="./Fotos/logoFooter.png" alt="Garfoo" class="footer-logo">
+                <p>
+                    A maneira mais prática de pedir refeições deliciosas sem sair de casa.
+                </p>
+            </div>
+            <!-- Navegação -->
+            <div class="footer-col">
+    <h3>Navegação</h3>
+    <ul>
+<li><a href="indexInicio.html" data-footer-link="inicio">Início</a></li>
+<li><a href="sobrenosSemLogin.html?menu=cliente" data-footer-link="sobre">Sobre nós</a></li>
+<li><a href="restauranteSemLogin.html" data-footer-link="restaurantes">Restaurantes</a></li>
+<li><a href="entregadorSemLogin.html" data-footer-link="entregador">Entregador</a></li>
+</ul>
+</div>
+            <!-- Culinárias -->
+            <div class="footer-col">
+                <h3>
+                    Culinárias
+                </h3>
+                <ul>
+                    <li>
+                        Japonesa
+                    </li>
+                    <li>
+                        Mexicana
+                    </li>
+                    <li>
+                        Italiana
+                    </li>
+                    <li>
+                        Francesa
+                    </li>
+                </ul>
+            </div>
+            <!-- Contato -->
+            <div class="footer-col">
+                <h3>
+                    Contato
+                </h3>
+                <ul>
+                    <li>
+                        📧 contato@garfoo.com
+                    </li>
+                    <li>
+                        📞 (34) 99999-9999
+                    </li>
+                    <li>
+                        📍 Uberlândia - MG
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Garfoo - Todos os direitos reservados.
+        </div>
+    </footer>
+    <div id="modal-cadastro" class="modal-cadastro" hidden aria-hidden="true">
+        <div class="modal-cadastro-fundo" data-fechar-cadastro>
+        </div>
+        <section class="modal-cadastro-caixa" role="dialog" aria-modal="true" aria-labelledby="titulo-modal-cadastro">
+            <button class="modal-cadastro-fechar" type="button" aria-label="Fechar" data-fechar-cadastro>
+                ×
+            </button>
+            <h2 id="titulo-modal-cadastro">
+                Como você deseja se cadastrar?
+            </h2>
+            <p>
+                Escolha uma opção para continuar:
+            </p>
+            <div class="opcoes-cadastro">
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="entregador">
+                    Entregador
+                </button>
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="proprietario">
+                    Proprietário
+                </button>
+                <button type="button" class="opcao-cadastro" data-tipo-cadastro="cliente">
+                    Cliente
+                </button>
+            </div>
+            <div id="formulario-cadastro">
+            </div>
+        </section>
+    </div>
+    <script src="contasUsuarioStore.js?v=20261118-8"></script><script src="modalCadastro.js?v=20261118-3">
+    </script>
+    <script src="modalLogin.js?v=20261118-6"></script>
+    <script src="modalRecuperarSenha.js"></script>
+    <script src="clienteMenu.js?v=20261116-2">
+    </script>
+    <script src="contaCliente.js?v=20261116-3"></script>
+    <script src="mascaras.js?v=20261115-3"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

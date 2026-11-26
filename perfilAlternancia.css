@@ -1,0 +1,88 @@
+.perfil-alternador {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.perfil-botao {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--perfil-acento, #f15b23);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--perfil-acento, #f15b23);
+  cursor: pointer;
+  transition: background-color .2s ease, color .2s ease, transform .2s ease;
+}
+.perfil-botao:hover,
+.perfil-botao:focus-visible {
+  background: var(--perfil-acento, #f15b23);
+  color: #fff;
+  transform: translateY(-1px);
+}
+.perfil-botao svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.perfil-modo-atual {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  margin-right: 7px;
+  padding: 4px 9px;
+  border: 1px solid #ead7ca;
+  border-radius: 14px;
+  color: #6b351c;
+  background: #fff9f4;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
+.perfil-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 1100;
+  min-width: 178px;
+  padding: 6px;
+  display: grid;
+  gap: 3px;
+  border: 1px solid #e7e8ea;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(43, 28, 20, .18);
+}
+.perfil-menu[hidden],
+.perfil-alternador[hidden] {
+  display: none !important;
+}
+.perfil-menu a {
+  display: block;
+  padding: 9px 10px;
+  border-radius: 6px;
+  color: #542818;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.perfil-menu a:hover,
+.perfil-menu a:focus-visible,
+.perfil-menu a[aria-current="page"] {
+  background: #fff0e8;
+  color: #f15b23;
+}
+@media (max-width: 720px) {
+  .perfil-menu {
+    right: auto;
+    left: 0;
+  }
+}

@@ -1,0 +1,5783 @@
+{
+  "restaurantes": [
+    {
+      "codRestaurante": 1,
+      "nomeRes": "Le Verre",
+      "enderecoRes": "Av. João Naves de Ávila, 1200, Uberlândia - MG",
+      "telefoneRes": "(34) 99123-4567",
+      "horarioRes": "08:00-22:00",
+      "avaliacaoRes": 4.5,
+      "statusRes": "Ativo",
+      "codProprie": 101,
+      "linkLogoRes": "./Fotos/leVerre.png",
+      "linkBannerRes": "./Fotos/bannerLeVerre.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 1,
+          "precoItemCardapio": 38.9,
+          "produto": {
+            "codProduto": 1,
+            "nomeProd": "French Onion Soup",
+            "descricaoProd": "Sopa clássica francesa com cebola caramelizada e crouton gratinado",
+            "linkFotoProd": "./Fotos/soupeALOignonALaParisienneLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 3,
+          "precoItemCardapio": 32.5,
+          "produto": {
+            "codProduto": 3,
+            "nomeProd": "Crème Brûlée",
+            "descricaoProd": "Creme de baunilha com casquinha de açúcar caramelizado",
+            "linkFotoProd": "./Fotos/cremeBruleeLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 19,
+          "precoItemCardapio": 79.9,
+          "produto": {
+            "codProduto": 17,
+            "nomeProd": "Coq au Riesling",
+            "descricaoProd": "Frango braseado em vinho branco Riesling com cogumelos e bacon",
+            "linkFotoProd": "./Fotos/coqAuRieslingLeVerre.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 20,
+          "precoItemCardapio": 35.99,
+          "produto": {
+            "codProduto": 18,
+            "nomeProd": "Salada Niçoise",
+            "descricaoProd": "Salada com atum, ovos, vagens, tomate e azeitonas",
+            "linkFotoProd": "./Fotos/saladaNicoiseLeVerre.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 21,
+          "precoItemCardapio": 79.99,
+          "produto": {
+            "codProduto": 19,
+            "nomeProd": "Moules Marinières",
+            "descricaoProd": "Mexilhões cozidos em vinho branco com alho, chalota e salsinha",
+            "linkFotoProd": "./Fotos/moulesMarinieresLeVerre.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 22,
+          "precoItemCardapio": 29,
+          "produto": {
+            "codProduto": 20,
+            "nomeProd": "Quiche Lorraine",
+            "descricaoProd": "Torta salgada de bacon, ovos e creme de leite com massa amanteigada",
+            "linkFotoProd": "./Fotos/quicheLorraineLeVerre.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 23,
+          "precoItemCardapio": 110.9,
+          "produto": {
+            "codProduto": 21,
+            "nomeProd": "Moules-Frites Clássico",
+            "descricaoProd": "Mexilhões ao vinho branco acompanhados de batatas fritas",
+            "linkFotoProd": "./Fotos/moulesFritesClassicoLeVerre.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 24,
+          "precoItemCardapio": 59.99,
+          "produto": {
+            "codProduto": 22,
+            "nomeProd": "Salada Saint-Pierre",
+            "descricaoProd": "Filé de peixe São Pedro grelhado sobre rúcula selvagem com molho de ervas finas",
+            "linkFotoProd": "./Fotos/saladaDeSaintPierreGrelhadoComRuculaSelvagemEMolhoDeErvasFinasLeVerre.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 25,
+          "precoItemCardapio": 54.9,
+          "produto": {
+            "codProduto": 23,
+            "nomeProd": "Le Poulet Grillé Classique",
+            "descricaoProd": "Frango grelhado com arroz, legumes e molhos da casa",
+            "linkFotoProd": "./Fotos/lePouletGrilleClassiqueLeVerre.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 26,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 27,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 28,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 29,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 30,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 31,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 32,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 33,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 34,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 35,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 3,
+      "nomeRes": "Pépin Restaurant",
+      "enderecoRes": "Rua Duque de Caxias, 450, Uberlândia - MG",
+      "telefoneRes": "(34) 99345-6789",
+      "horarioRes": "07:00-21:00",
+      "avaliacaoRes": 4.7,
+      "statusRes": "Ativo",
+      "codProprie": 103,
+      "linkLogoRes": "./Fotos/pepinRestaurant.png",
+      "linkBannerRes": "./Fotos/bannerPepinRestaurante.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 4,
+          "precoItemCardapio": 18.9,
+          "produto": {
+            "codProduto": 4,
+            "nomeProd": "Croissant de Presunto",
+            "descricaoProd": "Croissant folhado recheado com presunto e queijo gruyère",
+            "linkFotoProd": "./Fotos/croissantDePresuntoPepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 36,
+          "precoItemCardapio": 94.99,
+          "produto": {
+            "codProduto": 2,
+            "nomeProd": "Coq au Vin",
+            "descricaoProd": "Frango braseado ao vinho tinto com cogumelos e ervas provençais",
+            "linkFotoProd": "./Fotos/coqAuVinPepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 37,
+          "precoItemCardapio": 84.9,
+          "produto": {
+            "codProduto": 34,
+            "nomeProd": "Cuisse de Canard",
+            "descricaoProd": "Coxa de pato confitada servida com batatas e maçã",
+            "linkFotoProd": "./Fotos/cuisseDeCanardPepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 38,
+          "precoItemCardapio": 48,
+          "produto": {
+            "codProduto": 35,
+            "nomeProd": "Quiches",
+            "descricaoProd": "Caixa de quiches individuais com recheios variados",
+            "linkFotoProd": "./Fotos/quichesPepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 39,
+          "precoItemCardapio": 54.9,
+          "produto": {
+            "codProduto": 36,
+            "nomeProd": "Ravióli de Burrata",
+            "descricaoProd": "Ravióli recheado com burrata ao molho de tomate fresco",
+            "linkFotoProd": "./Fotos/ravioliDeBurrataPepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 40,
+          "precoItemCardapio": 64.9,
+          "produto": {
+            "codProduto": 37,
+            "nomeProd": "Steak Tartare",
+            "descricaoProd": "Carne bovina crua picada, temperada com mostarda, alcaparras e chalota",
+            "linkFotoProd": "./Fotos/steakTartarePepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 41,
+          "precoItemCardapio": 24.99,
+          "produto": {
+            "codProduto": 38,
+            "nomeProd": "Ratatouille",
+            "descricaoProd": "Legumes assados em camadas com molho de tomate e ervas da Provença",
+            "linkFotoProd": "./Fotos/ratatouillePepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 42,
+          "precoItemCardapio": 89.9,
+          "produto": {
+            "codProduto": 39,
+            "nomeProd": "Tartare Royale",
+            "descricaoProd": "Steak tartare acompanhado de chips crocantes e folhas",
+            "linkFotoProd": "./Fotos/tartareRoyalePepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 43,
+          "precoItemCardapio": 36,
+          "produto": {
+            "codProduto": 40,
+            "nomeProd": "Combo Quiche Tradicional",
+            "descricaoProd": "Fatia de quiche tradicional acompanhada de salada",
+            "linkFotoProd": "./Fotos/comboQuicheTradicionalPepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 44,
+          "precoItemCardapio": 50,
+          "produto": {
+            "codProduto": 41,
+            "nomeProd": "Brie & Bacon Brûlée",
+            "descricaoProd": "Queijo brie e bacon brûlée servidos sobre vagens grelhadas",
+            "linkFotoProd": "./Fotos/brieEBaconBruleeComVagensGrelhadasPepinRestaurant.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 45,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 46,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 47,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 48,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 49,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 50,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 51,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 52,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 53,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 54,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 4,
+      "nomeRes": "La Petit Etoile",
+      "enderecoRes": "Av. Floriano Peixoto, 2300, Uberlândia - MG",
+      "telefoneRes": "(34) 99456-7890",
+      "horarioRes": "10:00-22:30",
+      "avaliacaoRes": 4.1,
+      "statusRes": "Inativo",
+      "codProprie": 104,
+      "linkLogoRes": "./Fotos/laPetitEtoile.png",
+      "linkBannerRes": "./Fotos/bannerLaPetitEtoile.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 74,
+          "precoItemCardapio": 69.99,
+          "produto": {
+            "codProduto": 51,
+            "nomeProd": "Sole Meunière",
+            "descricaoProd": "Filé de linguado dourado na manteiga com limão e salsinha",
+            "linkFotoProd": "./Fotos/soleMeuniereLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 75,
+          "precoItemCardapio": 29.99,
+          "produto": {
+            "codProduto": 52,
+            "nomeProd": "Soupe à l'Oignon Gratinée",
+            "descricaoProd": "Sopa de cebola caramelizada com crouton e queijo gratinado",
+            "linkFotoProd": "./Fotos/soupeALOignonGratineeLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 76,
+          "precoItemCardapio": 25,
+          "produto": {
+            "codProduto": 3,
+            "nomeProd": "Crème Brûlée",
+            "descricaoProd": "Creme de baunilha com casquinha de açúcar caramelizado",
+            "linkFotoProd": "./Fotos/cremeBruleeLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 77,
+          "precoItemCardapio": 189.99,
+          "produto": {
+            "codProduto": 53,
+            "nomeProd": "Gigot d'Agneau",
+            "descricaoProd": "Pernil de cordeiro assado lentamente com ervas e alho",
+            "linkFotoProd": "./Fotos/gigotDAgneauLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 78,
+          "precoItemCardapio": 49.99,
+          "produto": {
+            "codProduto": 54,
+            "nomeProd": "Pot-au-Feu",
+            "descricaoProd": "Cozido francês de carne com legumes em caldo aromático",
+            "linkFotoProd": "./Fotos/potAuFeuLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 79,
+          "precoItemCardapio": 29.99,
+          "produto": {
+            "codProduto": 38,
+            "nomeProd": "Ratatouille",
+            "descricaoProd": "Legumes assados em camadas com molho de tomate e ervas da Provença",
+            "linkFotoProd": "./Fotos/ratatouilleLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 80,
+          "precoItemCardapio": 39.9,
+          "produto": {
+            "codProduto": 55,
+            "nomeProd": "Soupe à l'Oignon à la Parisienne",
+            "descricaoProd": "Sopa de cebola à parisiense com pão e queijo gratinado",
+            "linkFotoProd": "./Fotos/soupeALOignonALaParisienneLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 81,
+          "precoItemCardapio": 199.9,
+          "produto": {
+            "codProduto": 56,
+            "nomeProd": "Menu Duet de Paris",
+            "descricaoProd": "Menu completo para dois com pratos clássicos da casa",
+            "linkFotoProd": "./Fotos/menuDuetDeParisLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 82,
+          "precoItemCardapio": 40.99,
+          "produto": {
+            "codProduto": 57,
+            "nomeProd": "Salada Lionesa Premium",
+            "descricaoProd": "Salada lionesa com folhas, bacon e ovo poché",
+            "linkFotoProd": "./Fotos/saladaLionesaPremiumLaPetitEtoile.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 83,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 84,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 85,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 86,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 87,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 88,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 89,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 90,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 91,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 92,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 5,
+      "nomeRes": "El Rancho",
+      "enderecoRes": "Rua Olegário Maciel, 320, Uberlândia - MG",
+      "telefoneRes": "(34) 99567-8901",
+      "horarioRes": "09:00-22:00",
+      "avaliacaoRes": 4.8,
+      "statusRes": "Ativo",
+      "codProprie": 105,
+      "linkLogoRes": "./Fotos/elRancho.png",
+      "linkBannerRes": "./Fotos/bannerElRancho.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 7,
+          "precoItemCardapio": 28.9,
+          "produto": {
+            "codProduto": 6,
+            "nomeProd": "Guacamole com Nachos",
+            "descricaoProd": "Guacamole fresco artesanal acompanhado de nachos crocantes",
+            "linkFotoProd": "./Fotos/guacamoleComNachosElRancho.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 93,
+          "precoItemCardapio": 32.9,
+          "produto": {
+            "codProduto": 58,
+            "nomeProd": "Chilli Mexicano",
+            "descricaoProd": "Chili de carne e feijão com queijo gratinado",
+            "linkFotoProd": "./Fotos/chilliMexicanoElRancho.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 94,
+          "precoItemCardapio": 24.9,
+          "produto": {
+            "codProduto": 59,
+            "nomeProd": "Guacamole",
+            "descricaoProd": "Guacamole fresco de abacate com tomate, cebola e coentro, servido com nachos",
+            "linkFotoProd": "./Fotos/guacamoleElRancho.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 95,
+          "precoItemCardapio": 26.9,
+          "produto": {
+            "codProduto": 60,
+            "nomeProd": "Sope",
+            "descricaoProd": "Disco de massa de milho frito coberto com feijão, carne e salsa",
+            "linkFotoProd": "./Fotos/sopeElRancho.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 96,
+          "precoItemCardapio": 9.9,
+          "produto": {
+            "codProduto": 61,
+            "nomeProd": "Salsa Roja",
+            "descricaoProd": "Molho de tomate e pimentas assado, servido com nachos",
+            "linkFotoProd": "./Fotos/salsaRojaElRancho.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 97,
+          "precoItemCardapio": 9.9,
+          "produto": {
+            "codProduto": 62,
+            "nomeProd": "Salsa Habanero",
+            "descricaoProd": "Molho picante de pimenta habanero",
+            "linkFotoProd": "./Fotos/salsaHabaneroElRancho.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 98,
+          "precoItemCardapio": 38.9,
+          "produto": {
+            "codProduto": 63,
+            "nomeProd": "Burrito Diablo",
+            "descricaoProd": "Burrito de carne grelhada com molho picante",
+            "linkFotoProd": "./Fotos/burritoDiabloElRancho.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 99,
+          "precoItemCardapio": 42.9,
+          "produto": {
+            "codProduto": 64,
+            "nomeProd": "Carnitas",
+            "descricaoProd": "Tacos de carne de porco desfiada com coentro e limão",
+            "linkFotoProd": "./Fotos/carnitasElRancho.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 100,
+          "precoItemCardapio": 36.9,
+          "produto": {
+            "codProduto": 65,
+            "nomeProd": "Pozole",
+            "descricaoProd": "Caldo mexicano de milho com carne de porco, rabanete e repolho",
+            "linkFotoProd": "./Fotos/pozoleElRancho.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 101,
+          "precoItemCardapio": 9.9,
+          "produto": {
+            "codProduto": 66,
+            "nomeProd": "Salsa Verde",
+            "descricaoProd": "Molho de tomatillo com coentro e pimenta jalapeño",
+            "linkFotoProd": "./Fotos/salsaVerdeElRancho.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 102,
+          "precoItemCardapio": 12.9,
+          "produto": {
+            "codProduto": 67,
+            "nomeProd": "Pico de Gallo",
+            "descricaoProd": "Salsa fresca de tomate, cebola, coentro e limão",
+            "linkFotoProd": "./Fotos/picoDeGalloElRancho.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 103,
+          "precoItemCardapio": 49.9,
+          "produto": {
+            "codProduto": 68,
+            "nomeProd": "Combo Tex-Mex",
+            "descricaoProd": "Combo Tex-Mex com prato principal e acompanhamentos",
+            "linkFotoProd": "./Fotos/comboTexMexElRancho.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 104,
+          "precoItemCardapio": 39.99,
+          "produto": {
+            "codProduto": 69,
+            "nomeProd": "Combo Nacho Libre",
+            "descricaoProd": "Combo de nachos com molhos e acompanhamentos",
+            "linkFotoProd": "./Fotos/comboNachoLibreElRancho.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 105,
+          "precoItemCardapio": 34.9,
+          "produto": {
+            "codProduto": 70,
+            "nomeProd": "Combo Ranchero",
+            "descricaoProd": "Combo ranchero com prato principal e acompanhamento",
+            "linkFotoProd": "./Fotos/comboRancheroElRancho.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 106,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 107,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 108,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 109,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 110,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 111,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 112,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 113,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 114,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 115,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 6,
+      "nomeRes": "Zócalo",
+      "enderecoRes": "Av. Nicomedes Alves dos Santos, 1450, Uberlândia - MG",
+      "telefoneRes": "(34) 99678-9012",
+      "horarioRes": "11:00-00:00",
+      "avaliacaoRes": 4.4,
+      "statusRes": "Ativo",
+      "codProprie": 106,
+      "linkLogoRes": "./Fotos/zocalo.png",
+      "linkBannerRes": "./Fotos/bannerZocalo.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 154,
+          "precoItemCardapio": 49.99,
+          "produto": {
+            "codProduto": 86,
+            "nomeProd": "La Fiesta Nachos",
+            "descricaoProd": "Nachos com queijo, guacamole, pico de gallo e carne",
+            "linkFotoProd": "./Fotos/laFiestaNachosZocalo.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 155,
+          "precoItemCardapio": 30.9,
+          "produto": {
+            "codProduto": 87,
+            "nomeProd": "Enchiladas Rojas Tradicionais",
+            "descricaoProd": "Enchiladas cobertas com molho vermelho, queijo fresco e rabanete",
+            "linkFotoProd": "./Fotos/enchiladasRojasTradicionaisZocalo.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 156,
+          "precoItemCardapio": 32.9,
+          "produto": {
+            "codProduto": 81,
+            "nomeProd": "Huarache de Espinafre e Chorizo",
+            "descricaoProd": "Massa de milho oval coberta com espinafre e chorizo",
+            "linkFotoProd": "./Fotos/huaracheDeEspinafreEChorizoZocalo.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 157,
+          "precoItemCardapio": 19.5,
+          "produto": {
+            "codProduto": 88,
+            "nomeProd": "Pocket Quesadilla de Legumes",
+            "descricaoProd": "Quesadilla compacta recheada com queijo e legumes",
+            "linkFotoProd": "./Fotos/pocketQuesadillaDeLegumesZocalo.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 158,
+          "precoItemCardapio": 79.9,
+          "produto": {
+            "codProduto": 89,
+            "nomeProd": "Combo Tex-Mex Duplo",
+            "descricaoProd": "Combo Tex-Mex em porção dupla",
+            "linkFotoProd": "./Fotos/comboTexMexDuploZocalo.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 159,
+          "precoItemCardapio": 112,
+          "produto": {
+            "codProduto": 90,
+            "nomeProd": "La Fiesta El México",
+            "descricaoProd": "Combo festivo com variedade de pratos mexicanos",
+            "linkFotoProd": "./Fotos/laFiestaElMexicoZocalo.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 160,
+          "precoItemCardapio": 49.9,
+          "produto": {
+            "codProduto": 91,
+            "nomeProd": "Combo Mexican Box",
+            "descricaoProd": "Box individual com pratos mexicanos e acompanhamentos",
+            "linkFotoProd": "./Fotos/comboMexicanBoxZocalo.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 161,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 162,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 163,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 164,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 165,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 166,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 167,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 168,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 169,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 170,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 7,
+      "nomeRes": "La Morena",
+      "enderecoRes": "Rua Machado de Assis, 180, Uberlândia - MG",
+      "telefoneRes": "(34) 99789-0123",
+      "horarioRes": "06:30-20:00",
+      "avaliacaoRes": 3.9,
+      "statusRes": "Ativo",
+      "codProprie": 107,
+      "linkLogoRes": "./Fotos/laMorena.png",
+      "linkBannerRes": "./Fotos/bannerLaMorena.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 137,
+          "precoItemCardapio": 38.9,
+          "produto": {
+            "codProduto": 65,
+            "nomeProd": "Pozole",
+            "descricaoProd": "Caldo mexicano de milho com carne de porco, rabanete e repolho",
+            "linkFotoProd": "./Fotos/pozoleLaMorena.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 138,
+          "precoItemCardapio": 34.9,
+          "produto": {
+            "codProduto": 80,
+            "nomeProd": "Flauta de Bife",
+            "descricaoProd": "Tortilla de milho enrolada e frita, recheada com bife desfiado",
+            "linkFotoProd": "./Fotos/flautaDeBifeLaMorena.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 139,
+          "precoItemCardapio": 32.9,
+          "produto": {
+            "codProduto": 81,
+            "nomeProd": "Huarache de Espinafre e Chorizo",
+            "descricaoProd": "Massa de milho oval coberta com espinafre e chorizo",
+            "linkFotoProd": "./Fotos/huaracheDeEspinafreEChorizoLaMorena.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 140,
+          "precoItemCardapio": 36.9,
+          "produto": {
+            "codProduto": 82,
+            "nomeProd": "Chilaquiles de Frango",
+            "descricaoProd": "Chips de tortilla no molho de tomate com frango desfiado, queijo e creme",
+            "linkFotoProd": "./Fotos/chilaquilesDeFrangoLaMorena.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 141,
+          "precoItemCardapio": 139,
+          "produto": {
+            "codProduto": 83,
+            "nomeProd": "Combo Tex-Mex Supremo",
+            "descricaoProd": "Combo Tex-Mex completo para compartilhar",
+            "linkFotoProd": "./Fotos/comboTexMexSupremoLaMorena.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 142,
+          "precoItemCardapio": 28.9,
+          "produto": {
+            "codProduto": 84,
+            "nomeProd": "Combo Jalapeño",
+            "descricaoProd": "Combo individual com toque de pimenta jalapeño",
+            "linkFotoProd": "./Fotos/comboJalapenoLaMorena.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 143,
+          "precoItemCardapio": 49.9,
+          "produto": {
+            "codProduto": 85,
+            "nomeProd": "Combo Fiesta Suprema",
+            "descricaoProd": "Combo festivo com variedade de pratos mexicanos",
+            "linkFotoProd": "./Fotos/comboFiestaSupremaLaMorena.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 144,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 145,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 146,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 147,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 148,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 149,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 150,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 151,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 152,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 153,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 8,
+      "nomeRes": "Ay Jalisco",
+      "enderecoRes": "Av. Getúlio Vargas, 980, Uberlândia - MG",
+      "telefoneRes": "(34) 99890-1234",
+      "horarioRes": "12:00-23:30",
+      "avaliacaoRes": 4.6,
+      "statusRes": "Ativo",
+      "codProprie": 108,
+      "linkLogoRes": "./Fotos/ayJalisco.png",
+      "linkBannerRes": "./Fotos/bannerAyJalisco.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 116,
+          "precoItemCardapio": 44.9,
+          "produto": {
+            "codProduto": 71,
+            "nomeProd": "Cochinita Pibil",
+            "descricaoProd": "Carne de porco marinada em achiote e laranja-azeda, desfiada, com tortillas e cebola roxa",
+            "linkFotoProd": "./Fotos/cochinitaPibilAyJalisco.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 117,
+          "precoItemCardapio": 39.9,
+          "produto": {
+            "codProduto": 72,
+            "nomeProd": "Marmita com Mole Poblano",
+            "descricaoProd": "Marmita com arroz, frango e molho mole poblano de chocolate e pimentas",
+            "linkFotoProd": "./Fotos/marmitaComMolePoblanoAyJalisco.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 118,
+          "precoItemCardapio": 29.9,
+          "produto": {
+            "codProduto": 73,
+            "nomeProd": "Nachos",
+            "descricaoProd": "Nachos crocantes com queijo, pico de gallo e guacamole",
+            "linkFotoProd": "./Fotos/nachosAyJalisco.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 119,
+          "precoItemCardapio": 24.9,
+          "produto": {
+            "codProduto": 59,
+            "nomeProd": "Guacamole",
+            "descricaoProd": "Guacamole fresco de abacate com tomate, cebola e coentro, servido com nachos",
+            "linkFotoProd": "./Fotos/guacamoleAyJalisco.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 120,
+          "precoItemCardapio": 32.9,
+          "produto": {
+            "codProduto": 74,
+            "nomeProd": "Quesadillas",
+            "descricaoProd": "Tortillas de trigo grelhadas recheadas com queijo e frango",
+            "linkFotoProd": "./Fotos/quesadillasAyJalisco.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 121,
+          "precoItemCardapio": 34.9,
+          "produto": {
+            "codProduto": 75,
+            "nomeProd": "Chilli com Carne",
+            "descricaoProd": "Chili de feijão com carne servido com creme azedo",
+            "linkFotoProd": "./Fotos/chilliComCarneAyJalisco.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 122,
+          "precoItemCardapio": 39.9,
+          "produto": {
+            "codProduto": 76,
+            "nomeProd": "Burrito Califórnia",
+            "descricaoProd": "Burrito recheado com carne, batata frita, queijo e guacamole",
+            "linkFotoProd": "./Fotos/burritoCaliforniaAyJalisco.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 123,
+          "precoItemCardapio": 9.9,
+          "produto": {
+            "codProduto": 61,
+            "nomeProd": "Salsa Roja",
+            "descricaoProd": "Molho de tomate e pimentas assado, servido com nachos",
+            "linkFotoProd": "./Fotos/salsaRojaAyJalisco.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 124,
+          "precoItemCardapio": 69.99,
+          "produto": {
+            "codProduto": 77,
+            "nomeProd": "Combo Diablo para Dois",
+            "descricaoProd": "Combo picante da casa para dois",
+            "linkFotoProd": "./Fotos/comboDiabloParaDoisAyJalisco.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 125,
+          "precoItemCardapio": 90,
+          "produto": {
+            "codProduto": 78,
+            "nomeProd": "Mega Combo El Paso",
+            "descricaoProd": "Combo grande com pratos variados para compartilhar",
+            "linkFotoProd": "./Fotos/megaComboElPasoAyJalisco.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 126,
+          "precoItemCardapio": 48.9,
+          "produto": {
+            "codProduto": 79,
+            "nomeProd": "Combo Tex-Mex Vulcão",
+            "descricaoProd": "Combo Tex-Mex com toque picante",
+            "linkFotoProd": "./Fotos/comboTexMexVulcaoAyJalisco.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 127,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 128,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 129,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 130,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 131,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 132,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 133,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 134,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 135,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 136,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 9,
+      "nomeRes": "Suba Sushi",
+      "enderecoRes": "Rua dos Pereiras, 510, Uberlândia - MG",
+      "telefoneRes": "(34) 99901-2345",
+      "horarioRes": "08:00-21:30",
+      "avaliacaoRes": 4,
+      "statusRes": "Inativo",
+      "codProprie": 109,
+      "linkLogoRes": "./Fotos/subaSushi.png",
+      "linkBannerRes": "./Fotos/bannerSubaSushi.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 236,
+          "precoItemCardapio": 34.9,
+          "produto": {
+            "codProduto": 121,
+            "nomeProd": "Uramaki Filadélfia",
+            "descricaoProd": "Uramaki de salmão com cream cheese",
+            "linkFotoProd": "./Fotos/uramakiFiladelfiaSubaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 237,
+          "precoItemCardapio": 22.9,
+          "produto": {
+            "codProduto": 94,
+            "nomeProd": "Temaki",
+            "descricaoProd": "Cone de alga nori com arroz e salmão",
+            "linkFotoProd": "./Fotos/temakiSubaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 238,
+          "precoItemCardapio": 24.9,
+          "produto": {
+            "codProduto": 122,
+            "nomeProd": "Hosomaki",
+            "descricaoProd": "Rolinho fino de arroz e alga nori com recheio simples",
+            "linkFotoProd": "./Fotos/hosomakiSubaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 239,
+          "precoItemCardapio": 32.9,
+          "produto": {
+            "codProduto": 123,
+            "nomeProd": "Hot Roll",
+            "descricaoProd": "Roll de salmão empanado e frito, servido quente",
+            "linkFotoProd": "./Fotos/hotRollSubaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 240,
+          "precoItemCardapio": 26.9,
+          "produto": {
+            "codProduto": 124,
+            "nomeProd": "Maki",
+            "descricaoProd": "Rolinhos de arroz e alga nori recheados",
+            "linkFotoProd": "./Fotos/makiSubaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 241,
+          "precoItemCardapio": 16.5,
+          "produto": {
+            "codProduto": 95,
+            "nomeProd": "Niguiri",
+            "descricaoProd": "Bolinho de arroz coberto com fatia de salmão",
+            "linkFotoProd": "./Fotos/niguiriSubaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 242,
+          "precoItemCardapio": 90,
+          "produto": {
+            "codProduto": 125,
+            "nomeProd": "Combo Shogun",
+            "descricaoProd": "Combo de sushis e sashimis variados",
+            "linkFotoProd": "./Fotos/comboShogunSubaSushi.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 243,
+          "precoItemCardapio": 65.9,
+          "produto": {
+            "codProduto": 126,
+            "nomeProd": "Combo Golden Fish",
+            "descricaoProd": "Combo de peixes variados em sushis e sashimis",
+            "linkFotoProd": "./Fotos/comboGoldenFishSubaSushi.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 244,
+          "precoItemCardapio": 16.9,
+          "produto": {
+            "codProduto": 101,
+            "nomeProd": "Mochi",
+            "descricaoProd": "Bolinho de arroz glutinoso macio recheado",
+            "linkFotoProd": "./Fotos/mochiSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 245,
+          "precoItemCardapio": 14.9,
+          "produto": {
+            "codProduto": 102,
+            "nomeProd": "Manju",
+            "descricaoProd": "Bolinho japonês recheado com pasta doce de feijão azuki",
+            "linkFotoProd": "./Fotos/manjuSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 246,
+          "precoItemCardapio": 24.9,
+          "produto": {
+            "codProduto": 103,
+            "nomeProd": "Matcha Crepe Cake",
+            "descricaoProd": "Bolo de crepes finos intercalados com creme de matcha",
+            "linkFotoProd": "./Fotos/matchaCrepeCakeSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 247,
+          "precoItemCardapio": 15.9,
+          "produto": {
+            "codProduto": 104,
+            "nomeProd": "Cremia",
+            "descricaoProd": "Sorvete soft cremoso servido em casquinha",
+            "linkFotoProd": "./Fotos/cremiaSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 248,
+          "precoItemCardapio": 22.9,
+          "produto": {
+            "codProduto": 105,
+            "nomeProd": "Matcha Nama",
+            "descricaoProd": "Cubos de chocolate cremoso de matcha",
+            "linkFotoProd": "./Fotos/matchaNamaSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 249,
+          "precoItemCardapio": 14.9,
+          "produto": {
+            "codProduto": 106,
+            "nomeProd": "Dango",
+            "descricaoProd": "Espetinho de bolinhas de arroz com calda doce de shoyu",
+            "linkFotoProd": "./Fotos/dangoSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 250,
+          "precoItemCardapio": 19.9,
+          "produto": {
+            "codProduto": 107,
+            "nomeProd": "Wagashi",
+            "descricaoProd": "Doces tradicionais japoneses artesanais em formatos sazonais",
+            "linkFotoProd": "./Fotos/wagashiSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 251,
+          "precoItemCardapio": 17.9,
+          "produto": {
+            "codProduto": 108,
+            "nomeProd": "Choux Cream",
+            "descricaoProd": "Profiteroles recheados com creme e finalizados com cacau",
+            "linkFotoProd": "./Fotos/chouxCreamSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 252,
+          "precoItemCardapio": 13.9,
+          "produto": {
+            "codProduto": 109,
+            "nomeProd": "Kinako",
+            "descricaoProd": "Bolinhos de mochi cobertos com farinha de soja torrada",
+            "linkFotoProd": "./Fotos/kinakoSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 253,
+          "precoItemCardapio": 21.9,
+          "produto": {
+            "codProduto": 110,
+            "nomeProd": "Furutsu Sando",
+            "descricaoProd": "Sanduíche japonês de pão macio com chantilly e frutas frescas",
+            "linkFotoProd": "./Fotos/furutsuSandoSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 254,
+          "precoItemCardapio": 13.9,
+          "produto": {
+            "codProduto": 111,
+            "nomeProd": "Yokan",
+            "descricaoProd": "Doce firme de feijão azuki e ágar",
+            "linkFotoProd": "./Fotos/yokanSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 255,
+          "precoItemCardapio": 15.9,
+          "produto": {
+            "codProduto": 112,
+            "nomeProd": "Taiyaki",
+            "descricaoProd": "Bolinho em formato de peixe recheado com creme ou feijão azuki",
+            "linkFotoProd": "./Fotos/taiyakiSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 256,
+          "precoItemCardapio": 18.9,
+          "produto": {
+            "codProduto": 113,
+            "nomeProd": "Macha",
+            "descricaoProd": "Bebida gelada e cremosa de matcha com pérolas de tapioca",
+            "linkFotoProd": "./Fotos/machaSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 257,
+          "precoItemCardapio": 12.9,
+          "produto": {
+            "codProduto": 114,
+            "nomeProd": "Miso Butter Cookie",
+            "descricaoProd": "Biscoito amanteigado com toque de missô e gergelim",
+            "linkFotoProd": "./Fotos/misoButterCookieSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 258,
+          "precoItemCardapio": 26.9,
+          "produto": {
+            "codProduto": 115,
+            "nomeProd": "Monburan",
+            "descricaoProd": "Torta de castanha ao estilo japonês (Mont Blanc)",
+            "linkFotoProd": "./Fotos/monburanSubaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 259,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 260,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 261,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 262,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 263,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 264,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 265,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 266,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 267,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 268,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 10,
+      "nomeRes": "Ichiran Ramen",
+      "enderecoRes": "Av. Segismundo Pereira, 2700, Uberlândia - MG",
+      "telefoneRes": "(34) 99912-3456",
+      "horarioRes": "10:00-23:00",
+      "avaliacaoRes": 4.9,
+      "statusRes": "Ativo",
+      "codProprie": 110,
+      "linkLogoRes": "./Fotos/ichiranRamen.png",
+      "linkBannerRes": "./Fotos/bannerIchiranRamen.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 11,
+          "precoItemCardapio": 47.9,
+          "produto": {
+            "codProduto": 10,
+            "nomeProd": "Ramen Tonkotsu",
+            "descricaoProd": "Macarrão em caldo de osso de porco com chashu, ovo e nori",
+            "linkFotoProd": "./Fotos/ramenTonkotsuIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 205,
+          "precoItemCardapio": 54.9,
+          "produto": {
+            "codProduto": 116,
+            "nomeProd": "Ramen Shoyu",
+            "descricaoProd": "Ramen em caldo de shoyu com chashu, ovo e nori",
+            "linkFotoProd": "./Fotos/ramenShoyuIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 206,
+          "precoItemCardapio": 55.9,
+          "produto": {
+            "codProduto": 117,
+            "nomeProd": "Ramen Shio",
+            "descricaoProd": "Ramen em caldo leve temperado com sal, chashu e ovo",
+            "linkFotoProd": "./Fotos/ramenShioIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 207,
+          "precoItemCardapio": 59.9,
+          "produto": {
+            "codProduto": 118,
+            "nomeProd": "Vegetarian Miso Ramen",
+            "descricaoProd": "Ramen vegetariano em caldo de missô com milho e legumes",
+            "linkFotoProd": "./Fotos/vegetarianMisoRamenIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 208,
+          "precoItemCardapio": 69.9,
+          "produto": {
+            "codProduto": 10,
+            "nomeProd": "Ramen Tonkotsu",
+            "descricaoProd": "Macarrão em caldo de osso de porco com chashu, ovo e nori",
+            "linkFotoProd": "./Fotos/ramenTonkotsuIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 209,
+          "precoItemCardapio": 64.9,
+          "produto": {
+            "codProduto": 119,
+            "nomeProd": "Sapporo Ramen",
+            "descricaoProd": "Ramen de Sapporo com caldo de missô, carne de porco e ovo",
+            "linkFotoProd": "./Fotos/sapporoRamenIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 210,
+          "precoItemCardapio": 54.9,
+          "produto": {
+            "codProduto": 120,
+            "nomeProd": "Spicy Soy Milk Ramen",
+            "descricaoProd": "Ramen picante em caldo de leite de soja com milho e cebolinha",
+            "linkFotoProd": "./Fotos/spicySoyMilkRamenIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 211,
+          "precoItemCardapio": 16.9,
+          "produto": {
+            "codProduto": 101,
+            "nomeProd": "Mochi",
+            "descricaoProd": "Bolinho de arroz glutinoso macio recheado",
+            "linkFotoProd": "./Fotos/mochiIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 212,
+          "precoItemCardapio": 14.9,
+          "produto": {
+            "codProduto": 102,
+            "nomeProd": "Manju",
+            "descricaoProd": "Bolinho japonês recheado com pasta doce de feijão azuki",
+            "linkFotoProd": "./Fotos/manjuIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 213,
+          "precoItemCardapio": 24.9,
+          "produto": {
+            "codProduto": 103,
+            "nomeProd": "Matcha Crepe Cake",
+            "descricaoProd": "Bolo de crepes finos intercalados com creme de matcha",
+            "linkFotoProd": "./Fotos/matchaCrepeCakeIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 214,
+          "precoItemCardapio": 15.9,
+          "produto": {
+            "codProduto": 104,
+            "nomeProd": "Cremia",
+            "descricaoProd": "Sorvete soft cremoso servido em casquinha",
+            "linkFotoProd": "./Fotos/cremiaIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 215,
+          "precoItemCardapio": 22.9,
+          "produto": {
+            "codProduto": 105,
+            "nomeProd": "Matcha Nama",
+            "descricaoProd": "Cubos de chocolate cremoso de matcha",
+            "linkFotoProd": "./Fotos/matchaNamaIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 216,
+          "precoItemCardapio": 14.9,
+          "produto": {
+            "codProduto": 106,
+            "nomeProd": "Dango",
+            "descricaoProd": "Espetinho de bolinhas de arroz com calda doce de shoyu",
+            "linkFotoProd": "./Fotos/dangoIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 217,
+          "precoItemCardapio": 19.9,
+          "produto": {
+            "codProduto": 107,
+            "nomeProd": "Wagashi",
+            "descricaoProd": "Doces tradicionais japoneses artesanais em formatos sazonais",
+            "linkFotoProd": "./Fotos/wagashiIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 218,
+          "precoItemCardapio": 17.9,
+          "produto": {
+            "codProduto": 108,
+            "nomeProd": "Choux Cream",
+            "descricaoProd": "Profiteroles recheados com creme e finalizados com cacau",
+            "linkFotoProd": "./Fotos/chouxCreamIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 219,
+          "precoItemCardapio": 13.9,
+          "produto": {
+            "codProduto": 109,
+            "nomeProd": "Kinako",
+            "descricaoProd": "Bolinhos de mochi cobertos com farinha de soja torrada",
+            "linkFotoProd": "./Fotos/kinakoIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 220,
+          "precoItemCardapio": 21.9,
+          "produto": {
+            "codProduto": 110,
+            "nomeProd": "Furutsu Sando",
+            "descricaoProd": "Sanduíche japonês de pão macio com chantilly e frutas frescas",
+            "linkFotoProd": "./Fotos/furutsuSandoIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 221,
+          "precoItemCardapio": 13.9,
+          "produto": {
+            "codProduto": 111,
+            "nomeProd": "Yokan",
+            "descricaoProd": "Doce firme de feijão azuki e ágar",
+            "linkFotoProd": "./Fotos/yokanIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 222,
+          "precoItemCardapio": 15.9,
+          "produto": {
+            "codProduto": 112,
+            "nomeProd": "Taiyaki",
+            "descricaoProd": "Bolinho em formato de peixe recheado com creme ou feijão azuki",
+            "linkFotoProd": "./Fotos/taiyakiIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 223,
+          "precoItemCardapio": 18.9,
+          "produto": {
+            "codProduto": 113,
+            "nomeProd": "Macha",
+            "descricaoProd": "Bebida gelada e cremosa de matcha com pérolas de tapioca",
+            "linkFotoProd": "./Fotos/machaIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 224,
+          "precoItemCardapio": 12.9,
+          "produto": {
+            "codProduto": 114,
+            "nomeProd": "Miso Butter Cookie",
+            "descricaoProd": "Biscoito amanteigado com toque de missô e gergelim",
+            "linkFotoProd": "./Fotos/misoButterCookieIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 225,
+          "precoItemCardapio": 26.9,
+          "produto": {
+            "codProduto": 115,
+            "nomeProd": "Monburan",
+            "descricaoProd": "Torta de castanha ao estilo japonês (Mont Blanc)",
+            "linkFotoProd": "./Fotos/monburanIchiranRamen.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 226,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 227,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 228,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 229,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 230,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 231,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 232,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 233,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 234,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 235,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 11,
+      "nomeRes": "Papa Sushi",
+      "enderecoRes": "Rua das Acácias, 145, Uberlândia - MG",
+      "telefoneRes": "(34) 99134-5678",
+      "horarioRes": "08:00-22:00",
+      "avaliacaoRes": 4.3,
+      "statusRes": "Ativo",
+      "codProprie": 111,
+      "linkLogoRes": "./Fotos/papaSushi.png",
+      "linkBannerRes": "./Fotos/bannerPapaSushi.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 12,
+          "precoItemCardapio": 36.9,
+          "produto": {
+            "codProduto": 11,
+            "nomeProd": "Temaki de Salmão",
+            "descricaoProd": "Cone de alga nori com arroz, salmão e pepino",
+            "linkFotoProd": "./Fotos/temakiDeSalmaoPapaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 171,
+          "precoItemCardapio": 35.9,
+          "produto": {
+            "codProduto": 92,
+            "nomeProd": "Ramen",
+            "descricaoProd": "Ramen com caldo de legumes, milho, manteiga e cebolinha",
+            "linkFotoProd": "./Fotos/ramenPapaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 172,
+          "precoItemCardapio": 29.99,
+          "produto": {
+            "codProduto": 93,
+            "nomeProd": "Inaka-sushi",
+            "descricaoProd": "Seleção de sushis rústicos com tamago e peixes",
+            "linkFotoProd": "./Fotos/inakaSushiPapaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 173,
+          "precoItemCardapio": 22.9,
+          "produto": {
+            "codProduto": 94,
+            "nomeProd": "Temaki",
+            "descricaoProd": "Cone de alga nori com arroz e salmão",
+            "linkFotoProd": "./Fotos/temakiPapaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 174,
+          "precoItemCardapio": 16.5,
+          "produto": {
+            "codProduto": 95,
+            "nomeProd": "Niguiri",
+            "descricaoProd": "Bolinho de arroz coberto com fatia de salmão",
+            "linkFotoProd": "./Fotos/niguiriPapaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 175,
+          "precoItemCardapio": 37.9,
+          "produto": {
+            "codProduto": 96,
+            "nomeProd": "Soba",
+            "descricaoProd": "Macarrão soba com cebolinha e omelete fatiado em caldo",
+            "linkFotoProd": "./Fotos/sobaPapaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 176,
+          "precoItemCardapio": 30,
+          "produto": {
+            "codProduto": 97,
+            "nomeProd": "Bara-yaki",
+            "descricaoProd": "Tiras de costela bovina salteadas na chapa, servidas com arroz",
+            "linkFotoProd": "./Fotos/baraYakiPapaSushi.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 177,
+          "precoItemCardapio": 79.99,
+          "produto": {
+            "codProduto": 98,
+            "nomeProd": "Combo Duplo Casal",
+            "descricaoProd": "Combo de sushis e sashimis para duas pessoas",
+            "linkFotoProd": "./Fotos/comboDuploCasalPapaSushi.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 178,
+          "precoItemCardapio": 95.99,
+          "produto": {
+            "codProduto": 99,
+            "nomeProd": "Combo Shoyu Ramen Duplo",
+            "descricaoProd": "Dois ramens shoyu servidos juntos",
+            "linkFotoProd": "./Fotos/comboShoyuRamenDuploPapaSushi.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 179,
+          "precoItemCardapio": 69.9,
+          "produto": {
+            "codProduto": 100,
+            "nomeProd": "Combo Niguiri Omakase",
+            "descricaoProd": "Seleção do chef de niguiris",
+            "linkFotoProd": "./Fotos/comboNiguiriOmakasePapaSushi.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 180,
+          "precoItemCardapio": 16.9,
+          "produto": {
+            "codProduto": 101,
+            "nomeProd": "Mochi",
+            "descricaoProd": "Bolinho de arroz glutinoso macio recheado",
+            "linkFotoProd": "./Fotos/mochiPapaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 181,
+          "precoItemCardapio": 14.9,
+          "produto": {
+            "codProduto": 102,
+            "nomeProd": "Manju",
+            "descricaoProd": "Bolinho japonês recheado com pasta doce de feijão azuki",
+            "linkFotoProd": "./Fotos/manjuPapaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 184,
+          "precoItemCardapio": 22.9,
+          "produto": {
+            "codProduto": 105,
+            "nomeProd": "Matcha Nama",
+            "descricaoProd": "Cubos de chocolate cremoso de matcha",
+            "linkFotoProd": "./Fotos/matchaNamaPapaSushi.png",
+            "categoria": {
+              "codCategoria": 3,
+              "nomeCategoria": "Sobremesas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 195,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 196,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 197,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 198,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 199,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 200,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 201,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 202,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 203,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 204,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 12,
+      "nomeRes": "Sushi Yoji Bar",
+      "enderecoRes": "Av. Anselmo Alves dos Santos, 980, Uberlândia - MG",
+      "telefoneRes": "(34) 99245-6789",
+      "horarioRes": "11:00-23:00",
+      "avaliacaoRes": 4.7,
+      "statusRes": "Ativo",
+      "codProprie": 112,
+      "linkLogoRes": "./Fotos/sushiYojiBar.png",
+      "linkBannerRes": "./Fotos/bannerSushiYojiBar.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 269,
+          "precoItemCardapio": 54.9,
+          "produto": {
+            "codProduto": 127,
+            "nomeProd": "Sashimi",
+            "descricaoProd": "Fatias frescas de peixes servidas com wasabi e shoyu",
+            "linkFotoProd": "./Fotos/sashimiSushiYojiBar.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 270,
+          "precoItemCardapio": 29.9,
+          "produto": {
+            "codProduto": 128,
+            "nomeProd": "Takoyaki",
+            "descricaoProd": "Bolinhas de massa recheadas com polvo, molho e maionese",
+            "linkFotoProd": "./Fotos/takoyakiSushiYojiBar.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 271,
+          "precoItemCardapio": 42.9,
+          "produto": {
+            "codProduto": 129,
+            "nomeProd": "Yakisoba",
+            "descricaoProd": "Macarrão salteado com legumes e carne ao molho shoyu",
+            "linkFotoProd": "./Fotos/yakisobaSushiYojiBar.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 272,
+          "precoItemCardapio": 28.9,
+          "produto": {
+            "codProduto": 130,
+            "nomeProd": "Gyoza",
+            "descricaoProd": "Pastéis japoneses grelhados recheados com carne suína e legumes",
+            "linkFotoProd": "./Fotos/gyozaSushiYojiBar.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 273,
+          "precoItemCardapio": 34.9,
+          "produto": {
+            "codProduto": 131,
+            "nomeProd": "Karaage",
+            "descricaoProd": "Pedaços de frango marinados e fritos ao estilo japonês",
+            "linkFotoProd": "./Fotos/karaageSushiYojiBar.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 274,
+          "precoItemCardapio": 22.9,
+          "produto": {
+            "codProduto": 132,
+            "nomeProd": "Sunomono",
+            "descricaoProd": "Salada de pepino em conserva agridoce com kani",
+            "linkFotoProd": "./Fotos/sunomonoSushiYojiBar.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 290,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 291,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 292,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 293,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 294,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 295,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 296,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 297,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 298,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 299,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 13,
+      "nomeRes": "Vino & Sapori",
+      "enderecoRes": "Rua dos Jasmins, 420, Uberlândia - MG",
+      "telefoneRes": "(34) 99356-7890",
+      "horarioRes": "07:00-21:00",
+      "avaliacaoRes": 4.1,
+      "statusRes": "Ativo",
+      "codProprie": 113,
+      "linkLogoRes": "./Fotos/vinoESapori.png",
+      "linkBannerRes": "./Fotos/bannerVinoESapori.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 337,
+          "precoItemCardapio": 99.99,
+          "produto": {
+            "codProduto": 149,
+            "nomeProd": "Polpo alla Griglia",
+            "descricaoProd": "Polvo grelhado com azeite e limão siciliano",
+            "linkFotoProd": "./Fotos/polpoAllaGrigliaVinoESapori.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 338,
+          "precoItemCardapio": 109.9,
+          "produto": {
+            "codProduto": 150,
+            "nomeProd": "Bistecca alla Fiorentina 450g",
+            "descricaoProd": "Corte T-bone grelhado de 450 g, servido ao ponto com azeite e ervas",
+            "linkFotoProd": "./Fotos/bisteccaAllaFiorentina450gVinoESapori.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 339,
+          "precoItemCardapio": 39.9,
+          "produto": {
+            "codProduto": 151,
+            "nomeProd": "Risotto alla Milanese",
+            "descricaoProd": "Risotto cremoso de açafrão com parmesão",
+            "linkFotoProd": "./Fotos/risottoAllaMilaneseVinoESapori.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 340,
+          "precoItemCardapio": 55.9,
+          "produto": {
+            "codProduto": 152,
+            "nomeProd": "Carpaccio alla Siciliana",
+            "descricaoProd": "Fatias finas de carne com azeite, ervas frescas e pimenta",
+            "linkFotoProd": "./Fotos/carpaccioAllaSicilianaVinoESapori.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 341,
+          "precoItemCardapio": 19.99,
+          "produto": {
+            "codProduto": 146,
+            "nomeProd": "Pizza al Taglio",
+            "descricaoProd": "Pizza romana em pedaços retangulares com coberturas variadas",
+            "linkFotoProd": "./Fotos/pizzaAlTaglioVinoESapori.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 342,
+          "precoItemCardapio": 30,
+          "produto": {
+            "codProduto": 138,
+            "nomeProd": "Cacio e Pepe",
+            "descricaoProd": "Massa ao molho de queijo pecorino e pimenta-do-reino moída na hora",
+            "linkFotoProd": "./Fotos/cacioEPepeVinoESapori.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 343,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 344,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 345,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 346,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 347,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 348,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 349,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 350,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 351,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 352,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 14,
+      "nomeRes": "Di Napoli",
+      "enderecoRes": "Av. Afonso Pena, 1750, Uberlândia - MG",
+      "telefoneRes": "(34) 99467-8901",
+      "horarioRes": "10:00-22:00",
+      "avaliacaoRes": 4.8,
+      "statusRes": "Ativo",
+      "codProprie": 114,
+      "linkLogoRes": "./Fotos/diNapoli.png",
+      "linkBannerRes": "./Fotos/bannerDiNapoli.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 14,
+          "precoItemCardapio": 26.9,
+          "produto": {
+            "codProduto": 13,
+            "nomeProd": "Bruschetta ao Tomate",
+            "descricaoProd": "Pão tostado com tomate, manjericão fresco e azeite extravirgem",
+            "linkFotoProd": "./Fotos/bruschettaAoTomateDiNapoli.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 15,
+          "precoItemCardapio": 52.9,
+          "produto": {
+            "codProduto": 14,
+            "nomeProd": "Spaghetti Carbonara",
+            "descricaoProd": "Massa com molho cremoso de gema de ovo, guanciale e pecorino",
+            "linkFotoProd": "./Fotos/spaghettiCarbonaraDiNapoli.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 319,
+          "precoItemCardapio": 64.9,
+          "produto": {
+            "codProduto": 142,
+            "nomeProd": "Pizza Napolitana",
+            "descricaoProd": "Pizza de massa leve e borda aerada com tomate, mozzarella e manjericão",
+            "linkFotoProd": "./Fotos/pizzaNapolitanaDiNapoli.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 320,
+          "precoItemCardapio": 60.9,
+          "produto": {
+            "codProduto": 143,
+            "nomeProd": "Pizza alla Pala",
+            "descricaoProd": "Pizza alongada assada e servida na pá, com massa leve e coberturas frescas",
+            "linkFotoProd": "./Fotos/pizzaAllaPalaDiNapoli.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 322,
+          "precoItemCardapio": 55.9,
+          "produto": {
+            "codProduto": 145,
+            "nomeProd": "Pizza Siciliana",
+            "descricaoProd": "Pizza com tomate-cereja colorido, mozzarella e manjericão",
+            "linkFotoProd": "./Fotos/pizzaSicilianaDiNapoli.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 323,
+          "precoItemCardapio": 19.99,
+          "produto": {
+            "codProduto": 146,
+            "nomeProd": "Pizza al Taglio",
+            "descricaoProd": "Pizza romana em pedaços retangulares com coberturas variadas",
+            "linkFotoProd": "./Fotos/pizzaAlTaglioDiNapoli.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 324,
+          "precoItemCardapio": 30,
+          "produto": {
+            "codProduto": 138,
+            "nomeProd": "Cacio e Pepe",
+            "descricaoProd": "Massa ao molho de queijo pecorino e pimenta-do-reino moída na hora",
+            "linkFotoProd": "./Fotos/cacioEPepeDiNapoli.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 325,
+          "precoItemCardapio": 130,
+          "produto": {
+            "codProduto": 147,
+            "nomeProd": "Duo Tradizione",
+            "descricaoProd": "Combo para dois com pratos tradicionais da casa",
+            "linkFotoProd": "./Fotos/duoTradizioneDiNapoli.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 326,
+          "precoItemCardapio": 79.9,
+          "produto": {
+            "codProduto": 148,
+            "nomeProd": "Duo Tradizione & Dolce",
+            "descricaoProd": "Combo para dois com prato tradicional e sobremesa",
+            "linkFotoProd": "./Fotos/duoTradizioneEDolceDiNapoli.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 327,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 328,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 329,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 330,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 331,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 332,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 333,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 334,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 335,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 336,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 15,
+      "nomeRes": "Pasta & Passione",
+      "enderecoRes": "Rua dos Lírios, 315, Uberlândia - MG",
+      "telefoneRes": "(34) 99578-9012",
+      "horarioRes": "09:00-22:30",
+      "avaliacaoRes": 4.4,
+      "statusRes": "Ativo",
+      "codProprie": 115,
+      "linkLogoRes": "./Fotos/pastaEPassione.png",
+      "linkBannerRes": "./Fotos/bannerPastaEPassione.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 300,
+          "precoItemCardapio": 39.99,
+          "produto": {
+            "codProduto": 133,
+            "nomeProd": "Spaghetti com Stracciatella e Tomate",
+            "descricaoProd": "Espaguete ao molho de tomate fresco com stracciatella cremosa e manjericão",
+            "linkFotoProd": "./Fotos/spaghettiComStracciatellaETomatePastaEPassione.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 301,
+          "precoItemCardapio": 79.99,
+          "produto": {
+            "codProduto": 134,
+            "nomeProd": "Linguine aos Frutos do Mar",
+            "descricaoProd": "Linguine com camarão, lula e mexilhões ao molho de tomate e ervas",
+            "linkFotoProd": "./Fotos/linguineAosFrutosDoMarPastaEPassione.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 302,
+          "precoItemCardapio": 55,
+          "produto": {
+            "codProduto": 135,
+            "nomeProd": "Tagliatelle ao Ragu",
+            "descricaoProd": "Tagliatelle fresco com ragu de carne cozido lentamente e parmesão",
+            "linkFotoProd": "./Fotos/tagliatelleAoRaguPastaEPassione.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 303,
+          "precoItemCardapio": 59.99,
+          "produto": {
+            "codProduto": 136,
+            "nomeProd": "Pappardelle ao Funghi",
+            "descricaoProd": "Pappardelle com mix de cogumelos salteados, alho e ervas",
+            "linkFotoProd": "./Fotos/pappardelleAoFunghiPastaEPassione.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 304,
+          "precoItemCardapio": 35.99,
+          "produto": {
+            "codProduto": 137,
+            "nomeProd": "Fettuccine Alfredo",
+            "descricaoProd": "Fettuccine ao molho cremoso de manteiga, creme e parmesão",
+            "linkFotoProd": "./Fotos/fettuccineAlfredoPastaEPassione.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 305,
+          "precoItemCardapio": 30,
+          "produto": {
+            "codProduto": 138,
+            "nomeProd": "Cacio e Pepe",
+            "descricaoProd": "Massa ao molho de queijo pecorino e pimenta-do-reino moída na hora",
+            "linkFotoProd": "./Fotos/cacioEPepePastaEPassione.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 306,
+          "precoItemCardapio": 49.99,
+          "produto": {
+            "codProduto": 139,
+            "nomeProd": "Menu Della Casa",
+            "descricaoProd": "Prato de massa da casa acompanhado de refrigerante",
+            "linkFotoProd": "./Fotos/menuDellaCasaPastaEPassione.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 307,
+          "precoItemCardapio": 79.9,
+          "produto": {
+            "codProduto": 140,
+            "nomeProd": "Nostra Promessa",
+            "descricaoProd": "Espaguete com fatias de linguiça servido em travessa para compartilhar",
+            "linkFotoProd": "./Fotos/nostraPromessaPastaEPassione.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 308,
+          "precoItemCardapio": 70,
+          "produto": {
+            "codProduto": 141,
+            "nomeProd": "Spaghetti alla Burrata e Pomodoro",
+            "descricaoProd": "Espaguete ao molho de tomate com burrata fresca",
+            "linkFotoProd": "./Fotos/spaghettiAllaBurrataEPomodoroPastaEPassione.png",
+            "categoria": {
+              "codCategoria": 6,
+              "nomeCategoria": "Combos"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 309,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 310,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 311,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 312,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 313,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 314,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 315,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 316,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 317,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 318,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "codRestaurante": 16,
+      "nomeRes": "Costiera",
+      "enderecoRes": "Av. Cesário Alvim, 2250, Uberlândia - MG",
+      "telefoneRes": "(34) 99689-0123",
+      "horarioRes": "11:00-00:00",
+      "avaliacaoRes": 3.8,
+      "statusRes": "Inativo",
+      "codProprie": 116,
+      "linkLogoRes": "./Fotos/costiera.png",
+      "linkBannerRes": "./Fotos/bannerCostiera.png",
+      "cardapio": [
+        {
+          "codItemCardapio": 353,
+          "precoItemCardapio": 49.99,
+          "produto": {
+            "codProduto": 153,
+            "nomeProd": "Spaghetti alle Vongole",
+            "descricaoProd": "Espaguete com vôngoles frescos, alho, vinho branco e salsinha",
+            "linkFotoProd": "./Fotos/spaghettiAlleVongoleCostiera.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 354,
+          "precoItemCardapio": 29.9,
+          "produto": {
+            "codProduto": 154,
+            "nomeProd": "Risotto alla Pescatora",
+            "descricaoProd": "Risotto cremoso de frutos do mar",
+            "linkFotoProd": "./Fotos/risottoAllaPescatoraCostiera.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 355,
+          "precoItemCardapio": 49.9,
+          "produto": {
+            "codProduto": 155,
+            "nomeProd": "Polpo alla Luciana",
+            "descricaoProd": "Polvo cozido em molho de tomate e azeitonas, servido com torradas",
+            "linkFotoProd": "./Fotos/polpoAllaLucianaCostiera.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 356,
+          "precoItemCardapio": 25.9,
+          "produto": {
+            "codProduto": 156,
+            "nomeProd": "Salada Siciliana de Frutos do Mar",
+            "descricaoProd": "Salada de polvo, camarão, lula e mexilhões com azeite e limão",
+            "linkFotoProd": "./Fotos/saladaSicilianaDeFrutosDoMarCostiera.png",
+            "categoria": {
+              "codCategoria": 1,
+              "nomeCategoria": "Entradas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 357,
+          "precoItemCardapio": 23,
+          "produto": {
+            "codProduto": 157,
+            "nomeProd": "Calamarata",
+            "descricaoProd": "Massa calamarata com anéis de lula ao molho de tomate",
+            "linkFotoProd": "./Fotos/calamarataCostiera.png",
+            "categoria": {
+              "codCategoria": 5,
+              "nomeCategoria": "Massas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 358,
+          "precoItemCardapio": 50,
+          "produto": {
+            "codProduto": 158,
+            "nomeProd": "Impepata di Cozze",
+            "descricaoProd": "Mexilhões cozidos com tomate, alho e pimenta",
+            "linkFotoProd": "./Fotos/impepataDiCozzeCostiera.png",
+            "categoria": {
+              "codCategoria": 2,
+              "nomeCategoria": "Pratos Principais"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 359,
+          "precoItemCardapio": 5,
+          "produto": {
+            "codProduto": 24,
+            "nomeProd": "Água com Gás 500ml",
+            "descricaoProd": "Água mineral com gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/aguaComGas500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 360,
+          "precoItemCardapio": 4,
+          "produto": {
+            "codProduto": 25,
+            "nomeProd": "Água 500ml",
+            "descricaoProd": "Água mineral sem gás, garrafa de 500 ml",
+            "linkFotoProd": "./Fotos/agua500ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 361,
+          "precoItemCardapio": 6.5,
+          "produto": {
+            "codProduto": 26,
+            "nomeProd": "Guaraná 350ml",
+            "descricaoProd": "Refrigerante de guaraná, lata de 350 ml",
+            "linkFotoProd": "./Fotos/guarana350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 362,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 27,
+            "nomeProd": "Del Valle Pêssego 290ml",
+            "descricaoProd": "Suco de pêssego, garrafa de 290 ml",
+            "linkFotoProd": "./Fotos/delVallePessego290ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 363,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 28,
+            "nomeProd": "Coca-Cola 350ml",
+            "descricaoProd": "Refrigerante de cola, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaCola350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 364,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 29,
+            "nomeProd": "Coca-Cola 600ml",
+            "descricaoProd": "Refrigerante de cola, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaCola600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 365,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 30,
+            "nomeProd": "Coca-Cola 1L",
+            "descricaoProd": "Refrigerante de cola, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaCola1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 366,
+          "precoItemCardapio": 6.9,
+          "produto": {
+            "codProduto": 31,
+            "nomeProd": "Coca-Cola Sem Açúcar 350ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, lata de 350 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar350ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 367,
+          "precoItemCardapio": 9,
+          "produto": {
+            "codProduto": 32,
+            "nomeProd": "Coca-Cola Sem Açúcar 600ml",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 600 ml",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar600ml.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        },
+        {
+          "codItemCardapio": 368,
+          "precoItemCardapio": 12,
+          "produto": {
+            "codProduto": 33,
+            "nomeProd": "Coca-Cola Sem Açúcar 1L",
+            "descricaoProd": "Refrigerante de cola zero açúcar, garrafa de 1 litro",
+            "linkFotoProd": "./Fotos/cocaColaSemAcucar1L.png",
+            "categoria": {
+              "codCategoria": 4,
+              "nomeCategoria": "Bebidas"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "categorias": [
+    {
+      "codCategoria": 1,
+      "nomeCategoria": "Entradas"
+    },
+    {
+      "codCategoria": 2,
+      "nomeCategoria": "Pratos Principais"
+    },
+    {
+      "codCategoria": 3,
+      "nomeCategoria": "Sobremesas"
+    },
+    {
+      "codCategoria": 4,
+      "nomeCategoria": "Bebidas"
+    },
+    {
+      "codCategoria": 5,
+      "nomeCategoria": "Massas"
+    },
+    {
+      "codCategoria": 6,
+      "nomeCategoria": "Combos"
+    }
+  ],
+  "tiposPagamento": [
+    {
+      "codTipoPaga": 1,
+      "nomeTipoPaga": "Cartão de Crédito"
+    },
+    {
+      "codTipoPaga": 2,
+      "nomeTipoPaga": "Cartão de Débito"
+    },
+    {
+      "codTipoPaga": 3,
+      "nomeTipoPaga": "PIX"
+    },
+    {
+      "codTipoPaga": 4,
+      "nomeTipoPaga": "Dinheiro"
+    },
+    {
+      "codTipoPaga": 5,
+      "nomeTipoPaga": "Vale Refeição"
+    }
+  ],
+  "usuarios": [
+    {
+      "codUsuario": 1,
+      "nomeUsuario": "Gabriel Henrique Souza",
+      "cpfUsuario": "158.813.998-03",
+      "emailUsuario": "gabriel.hsouza84@gmail.com",
+      "senhaUsuario": "Ghs@8421Br",
+      "enderecoUsuario": "Rua das Acácias, 245, Uberlândia - MG",
+      "dataNasci": "1999-08-27",
+      "dataCadastroUsuario": "2025-01-10",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 2,
+      "nomeUsuario": "Mariana Alves Costa",
+      "cpfUsuario": "698.797.309-17",
+      "emailUsuario": "mariana.costa117@yahoo.com",
+      "senhaUsuario": "Mar#5519YA",
+      "enderecoUsuario": "Avenida João Naves de Ávila, 1520, Uberlândia - MG",
+      "dataNasci": "1996-03-27",
+      "dataCadastroUsuario": "2025-02-18",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 3,
+      "nomeUsuario": "Lucas Ferreira Santos",
+      "cpfUsuario": "114.170.753-50",
+      "emailUsuario": "lucas.fsantos29@gmail.com",
+      "senhaUsuario": "LfS!9382Br",
+      "enderecoUsuario": "Rua dos Ipês, 87, Uberlândia - MG",
+      "dataNasci": "1989-11-05",
+      "dataCadastroUsuario": "2024-11-22",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 4,
+      "nomeUsuario": "Juliana Ribeiro Lima",
+      "cpfUsuario": "645.568.151-77",
+      "emailUsuario": "juliana.rlima62@yahoo.com",
+      "senhaUsuario": "JuL@7410Br",
+      "enderecoUsuario": "Avenida Rondon Pacheco, 411, Uberlândia - MG",
+      "dataNasci": "1994-06-19",
+      "dataCadastroUsuario": "2025-03-08",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 5,
+      "nomeUsuario": "Rafael Martins Rocha",
+      "cpfUsuario": "884.472.940-72",
+      "emailUsuario": "rafael.mrocha73@gmail.com",
+      "senhaUsuario": "Raf#8264BR",
+      "enderecoUsuario": "Rua das Mangueiras, 903, Uberlândia - MG",
+      "dataNasci": "1988-01-30",
+      "dataCadastroUsuario": "2025-04-15",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 6,
+      "nomeUsuario": "Camila Nogueira Silva",
+      "cpfUsuario": "557.616.987-57",
+      "emailUsuario": "camila.nsilva91@gmail.com",
+      "senhaUsuario": "Cam!5107Br",
+      "enderecoUsuario": "Rua das Palmeiras, 56, Uberlândia - MG",
+      "dataNasci": "1997-09-22",
+      "dataCadastroUsuario": "2024-12-05",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 7,
+      "nomeUsuario": "Felipe Augusto Mendes",
+      "cpfUsuario": "168.976.846-00",
+      "emailUsuario": "felipe.mendes208@yahoo.com",
+      "senhaUsuario": "FeM@6629Br",
+      "enderecoUsuario": "Avenida Floriano Peixoto, 178, Uberlândia - MG",
+      "dataNasci": "1991-04-11",
+      "dataCadastroUsuario": "2025-05-02",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 8,
+      "nomeUsuario": "Beatriz Carvalho Pinto",
+      "cpfUsuario": "978.809.320-54",
+      "emailUsuario": "beatriz.cpinto45@gmail.com",
+      "senhaUsuario": "Bea#7043BR",
+      "enderecoUsuario": "Rua dos Jasmins, 992, Uberlândia - MG",
+      "dataNasci": "1995-12-08",
+      "dataCadastroUsuario": "2025-01-29",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 9,
+      "nomeUsuario": "Thiago Oliveira Barros",
+      "cpfUsuario": "819.672.731-38",
+      "emailUsuario": "thiago.barros337@yahoo.com",
+      "senhaUsuario": "ThB!8516Br",
+      "enderecoUsuario": "Rua dos Lírios, 334, Uberlândia - MG",
+      "dataNasci": "1990-07-16",
+      "dataCadastroUsuario": "2025-06-01",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 10,
+      "nomeUsuario": "Larissa Fernandes Melo",
+      "cpfUsuario": "778.486.488-42",
+      "emailUsuario": "larissa.fmelo58@gmail.com",
+      "senhaUsuario": "Lar@2937Br",
+      "enderecoUsuario": "Avenida Nicomedes Alves dos Santos, 120, Uberlândia - MG",
+      "dataNasci": "1998-02-24",
+      "dataCadastroUsuario": "2025-02-27",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 11,
+      "nomeUsuario": "Rafaella Santos Lopes",
+      "cpfUsuario": "453.331.478-33",
+      "emailUsuario": "rafaella.slopes41@gmail.com",
+      "senhaUsuario": "Raf@4172Br",
+      "enderecoUsuario": "Rua Tenente Virmondes, 215, Uberlândia - MG",
+      "dataNasci": "1998-05-17",
+      "dataCadastroUsuario": "2026-11-14",
+      "sexo": "F",
+      "tipoUsuario": "cliente"
+    },
+    {
+      "codUsuario": 13,
+      "nomeUsuario": "Diego Almeida Ramos",
+      "cpfUsuario": "766.344.002-10",
+      "emailUsuario": "diego.ramos@gmail.com",
+      "senhaUsuario": "Die!5566Br",
+      "enderecoUsuario": "Rua Coronel Antônio Alves, 78, Uberlândia - MG",
+      "dataNasci": "1993-02-14",
+      "dataCadastroUsuario": "2024-11-10",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 14,
+      "nomeUsuario": "Patrícia Lopes Freitas",
+      "cpfUsuario": "978.753.477-18",
+      "emailUsuario": "patricia.freitas@gmail.com",
+      "senhaUsuario": "Pat@7788Br",
+      "enderecoUsuario": "Rua dos Eucaliptos, 203, Uberlândia - MG",
+      "dataNasci": "1995-09-30",
+      "dataCadastroUsuario": "2024-11-15",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 15,
+      "nomeUsuario": "Admin Sistema",
+      "cpfUsuario": "876.804.571-90",
+      "emailUsuario": "admin@integrador.com",
+      "senhaUsuario": "Adm!0000Br",
+      "enderecoUsuario": "Rua Central, 1, Uberlândia - MG",
+      "dataNasci": "1990-01-01",
+      "dataCadastroUsuario": "2024-09-01",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 16,
+      "nomeUsuario": "Julia Pereira Lopes",
+      "tipoUsuario": "administrador",
+      "cpfUsuario": "932.880.407-86",
+      "emailUsuario": "admin2@integrador.com",
+      "senhaUsuario": "Adm!0002Br",
+      "enderecoUsuario": "Rua Central, 2, Uberlândia - MG",
+      "dataNasci": "1995-10-03",
+      "dataCadastroUsuario": "2026-11-14",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 20,
+      "nomeUsuario": "Carlos Souza Lima",
+      "cpfUsuario": "784.726.714-45",
+      "emailUsuario": "carlos.slima@gmail.com",
+      "senhaUsuario": "Car!1020Br",
+      "enderecoUsuario": "Rua Lauro Müller, 45, Uberlândia - MG",
+      "dataNasci": "1992-05-11",
+      "dataCadastroUsuario": "2024-11-18",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 21,
+      "nomeUsuario": "Aline Rocha Dias",
+      "cpfUsuario": "751.362.701-01",
+      "emailUsuario": "aline.rdias@gmail.com",
+      "senhaUsuario": "Ali@2130Br",
+      "enderecoUsuario": "Rua Paracatu, 310, Uberlândia - MG",
+      "dataNasci": "1994-08-22",
+      "dataCadastroUsuario": "2024-11-20",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 22,
+      "nomeUsuario": "Fábio Mendes Pinto",
+      "cpfUsuario": "079.819.331-02",
+      "emailUsuario": "fabio.mpinto@yahoo.com",
+      "senhaUsuario": "Fab!3240Br",
+      "enderecoUsuario": "Av. Cesário Alvim, 180, Uberlândia - MG",
+      "dataNasci": "1990-03-07",
+      "dataCadastroUsuario": "2024-11-22",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 23,
+      "nomeUsuario": "Renata Alves Braga",
+      "cpfUsuario": "908.452.059-94",
+      "emailUsuario": "renata.abraga@gmail.com",
+      "senhaUsuario": "Ren@4350Br",
+      "enderecoUsuario": "Rua Pernambuco, 77, Uberlândia - MG",
+      "dataNasci": "1996-11-19",
+      "dataCadastroUsuario": "2024-11-24",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 24,
+      "nomeUsuario": "Márcio Teixeira Neto",
+      "cpfUsuario": "972.837.929-37",
+      "emailUsuario": "marcio.tneto@gmail.com",
+      "senhaUsuario": "Mar!5460Br",
+      "enderecoUsuario": "Rua José Ignácio de Abreu, 23, Uberlândia - MG",
+      "dataNasci": "1991-07-30",
+      "dataCadastroUsuario": "2024-11-26",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 25,
+      "nomeUsuario": "Sônia Lima Castro",
+      "cpfUsuario": "841.622.948-10",
+      "emailUsuario": "sonia.lcastro@yahoo.com",
+      "senhaUsuario": "Son@6570Br",
+      "enderecoUsuario": "Av. João Pinheiro, 900, Uberlândia - MG",
+      "dataNasci": "1989-01-15",
+      "dataCadastroUsuario": "2024-11-28",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 26,
+      "nomeUsuario": "Leandro Costa Faria",
+      "cpfUsuario": "662.836.016-42",
+      "emailUsuario": "leandro.cfaria@gmail.com",
+      "senhaUsuario": "Lea!7680Br",
+      "enderecoUsuario": "Rua Sete de Setembro, 512, Uberlândia - MG",
+      "dataNasci": "1993-09-04",
+      "dataCadastroUsuario": "2024-11-30",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 27,
+      "nomeUsuario": "Rebeca Souza Silva Domingues",
+      "cpfUsuario": "238.625.511-56",
+      "emailUsuario": "rebeca.sdomingues@gmail.com",
+      "senhaUsuario": "Reb@5280Br",
+      "enderecoUsuario": "Rua Quintino Bocaiúva, 134, Uberlândia - MG",
+      "dataNasci": "1997-02-26",
+      "dataCadastroUsuario": "2026-11-14",
+      "sexo": "F",
+      "tipoUsuario": "entregador",
+      "codEntregador": 27
+    },
+    {
+      "codUsuario": 101,
+      "nomeUsuario": "André Luis Tavares",
+      "cpfUsuario": "105.500.875-67",
+      "emailUsuario": "andre.tavares@gmail.com",
+      "senhaUsuario": "And@1122Br",
+      "enderecoUsuario": "Rua Bernardo Guimarães, 310, Uberlândia - MG",
+      "dataNasci": "1975-04-10",
+      "dataCadastroUsuario": "2024-10-01",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 103,
+      "nomeUsuario": "Carlos Eduardo Lima",
+      "cpfUsuario": "298.369.579-44",
+      "emailUsuario": "carlos.lima@gmail.com",
+      "senhaUsuario": "Car!5566Br",
+      "enderecoUsuario": "Rua Santa Mônica, 212, Uberlândia - MG",
+      "dataNasci": "1978-03-15",
+      "dataCadastroUsuario": "2024-10-05",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 104,
+      "nomeUsuario": "Renata Souza Alves",
+      "cpfUsuario": "318.603.208-30",
+      "emailUsuario": "renata.alves@yahoo.com",
+      "senhaUsuario": "Ren@7788Br",
+      "enderecoUsuario": "Av. Rondon Pacheco, 900, Uberlândia - MG",
+      "dataNasci": "1982-11-08",
+      "dataCadastroUsuario": "2024-10-07",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 105,
+      "nomeUsuario": "Pedro Henrique Costa",
+      "cpfUsuario": "073.702.838-60",
+      "emailUsuario": "pedro.costa@gmail.com",
+      "senhaUsuario": "Ped!9900Br",
+      "enderecoUsuario": "Rua Olegário Maciel, 100, Uberlândia - MG",
+      "dataNasci": "1976-06-20",
+      "dataCadastroUsuario": "2024-10-09",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 106,
+      "nomeUsuario": "Simone Martins Ramos",
+      "cpfUsuario": "222.646.861-70",
+      "emailUsuario": "simone.ramos@gmail.com",
+      "senhaUsuario": "Sim@1234Br",
+      "enderecoUsuario": "Av. Nicomedes Alves, 800, Uberlândia - MG",
+      "dataNasci": "1983-09-12",
+      "dataCadastroUsuario": "2024-10-11",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 107,
+      "nomeUsuario": "Bruno Ferreira Dias",
+      "cpfUsuario": "642.524.776-20",
+      "emailUsuario": "bruno.dias@yahoo.com",
+      "senhaUsuario": "Bru!5678Br",
+      "enderecoUsuario": "Rua Machado de Assis, 50, Uberlândia - MG",
+      "dataNasci": "1979-01-25",
+      "dataCadastroUsuario": "2024-10-13",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 108,
+      "nomeUsuario": "Vanessa Lima Torres",
+      "cpfUsuario": "472.587.718-24",
+      "emailUsuario": "vanessa.torres@gmail.com",
+      "senhaUsuario": "Van@9012Br",
+      "enderecoUsuario": "Av. Getúlio Vargas, 400, Uberlândia - MG",
+      "dataNasci": "1985-04-30",
+      "dataCadastroUsuario": "2024-10-15",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 109,
+      "nomeUsuario": "Ricardo Alves Neto",
+      "cpfUsuario": "841.330.175-01",
+      "emailUsuario": "ricardo.neto@gmail.com",
+      "senhaUsuario": "Ric!3456Br",
+      "enderecoUsuario": "Rua dos Pereiras, 200, Uberlândia - MG",
+      "dataNasci": "1977-07-18",
+      "dataCadastroUsuario": "2024-10-17",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 110,
+      "nomeUsuario": "Juliana Pereira Castro",
+      "cpfUsuario": "682.052.589-37",
+      "emailUsuario": "juliana.castro@yahoo.com",
+      "senhaUsuario": "Jul@7890Br",
+      "enderecoUsuario": "Av. Segismundo Pereira, 1000, Uberlândia - MG",
+      "dataNasci": "1981-12-05",
+      "dataCadastroUsuario": "2024-10-19",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 111,
+      "nomeUsuario": "Marcelo Santos Gomes",
+      "cpfUsuario": "831.948.939-39",
+      "emailUsuario": "marcelo.gomes@gmail.com",
+      "senhaUsuario": "Mar!1122Br",
+      "enderecoUsuario": "Rua das Acácias, 300, Uberlândia - MG",
+      "dataNasci": "1974-03-22",
+      "dataCadastroUsuario": "2024-10-21",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 112,
+      "nomeUsuario": "Tatiane Oliveira Cruz",
+      "cpfUsuario": "494.821.416-79",
+      "emailUsuario": "tatiane.cruz@yahoo.com",
+      "senhaUsuario": "Tat@3344Br",
+      "enderecoUsuario": "Av. Anselmo Alves, 500, Uberlândia - MG",
+      "dataNasci": "1986-08-14",
+      "dataCadastroUsuario": "2024-10-23",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 113,
+      "nomeUsuario": "Eduardo Rocha Lima",
+      "cpfUsuario": "210.521.854-79",
+      "emailUsuario": "eduardo.lima@gmail.com",
+      "senhaUsuario": "Edu!5566Br",
+      "enderecoUsuario": "Rua dos Jasmins, 100, Uberlândia - MG",
+      "dataNasci": "1980-05-10",
+      "dataCadastroUsuario": "2024-10-25",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 114,
+      "nomeUsuario": "Luciana Braga Santos",
+      "cpfUsuario": "914.524.410-30",
+      "emailUsuario": "luciana.santos@yahoo.com",
+      "senhaUsuario": "Luc@7788Br",
+      "enderecoUsuario": "Av. Afonso Pena, 800, Uberlândia - MG",
+      "dataNasci": "1984-10-28",
+      "dataCadastroUsuario": "2024-10-27",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 115,
+      "nomeUsuario": "Roberto Dias Pereira",
+      "cpfUsuario": "646.001.304-72",
+      "emailUsuario": "roberto.pereira@gmail.com",
+      "senhaUsuario": "Rob!9900Br",
+      "enderecoUsuario": "Rua dos Lírios, 150, Uberlândia - MG",
+      "dataNasci": "1975-02-17",
+      "dataCadastroUsuario": "2024-10-29",
+      "sexo": "M"
+    },
+    {
+      "codUsuario": 116,
+      "nomeUsuario": "Cristiane Melo Faria",
+      "cpfUsuario": "118.955.799-10",
+      "emailUsuario": "cristiane.faria@yahoo.com",
+      "senhaUsuario": "Cri@1234Br",
+      "enderecoUsuario": "Av. Cesário Alvim, 1000, Uberlândia - MG",
+      "dataNasci": "1983-07-03",
+      "dataCadastroUsuario": "2024-10-31",
+      "sexo": "F"
+    },
+    {
+      "codUsuario": 117,
+      "nomeUsuario": "Anna Laura Cristina da Silva",
+      "cpfUsuario": "848.733.311-70",
+      "emailUsuario": "annalaura.csilva@gmail.com",
+      "senhaUsuario": "Ann!6391Br",
+      "enderecoUsuario": "Av. Vasconcelos Costa, 760, Uberlândia - MG",
+      "dataNasci": "1992-12-09",
+      "dataCadastroUsuario": "2026-11-14",
+      "sexo": "F",
+      "tipoUsuario": "proprietario",
+      "codProprie": 101,
+      "codRestaurante": 1
+    }
+  ],
+  "proprietarios": [
+    {
+      "codProprie": 101,
+      "cnpjProprie": "12.345.678/0001-01"
+    },
+    {
+      "codProprie": 103,
+      "cnpjProprie": "34.567.890/0001-03"
+    },
+    {
+      "codProprie": 104,
+      "cnpjProprie": "45.678.901/0001-04"
+    },
+    {
+      "codProprie": 105,
+      "cnpjProprie": "56.789.012/0001-05"
+    },
+    {
+      "codProprie": 106,
+      "cnpjProprie": "67.890.123/0001-06"
+    },
+    {
+      "codProprie": 107,
+      "cnpjProprie": "78.901.234/0001-07"
+    },
+    {
+      "codProprie": 108,
+      "cnpjProprie": "89.012.345/0001-08"
+    },
+    {
+      "codProprie": 109,
+      "cnpjProprie": "90.123.456/0001-09"
+    },
+    {
+      "codProprie": 110,
+      "cnpjProprie": "01.234.567/0001-10"
+    },
+    {
+      "codProprie": 111,
+      "cnpjProprie": "11.222.333/0001-11"
+    },
+    {
+      "codProprie": 112,
+      "cnpjProprie": "22.333.444/0001-12"
+    },
+    {
+      "codProprie": 113,
+      "cnpjProprie": "33.444.555/0001-13"
+    },
+    {
+      "codProprie": 114,
+      "cnpjProprie": "44.555.666/0001-14"
+    },
+    {
+      "codProprie": 115,
+      "cnpjProprie": "55.666.777/0001-15"
+    },
+    {
+      "codProprie": 116,
+      "cnpjProprie": "66.777.888/0001-16"
+    },
+    {
+      "codProprie": 117,
+      "cnpjProprie": "38.798.113/0001-57"
+    }
+  ],
+  "entregadores": [
+    {
+      "codEntregador": 13,
+      "tipoVeiculo": "Moto",
+      "anoVeiculo": 2021,
+      "modeloVeiculo": "Honda CG 160",
+      "placaVeiculo": "ABC-1D34",
+      "cnhEntregador": "CNH-00100",
+      "avaliacaoEntregador": 4.8
+    },
+    {
+      "codEntregador": 14,
+      "tipoVeiculo": "Moto",
+      "anoVeiculo": 2020,
+      "modeloVeiculo": "Yamaha Factor",
+      "placaVeiculo": "DEF-2E45",
+      "cnhEntregador": "CNH-00200",
+      "avaliacaoEntregador": 4.5
+    },
+    {
+      "codEntregador": 15,
+      "tipoVeiculo": "Bicicleta",
+      "anoVeiculo": 2022,
+      "modeloVeiculo": "Caloi 10",
+      "placaVeiculo": null,
+      "cnhEntregador": null,
+      "avaliacaoEntregador": 4.9
+    },
+    {
+      "codEntregador": 20,
+      "tipoVeiculo": "Bicicleta",
+      "anoVeiculo": 2022,
+      "modeloVeiculo": "Caloi Elite",
+      "placaVeiculo": null,
+      "cnhEntregador": null,
+      "avaliacaoEntregador": 4.9
+    },
+    {
+      "codEntregador": 21,
+      "tipoVeiculo": "Moto",
+      "anoVeiculo": 2019,
+      "modeloVeiculo": "Honda Biz 110",
+      "placaVeiculo": "GHI-3F56",
+      "cnhEntregador": "CNH-00300",
+      "avaliacaoEntregador": 4.3
+    },
+    {
+      "codEntregador": 22,
+      "tipoVeiculo": "Bicicleta",
+      "anoVeiculo": 2021,
+      "modeloVeiculo": "Trek FX 3",
+      "placaVeiculo": null,
+      "cnhEntregador": null,
+      "avaliacaoEntregador": 4.7
+    },
+    {
+      "codEntregador": 23,
+      "tipoVeiculo": "Moto",
+      "anoVeiculo": 2021,
+      "modeloVeiculo": "Yamaha Fazer",
+      "placaVeiculo": "JKL-4G67",
+      "cnhEntregador": "CNH-00400",
+      "avaliacaoEntregador": 4.2
+    },
+    {
+      "codEntregador": 24,
+      "tipoVeiculo": "Bicicleta",
+      "anoVeiculo": 2023,
+      "modeloVeiculo": "Specialized Sirrus",
+      "placaVeiculo": null,
+      "cnhEntregador": null,
+      "avaliacaoEntregador": 4.6
+    },
+    {
+      "codEntregador": 25,
+      "tipoVeiculo": "Moto",
+      "anoVeiculo": 2022,
+      "modeloVeiculo": "Honda CG 160",
+      "placaVeiculo": "MNO-5H78",
+      "cnhEntregador": "CNH-00500",
+      "avaliacaoEntregador": 4.4
+    },
+    {
+      "codEntregador": 26,
+      "tipoVeiculo": "Moto",
+      "anoVeiculo": 2020,
+      "modeloVeiculo": "Yamaha Factor",
+      "placaVeiculo": "PQR-6I89",
+      "cnhEntregador": "CNH-00600",
+      "avaliacaoEntregador": 4.1
+    },
+    {
+      "codEntregador": 27,
+      "tipoVeiculo": null,
+      "anoVeiculo": null,
+      "modeloVeiculo": null,
+      "placaVeiculo": null,
+      "cnhEntregador": null,
+      "avaliacaoEntregador": null
+    }
+  ],
+  "pedidos": [
+    {
+      "codPedido": 1,
+      "dataHoraPedido": "2025-06-01 11:30:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 128.8,
+      "observacoesP": "Sem cebola no Coq au Vin",
+      "codUsuario": 1,
+      "codRestaurante": 1
+    },
+    {
+      "codPedido": 2,
+      "dataHoraPedido": "2025-06-02 12:15:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 61.8,
+      "observacoesP": "Entregar na portaria",
+      "codUsuario": 2,
+      "codRestaurante": 5
+    },
+    {
+      "codPedido": 3,
+      "dataHoraPedido": "2025-06-03 19:45:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 96.8,
+      "observacoesP": "Sem pimenta",
+      "codUsuario": 3,
+      "codRestaurante": 10
+    },
+    {
+      "codPedido": 4,
+      "dataHoraPedido": "2025-06-04 20:10:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 82.8,
+      "observacoesP": null,
+      "codUsuario": 4,
+      "codRestaurante": 14
+    },
+    {
+      "codPedido": 5,
+      "dataHoraPedido": "2025-06-05 13:00:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 114.8,
+      "observacoesP": "Alergia a glúten, verificar itens",
+      "codUsuario": 5,
+      "codRestaurante": 6
+    },
+    {
+      "codPedido": 6,
+      "dataHoraPedido": "2025-06-06 18:30:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 70.8,
+      "observacoesP": null,
+      "codUsuario": 6,
+      "codRestaurante": 10
+    },
+    {
+      "codPedido": 7,
+      "dataHoraPedido": "2025-06-07 21:00:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 84.8,
+      "observacoesP": "Tocar o interfone",
+      "codUsuario": 7,
+      "codRestaurante": 15
+    },
+    {
+      "codPedido": 8,
+      "dataHoraPedido": "2025-06-08 12:45:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 77.8,
+      "observacoesP": null,
+      "codUsuario": 8,
+      "codRestaurante": 14
+    },
+    {
+      "codPedido": 9,
+      "dataHoraPedido": "2025-06-09 20:30:00",
+      "statusPedido": "Cancelado",
+      "valorPedido": 96.8,
+      "observacoesP": "Pedido duplicado, cancelar",
+      "codUsuario": 9,
+      "codRestaurante": 6
+    },
+    {
+      "codPedido": 10,
+      "dataHoraPedido": "2025-06-10 19:15:00",
+      "statusPedido": "Entregue",
+      "valorPedido": 109.8,
+      "observacoesP": null,
+      "codUsuario": 10,
+      "codRestaurante": 15
+    }
+  ],
+  "itensPedido": [
+    {
+      "codItemPed": 1,
+      "quantItemPed": 1,
+      "precoItemPed": 89.9,
+      "codItemCardapio": 2,
+      "codPedido": 1
+    },
+    {
+      "codItemPed": 2,
+      "quantItemPed": 1,
+      "precoItemPed": 38.9,
+      "codItemCardapio": 1,
+      "codPedido": 1
+    },
+    {
+      "codItemPed": 3,
+      "quantItemPed": 1,
+      "precoItemPed": 32.9,
+      "codItemCardapio": 6,
+      "codPedido": 2
+    },
+    {
+      "codItemPed": 4,
+      "quantItemPed": 1,
+      "precoItemPed": 28.9,
+      "codItemCardapio": 7,
+      "codPedido": 2
+    },
+    {
+      "codItemPed": 5,
+      "quantItemPed": 1,
+      "precoItemPed": 54.9,
+      "codItemCardapio": 10,
+      "codPedido": 3
+    },
+    {
+      "codItemPed": 6,
+      "quantItemPed": 1,
+      "precoItemPed": 41.9,
+      "codItemCardapio": 8,
+      "codPedido": 3
+    },
+    {
+      "codItemPed": 7,
+      "quantItemPed": 1,
+      "precoItemPed": 52.9,
+      "codItemCardapio": 15,
+      "codPedido": 4
+    },
+    {
+      "codItemPed": 8,
+      "quantItemPed": 1,
+      "precoItemPed": 28.9,
+      "codItemCardapio": 13,
+      "codPedido": 4
+    },
+    {
+      "codItemPed": 9,
+      "quantItemPed": 1,
+      "precoItemPed": 79.9,
+      "codItemCardapio": 16,
+      "codPedido": 5
+    },
+    {
+      "codItemPed": 10,
+      "quantItemPed": 1,
+      "precoItemPed": 34.9,
+      "codItemCardapio": 17,
+      "codPedido": 5
+    },
+    {
+      "codItemPed": 11,
+      "quantItemPed": 1,
+      "precoItemPed": 47.9,
+      "codItemCardapio": 11,
+      "codPedido": 6
+    },
+    {
+      "codItemPed": 12,
+      "quantItemPed": 1,
+      "precoItemPed": 22.9,
+      "codItemCardapio": 9,
+      "codPedido": 6
+    },
+    {
+      "codItemPed": 13,
+      "quantItemPed": 1,
+      "precoItemPed": 47.9,
+      "codItemCardapio": 11,
+      "codPedido": 7
+    },
+    {
+      "codItemPed": 14,
+      "quantItemPed": 1,
+      "precoItemPed": 36.9,
+      "codItemCardapio": 12,
+      "codPedido": 7
+    },
+    {
+      "codItemPed": 15,
+      "quantItemPed": 1,
+      "precoItemPed": 52.9,
+      "codItemCardapio": 15,
+      "codPedido": 8
+    },
+    {
+      "codItemPed": 16,
+      "quantItemPed": 1,
+      "precoItemPed": 24.9,
+      "codItemCardapio": 14,
+      "codPedido": 8
+    },
+    {
+      "codItemPed": 17,
+      "quantItemPed": 1,
+      "precoItemPed": 54.9,
+      "codItemCardapio": 10,
+      "codPedido": 9
+    },
+    {
+      "codItemPed": 18,
+      "quantItemPed": 1,
+      "precoItemPed": 41.9,
+      "codItemCardapio": 8,
+      "codPedido": 9
+    },
+    {
+      "codItemPed": 19,
+      "quantItemPed": 1,
+      "precoItemPed": 79.9,
+      "codItemCardapio": 16,
+      "codPedido": 10
+    },
+    {
+      "codItemPed": 20,
+      "quantItemPed": 1,
+      "precoItemPed": 28.9,
+      "codItemCardapio": 13,
+      "codPedido": 10
+    }
+  ],
+  "entregas": [
+    {
+      "codEntrega": 1,
+      "enderecoEnPed": "Rua das Acácias, 245, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-01 12:00:00",
+      "dataHoraChegaEnt": "2025-06-01 12:35:00",
+      "codEntregador": 13,
+      "codPedido": 1
+    },
+    {
+      "codEntrega": 2,
+      "enderecoEnPed": "Avenida João Naves de Ávila, 1520, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-02 12:40:00",
+      "dataHoraChegaEnt": "2025-06-02 13:10:00",
+      "codEntregador": 14,
+      "codPedido": 2
+    },
+    {
+      "codEntrega": 3,
+      "enderecoEnPed": "Rua dos Ipês, 87, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-03 20:10:00",
+      "dataHoraChegaEnt": "2025-06-03 20:45:00",
+      "codEntregador": 20,
+      "codPedido": 3
+    },
+    {
+      "codEntrega": 4,
+      "enderecoEnPed": "Avenida Rondon Pacheco, 411, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-04 20:35:00",
+      "dataHoraChegaEnt": "2025-06-04 21:05:00",
+      "codEntregador": 21,
+      "codPedido": 4
+    },
+    {
+      "codEntrega": 5,
+      "enderecoEnPed": "Rua das Mangueiras, 903, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-05 13:25:00",
+      "dataHoraChegaEnt": "2025-06-05 13:55:00",
+      "codEntregador": 22,
+      "codPedido": 5
+    },
+    {
+      "codEntrega": 6,
+      "enderecoEnPed": "Rua das Palmeiras, 56, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-06 18:55:00",
+      "dataHoraChegaEnt": "2025-06-06 19:20:00",
+      "codEntregador": 23,
+      "codPedido": 6
+    },
+    {
+      "codEntrega": 7,
+      "enderecoEnPed": "Avenida Floriano Peixoto, 178, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-07 21:20:00",
+      "dataHoraChegaEnt": "2025-06-07 21:50:00",
+      "codEntregador": 24,
+      "codPedido": 7
+    },
+    {
+      "codEntrega": 8,
+      "enderecoEnPed": "Rua dos Jasmins, 992, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-08 13:10:00",
+      "dataHoraChegaEnt": "2025-06-08 13:40:00",
+      "codEntregador": 25,
+      "codPedido": 8
+    },
+    {
+      "codEntrega": 9,
+      "enderecoEnPed": "Rua dos Lírios, 334, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-09 20:55:00",
+      "dataHoraChegaEnt": "2025-06-09 21:25:00",
+      "codEntregador": 26,
+      "codPedido": 9
+    },
+    {
+      "codEntrega": 10,
+      "enderecoEnPed": "Avenida Nicomedes Alves dos Santos, 120, Uberlândia - MG",
+      "dataHoraSaidaEnt": "2025-06-10 19:40:00",
+      "dataHoraChegaEnt": "2025-06-10 20:10:00",
+      "codEntregador": 15,
+      "codPedido": 10
+    }
+  ],
+  "pagamentos": [
+    {
+      "codPaga": 1,
+      "valorPaga": 128.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-01",
+      "horaPaga": "11:28:00",
+      "codPedido": 1,
+      "codTipoPaga": 1
+    },
+    {
+      "codPaga": 2,
+      "valorPaga": 61.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-02",
+      "horaPaga": "12:13:00",
+      "codPedido": 2,
+      "codTipoPaga": 3
+    },
+    {
+      "codPaga": 3,
+      "valorPaga": 96.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-03",
+      "horaPaga": "19:43:00",
+      "codPedido": 3,
+      "codTipoPaga": 2
+    },
+    {
+      "codPaga": 4,
+      "valorPaga": 82.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-04",
+      "horaPaga": "20:08:00",
+      "codPedido": 4,
+      "codTipoPaga": 3
+    },
+    {
+      "codPaga": 5,
+      "valorPaga": 114.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-05",
+      "horaPaga": "12:58:00",
+      "codPedido": 5,
+      "codTipoPaga": 1
+    },
+    {
+      "codPaga": 6,
+      "valorPaga": 70.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-06",
+      "horaPaga": "18:28:00",
+      "codPedido": 6,
+      "codTipoPaga": 3
+    },
+    {
+      "codPaga": 7,
+      "valorPaga": 84.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-07",
+      "horaPaga": "20:58:00",
+      "codPedido": 7,
+      "codTipoPaga": 2
+    },
+    {
+      "codPaga": 8,
+      "valorPaga": 77.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-08",
+      "horaPaga": "12:43:00",
+      "codPedido": 8,
+      "codTipoPaga": 4
+    },
+    {
+      "codPaga": 9,
+      "valorPaga": 96.8,
+      "statusPaga": "Estornado",
+      "dataPaga": "2025-06-09",
+      "horaPaga": "20:28:00",
+      "codPedido": 9,
+      "codTipoPaga": 3
+    },
+    {
+      "codPaga": 10,
+      "valorPaga": 109.8,
+      "statusPaga": "Aprovado",
+      "dataPaga": "2025-06-10",
+      "horaPaga": "19:13:00",
+      "codPedido": 10,
+      "codTipoPaga": 1
+    }
+  ],
+  "avaliacoesRestaurante": [
+    {
+      "codAvaR": 1,
+      "notaRes": 5,
+      "comentarioAvaRes": "Comida incrível, Coq au Vin impecável!",
+      "dataAvaRes": "2025-06-01",
+      "codUsuario": 1,
+      "codPedido": 1
+    },
+    {
+      "codAvaR": 2,
+      "notaRes": 4,
+      "comentarioAvaRes": "Tacos muito saborosos, voltarei mais vezes.",
+      "dataAvaRes": "2025-06-02",
+      "codUsuario": 2,
+      "codPedido": 2
+    },
+    {
+      "codAvaR": 3,
+      "notaRes": 5,
+      "comentarioAvaRes": "Melhor sashimi que já comi na cidade.",
+      "dataAvaRes": "2025-06-03",
+      "codUsuario": 3,
+      "codPedido": 3
+    },
+    {
+      "codAvaR": 4,
+      "notaRes": 4,
+      "comentarioAvaRes": "Ótima massa, porção generosa.",
+      "dataAvaRes": "2025-06-04",
+      "codUsuario": 4,
+      "codPedido": 4
+    },
+    {
+      "codAvaR": 5,
+      "notaRes": 3,
+      "comentarioAvaRes": "Comida boa mas demorou mais que o esperado.",
+      "dataAvaRes": "2025-06-05",
+      "codUsuario": 5,
+      "codPedido": 5
+    },
+    {
+      "codAvaR": 6,
+      "notaRes": 5,
+      "comentarioAvaRes": "Ramen autêntico, sabor incrível!",
+      "dataAvaRes": "2025-06-06",
+      "codUsuario": 6,
+      "codPedido": 6
+    },
+    {
+      "codAvaR": 7,
+      "notaRes": 4,
+      "comentarioAvaRes": "Ambiente agradável e comida muito saborosa.",
+      "dataAvaRes": "2025-06-07",
+      "codUsuario": 7,
+      "codPedido": 7
+    },
+    {
+      "codAvaR": 8,
+      "notaRes": 5,
+      "comentarioAvaRes": "Ossobuco perfeito, melhor italiano da cidade!",
+      "dataAvaRes": "2025-06-08",
+      "codUsuario": 8,
+      "codPedido": 8
+    },
+    {
+      "codAvaR": 9,
+      "notaRes": 1,
+      "comentarioAvaRes": "Pedido errado e sem resposta do restaurante.",
+      "dataAvaRes": "2025-06-09",
+      "codUsuario": 9,
+      "codPedido": 9
+    },
+    {
+      "codAvaR": 10,
+      "notaRes": 5,
+      "comentarioAvaRes": "Tiramisù divino, com certeza vou pedir de novo!",
+      "dataAvaRes": "2025-06-10",
+      "codUsuario": 10,
+      "codPedido": 10
+    }
+  ],
+  "avaliacoesEntregador": [
+    {
+      "codAvaE": 1,
+      "notaEntre": 5,
+      "dataAvaEntre": "2025-06-01",
+      "codUsuario": 1,
+      "codEntrega": 1
+    },
+    {
+      "codAvaE": 2,
+      "notaEntre": 4,
+      "dataAvaEntre": "2025-06-02",
+      "codUsuario": 2,
+      "codEntrega": 2
+    },
+    {
+      "codAvaE": 3,
+      "notaEntre": 5,
+      "dataAvaEntre": "2025-06-03",
+      "codUsuario": 3,
+      "codEntrega": 3
+    },
+    {
+      "codAvaE": 4,
+      "notaEntre": 3,
+      "dataAvaEntre": "2025-06-04",
+      "codUsuario": 4,
+      "codEntrega": 4
+    },
+    {
+      "codAvaE": 5,
+      "notaEntre": 5,
+      "dataAvaEntre": "2025-06-05",
+      "codUsuario": 5,
+      "codEntrega": 5
+    },
+    {
+      "codAvaE": 6,
+      "notaEntre": 4,
+      "dataAvaEntre": "2025-06-06",
+      "codUsuario": 6,
+      "codEntrega": 6
+    },
+    {
+      "codAvaE": 7,
+      "notaEntre": 5,
+      "dataAvaEntre": "2025-06-07",
+      "codUsuario": 7,
+      "codEntrega": 7
+    },
+    {
+      "codAvaE": 8,
+      "notaEntre": 4,
+      "dataAvaEntre": "2025-06-08",
+      "codUsuario": 8,
+      "codEntrega": 8
+    },
+    {
+      "codAvaE": 9,
+      "notaEntre": 2,
+      "dataAvaEntre": "2025-06-09",
+      "codUsuario": 9,
+      "codEntrega": 9
+    },
+    {
+      "codAvaE": 10,
+      "notaEntre": 5,
+      "dataAvaEntre": "2025-06-10",
+      "codUsuario": 10,
+      "codEntrega": 10
+    }
+  ]
+}

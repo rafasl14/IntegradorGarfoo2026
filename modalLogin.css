@@ -1,0 +1,260 @@
+/* Modal inspirado no visual das telas de Login e Recuperar senha. */
+body.modal-login-aberto {
+    overflow: hidden;
+}
+
+.modal-recuperacao-aberto {
+    overflow: hidden;
+}
+
+.modal-login[hidden] {
+    display: none;
+}
+
+.modal-recuperacao[hidden] {
+    display: none;
+}
+
+.modal-login a {
+    color: #FE8A07;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.modal-login {
+    position: fixed;
+    inset: 0;
+    z-index: 3100;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.modal-recuperacao {
+    position: fixed;
+    inset: 0;
+    z-index: 3200;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.modal-login-fundo {
+    position: absolute;
+    inset: 0;
+    background: rgba(92, 45, 24, .30);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-recuperacao-fundo {
+    position: absolute;
+    inset: 0;
+    background: rgba(92, 45, 24, .30);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-login-conteudo {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 46px;
+    width: min(930px, 100%);
+}
+
+.modal-login-ilustracao {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    display: grid;
+    place-items: center;
+    right: 30px;
+}
+
+.modal-login-circulo {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #FD6F02, #FE8A07);
+}
+
+.modal-login-ilustracao img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    left: 45px;
+    top: 34px;
+}
+
+.modal-login-caixa {
+    position: relative;
+    width: min(400px, 100%);
+    min-height: 400px;
+    padding: 48px 35px 35px;
+    border: 1px solid #f2ab7c;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 24px 40px -20px rgba(74, 44, 24, .28);
+    font-family: "Poppins", sans-serif;
+    color: #1e1e1e;
+}
+
+.modal-login-caixa h2 {
+    margin: 0 0 8px;
+    color: #FE8A07;
+    font-family: "Poppins", serif;
+    font-size: 27px;
+    text-align: center;
+}
+
+.modal-login-caixa>p {
+    margin: 0 0 35px;
+    color: #101010;
+    font-size: 17px;
+    text-align: center;
+}
+
+.modal-login-fechar {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    border: 0;
+    background: transparent;
+    color: #693b27;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.modal-login-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: #1e1e1e;
+    font-size: 15px;
+}
+
+.modal-login-campo input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 0 14px;
+    border: 1px solid #F0B677;
+    border-radius: 8px;
+    background: #fffbf6;
+    color: #292929;
+    font: inherit;
+    outline: 0;
+}
+
+.modal-login-campo input:focus {
+    border-color: #F1801E;
+    box-shadow: 0 0 0 4px rgba(241, 128, 30, .14);
+}
+
+.modal-login-enviar {
+    display: block;
+    width: 140px;
+    height: 44px;
+    margin: 8px auto 24px;
+    border: 0;
+    border-radius: 12px;
+    background: #FE8A07;
+    box-shadow: 0 10px 22px -8px rgba(241, 128, 30, .55);
+    color: #fff;
+    cursor: pointer;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modal-login-enviar:hover {
+    background: #D96C0F;
+}
+
+.modal-login-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.modal-login-links p {
+    color: black;
+}
+
+.modal-login-links a {
+    color: #FE8A07;
+    text-decoration: none;
+}
+
+.modal-login-mensagem {
+    min-height: 18px;
+    margin: 0;
+    color: #b94e0d;
+    font-size: 13px;
+    text-align: center;
+}
+
+.modal-recuperacao-caixa {
+    position: relative;
+    z-index: 1;
+    width: min(440px, 100%);
+    padding: 48px 35px 35px;
+    border: 1px solid #f2ab7c;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 24px 40px -20px rgba(74, 44, 24, .28);
+    color: #1e1e1e;
+    font-family: "Poppins", sans-serif;
+}
+
+.modal-recuperacao-caixa h2 {
+    margin: 0 0 10px;
+    color: #FE8A07;
+    font-size: 27px;
+    text-align: center;
+}
+
+.modal-recuperacao-caixa>p {
+    margin: 0 0 28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.modal-recuperacao-fechar {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    border: 0;
+    background: transparent;
+    color: #693b27;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.modal-recuperacao-mensagem {
+    min-height: 18px;
+    color: #b94e0d;
+    font-size: 13px;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    .modal-login-ilustracao {
+        display: none;
+    }
+
+    .modal-login-caixa {
+        min-height: 0;
+    }
+}

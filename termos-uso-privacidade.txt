@@ -1,0 +1,159 @@
+================================================================================
+1. TERMOS E CONDIÇÕES GERAIS DE USO — PLATAFORMA GARFOO
+================================================================================
+Última atualização: 16/11/2026
+
+Bem-vindo ao Garfoo! Estes Termos de Uso regulam o acesso e a utilização do site, aplicativos, painel administrativo e demais funcionalidades oferecidas pela plataforma GARFOO, inscrita no CNPJ sob o nº 06.983.522/0001-37.
+Ao acessar o site, criar uma conta ou utilizar qualquer funcionalidade da plataforma, você declara ter lido, compreendido e aceito integralmente estes Termos.
+
+--------------------------------------------------------------------------------
+PARTE I — DISPOSIÇÕES GERAIS (TODOS OS USUÁRIOS)
+--------------------------------------------------------------------------------
+
+1. OBJETO E ESCOPO DA PLATAFORMA
+1.1. O GARFOO é uma plataforma digital que centraliza o gerenciamento de usuários, restaurantes, pedidos, pagamentos e entregas, facilitando solicitações, otimizando o fluxo logístico e melhorando a comunicação entre consumidores, estabelecimentos e entregadores.
+1.2. Delimitação de Atuação: O GARFOO atua exclusivamente como plataforma tecnológica de intermediação e gestão de fluxo de entregas, não realizando o preparo de alimentos, não comercializando itens que não sejam gêneros alimentícios e não assumindo responsabilidade direta pela execução física além do controle sistêmico das entregas.
+
+2. CADASTRO, PERFIS E SEGURANÇA DA CONTA
+2.1. O acesso às funcionalidades ocorre mediante cadastro prévio e vinculação ao respectivo perfil de utilização (Usuário/Cliente, Proprietário ou Entregador), exigindo o preenchimento verdadeiro e completo dos campos obrigatórios de identificação (como nome, e-mail, senha, endereço, CPF, data de nascimento, sexo e data de cadastro).
+2.2. As senhas de acesso são armazenadas com criptografia de segurança. O titular da conta é exclusivamente responsável pela confidencialidade de suas credenciais e pelas ações realizadas sob seu login.
+2.3. O sistema opera em regime de disponibilidade contínua (24 horas por dia, 7 dias por semana), sendo eventuais manutenções programadas comunicadas aos usuários com antecedência mínima de 24 (vinte e quatro) horas.
+
+3. PROPRIEDADE INTELECTUAL
+3.1. Todo o código-fonte, arquitetura de banco de dados, layout, design, marcas, logotipos e funcionalidades do sistema GARFOO são de propriedade exclusiva do GARFOO ou de seus licenciadores, sendo protegidos pela legislação brasileira de propriedade intelectual.
+
+--------------------------------------------------------------------------------
+PARTE II — TERMOS ESPECÍFICOS PARA CLIENTES (CONSUMIDORES)
+--------------------------------------------------------------------------------
+
+4. PEDIDOS, PREÇOS E PAGAMENTOS
+4.1. O Cliente pode filtrar restaurantes (incluindo especialidades como culinária francesa, mexicana, japonesa e italiana) e buscar pratos por nome ou categoria (prato principal, sobremesa, lanche, entre outras).
+4.2. O valor total do pedido é calculado automaticamente pelo sistema antes da confirmação, somando os preços unitários dos itens selecionados e a respectiva taxa de entrega.
+4.3. O Cliente deverá selecionar uma única forma de pagamento dentre as opções disponíveis no checkout (incluindo pagamento online ou em dinheiro com indicação de troco, conforme habilitado). Em caso de falha no processamento do pagamento online, o pedido permanecerá em aberto para nova tentativa.
+
+5. ACOMPANHAMENTO DE STATUS E ENTREGA
+5.1. Para a realização do pedido, o Cliente deverá informar um endereço de entrega válido, que será registrado como destino final associado ao endereço de partida do Restaurante.
+5.2. O Cliente acompanhará a evolução do pedido em tempo real por meio das seguintes etapas de status:
+   - "Aguardando confirmação do restaurante"
+   - "Em preparo"
+   - "Aguardando a retirada do pedido"
+   - "Pedido em rota"
+   - "Pedido entregue"
+   - "Pedido cancelado"
+5.3. O cancelamento pelo Cliente poderá ser solicitado antes do início do preparo pelo Restaurante. Após essa etapa, cancelamentos e estornos aplicam-se apenas em casos de atraso injustificado, erro no pedido ou falha comprovada de qualidade.
+
+6. AVALIAÇÕES DE RESTAURANTES E ENTREGADORES
+6.1. Após a conclusão do pedido, o Cliente poderá avaliar tanto o Restaurante quanto o Entregador, atribuindo nota (classificação por estrelas) e comentários formativos.
+6.2. Comentários ofensivos, discriminatórios ou ilícitos serão filtrados e ocultados pela moderação do sistema.
+
+--------------------------------------------------------------------------------
+PARTE III — TERMOS ESPECÍFICOS PARA PROPRIETÁRIOS E RESTAURANTES PARCEIROS
+--------------------------------------------------------------------------------
+
+7. CADASTRO DO ESTABELECIMENTO E GESTÃO DE CARDÁPIO
+7.1. O Proprietário poderá vincular um ou mais estabelecimentos sob sua titularidade, informando obrigatoriamente seu CPF e o CNPJ do respectivo restaurante, além de nome comercial, endereço de partida, telefone e horários de funcionamento de domingo a segunda-feira.
+7.2. Pelo painel administrativo, o Proprietário compromete-se a manter atualizados o status de funcionamento da loja, os pratos (com nome, descrição, foto e categoria) e os preços de cada item do cardápio.
+
+8. OBRIGAÇÕES OPERACIONAIS, SANITÁRIAS E FINANCEIRAS
+8.1. O Restaurante é integralmente responsável pelo preparo, higiene, acondicionamento e conformidade sanitária dos alimentos, reportando o avanço dos pedidos à cozinha e atualizando os status no sistema até a disponibilização para retirada.
+8.2. O Proprietário terá acesso a relatórios visuais e histórico de rendimentos (diário, mensal e anual) no painel administrativo. Os repasses financeiros serão creditados na conta bancária vinculada ao CNPJ cadastrado, descontadas as comissões e taxas operacionais aplicáveis.
+
+--------------------------------------------------------------------------------
+PARTE IV — TERMOS ESPECÍFICOS PARA ENTREGADORES PARCEIROS
+--------------------------------------------------------------------------------
+
+9. CADASTRO, HABILITAÇÃO E REQUISITOS DO VEÍCULO
+9.1. Para atuar como Entregador na plataforma GARFOO, o interessado deverá realizar cadastro específico e manter rigorosamente atualizados e válidos os seguintes documentos e informações:
+   - Documentação Pessoal: CPF e número de registro da Carteira Nacional de Habilitação (CNH) válida e compatível com a categoria do veículo utilizado;
+   - Dados do Veículo: Tipo de veículo, marca/modelo, ano de fabricação e placa de identificação.
+9.2. O Entregador declara ser o legítimo condutor autorizado do veículo cadastrado e assume integral responsabilidade pela sua manutenção, licenciamento, abastecimento, equipamentos de segurança e cumprimento das leis de trânsito.
+
+10. ACEITE, RECUSA, REDISTRIBUIÇÃO E EXECUÇÃO DAS ENTREGAS
+10.1. Ao receber uma notificação de nova entrega atribuída, o Entregador visualizará o endereço de partida (Restaurante) e o endereço de destino final (Cliente), podendo aceitar ou recusar/cancelar a solicitação dentro do tempo limite estipulado pelo sistema.
+10.2. Redistribuição Automática: Caso o Entregador recuse ou cancele uma entrega dentro do prazo permitido, o sistema registrará a decisão e redistribuirá automaticamente o pedido ao próximo entregador disponível mais próximo do restaurante. Recusas recorrentes após o aceite ou atrasos injustificados poderão sujeitar a conta à suspensão temporária ou descredenciamento.
+10.3. Durante a execução do trajeto, o Entregador deverá utilizar o recurso de localização/GPS do sistema para deslocamento até o destino e atualizar fielmente o status da entrega ("Pedido em rota" e "Pedido entregue"), permitindo o registro preciso de data e horário de saída e de chegada.
+
+11. CRITÉRIOS DE REMUNERAÇÃO E HISTÓRICO FINANCEIRO
+11.1. A remuneração do Entregador é calculada automaticamente pelo sistema ao final de cada entrega com base no tempo ativo trabalhado, na distância percorrida (quilômetros rodados) e nas condições operacionais vigentes no momento da corrida, conforme os parâmetros exibidos no aplicativo:
+   - Fórmula Base e Adicionais: O cálculo considera o valor-hora trabalhada (ex.: R$ 8,00/hora ou R$ 25,00/hora, conforme faixa/plano operacional vigente no painel do entregador) somado ao valor por quilômetro rodado (R$ 1,50/km), com acréscimo de adicional dinâmico por quilômetro (entre R$ 2,50/km e R$ 3,50/km) em situações de chuva, promoções e horários de pico (almoço e jantar). Os valores exatos vigentes para cada modalidade/região constarão sempre na tela de resumo antes do aceite da entrega.
+11.2. O valor total calculado será exibido imediatamente ao término da corrida e registrado automaticamente no Histórico de Entregas do Entregador, que poderá ser consultado e filtrado por data a qualquer momento.
+
+12. AVALIAÇÕES MÚTUAS, DENÚNCIAS E AUTONOMIA
+12.1. O Entregador será avaliado pelos Clientes (por notas/estrelas e comentários), o que comporá sua média de avaliação na plataforma. Em contrapartida, após concluir a entrega, o Entregador também poderá avaliar o Cliente (por estrelas e comentários) e registrar denúncias formais caso ocorra qualquer conduta inadequada, desrespeitosa ou insegura no ato da entrega.
+12.2. Inexistência de Vínculo Empregatício: A relação entre o GARFOO e o Entregador é estritamente comercial e de prestação de serviços autônomos por meio de plataforma tecnológica, sem exclusividade, subordinação jurídica ou exigência de jornada mínima fixa, possuindo o Entregador plena liberdade para ficar online/offline e aceitar ou recusar solicitações de entrega.
+
+--------------------------------------------------------------------------------
+PARTE V — DISPOSIÇÕES FINAIS E FORO
+--------------------------------------------------------------------------------
+
+13. FORO
+13.1. Fica eleito o foro da Comarca de Uberlândia/MG, com renúncia a qualquer outro, para dirimir quaisquer controvérsias oriundas destes Termos de Uso.
+
+
+================================================================================
+2. POLÍTICA DE PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD) — GARFOO
+================================================================================
+Última atualização: 16/11/2026
+
+A GARFOO, inscrita no CNPJ sob o nº 06.983.522/0001-37, em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 – LGPD) e o Marco Civil da Internet (Lei nº 12.965/2014), apresenta sua Política de Privacidade aplicável aos Clientes, Proprietários de Restaurantes e Entregadores Parceiros.
+
+--------------------------------------------------------------------------------
+1. DADOS PESSOAIS COLETADOS POR PERFIL DE USUÁRIO
+--------------------------------------------------------------------------------
+
+1.1. Visitantes e Clientes (Consumidores):
+   - Dados de Identificação e Contato: Nome completo, CPF, e-mail, data de nascimento, sexo, data de cadastro e senha criptografada.
+   - Dados de Endereço e Pedidos: Endereço de entrega, histórico de pedidos, itens adquiridos, observações do pedido, forma de pagamento selecionada, status das transações e avaliações/comentários publicados sobre restaurantes e entregadores.
+
+1.2. Proprietários e Restaurantes Parceiros:
+   - Dados Cadastrais e Empresariais: Nome, e-mail, CPF do proprietário, CNPJ do restaurante, razão social/nome fantasia, endereço comercial, telefone, horário de funcionamento e dados bancários para repasse.
+   - Dados Operacionais: Histórico de pedidos recebidos, relatórios de rendimento (diário, mensal e anual) e média de avaliações do estabelecimento.
+
+1.3. Entregadores Parceiros:
+   - Dados de Identificação e Habilitação: Nome completo, e-mail, CPF, data de nascimento, sexo, data de cadastro e número de registro da CNH.
+   - Dados do Veículo: Tipo de veículo, modelo, ano de fabricação e placa.
+   - Dados de Geolocalização, Rotas e Desempenho: Localização em tempo real (GPS) durante o período ativo para atribuição/redistribuição de pedidos por proximidade e rastreamento de rota, endereços de coleta e entrega, datas e horários de saída e chegada, quilometragem percorrida, histórico de entregas, valores de remuneração calculados, média de avaliações recebidas e eventuais avaliações/denúncias registradas contra clientes.
+
+--------------------------------------------------------------------------------
+2. FINALIDADES E BASES LEGAIS (ART. 7º DA LGPD)
+--------------------------------------------------------------------------------
+
+- Cadastro, autenticação segura (criptografia) e controle de acesso por perfil
+  Público: Todos os perfis | Base Legal: Execução de contrato / Procedimentos preliminares
+
+- Processamento de pedidos, pagamentos e emissão de comprovantes
+  Público: Clientes e Proprietários | Base Legal: Execução de contrato
+
+- Validação de habilitação (CNH) e identificação do veículo para segurança logística
+  Público: Entregadores | Base Legal: Execução de contrato e Legítimo interesse
+
+- Geolocalização (GPS) para atribuição por proximidade, roteirização e rastreamento do pedido
+  Público: Clientes e Entregadores | Base Legal: Execução de contrato
+
+- Cálculo de remuneração por tempo/km/clima e repasses financeiros
+  Público: Entregadores e Proprietários | Base Legal: Execução de contrato e Obrigação legal/fiscal
+
+- Sistema de avaliações mútuas, moderação de comentários ofensivos e apuração de denúncias
+  Público: Todos os perfis | Base Legal: Legítimo interesse e Segurança da plataforma
+
+- Cumprimento de obrigações fiscais, regulatórias e requisições judiciais
+  Público: Todos os perfis | Base Legal: Obrigação legal ou regulatória
+
+--------------------------------------------------------------------------------
+3. COMPARTILHAMENTO DE DADOS
+--------------------------------------------------------------------------------
+O GARFOO não vende dados pessoais. O compartilhamento ocorre apenas na medida necessária para a operação do serviço:
+
+1. Cliente <-> Restaurante: O Restaurante recebe o nome, endereço de entrega, itens e observações do pedido para preparo e despacho.
+2. Cliente <-> Entregador <-> Restaurante: Quando uma entrega é atribuída e aceita, o Entregador visualiza o endereço de retirada (Restaurante) e o endereço de destino final (Cliente), enquanto o Cliente e o Restaurante acompanham o status e a identificação do entregador/veículo para segurança na retirada e recebimento.
+3. Gateways de Pagamento e Instituições Financeiras: Para liquidação dos pagamentos dos pedidos, estornos, repasses aos restaurantes e transferências de remuneração aos entregadores.
+4. Provedores de Infraestrutura e Mapas/GPS: Serviços de hospedagem em nuvem, bancos de dados e APIs de geolocalização estritamente necessários ao funcionamento do sistema.
+
+--------------------------------------------------------------------------------
+4. SEGURANÇA, RETENÇÃO E DIREITOS DOS TITULARES
+--------------------------------------------------------------------------------
+4.1. Segurança: O GARFOO adota controles técnicos rigorosos, incluindo criptografia de senhas, segregação de perfis de acesso e registros de auditoria.
+4.2. Retenção: Os dados são armazenados enquanto durar o relacionamento contratual e, após o encerramento da conta, mantidos apenas pelos prazos exigidos pela legislação fiscal, tributária, civil e pelo Marco Civil da Internet.
+4.3. Direitos do Titular (Art. 18 da LGPD): Clientes, Proprietários e Entregadores podem solicitar a confirmação de tratamento, acesso, correção de dados cadastrais/veiculares, portabilidade, informação sobre compartilhamento ou exclusão de dados tratados mediante consentimento, entrando em contato com nosso Encarregado de Dados (DPO):
+   - E-mail do DPO: privacidade@garfoo.com.br
+================================================================================
